@@ -37,7 +37,7 @@ const faqItems = [
   },
   {
     q: "Qual domínio está à venda?",
-    a: `A oferta é o domínio premium ${DOMAIN}, com forte associação a Belo Horizonte, turismo e entretenimento regulado no Brasil.`,
+    a: `A oferta é o domínio premium ${DOMAIN}, com forte associação a Porto Alegre, turismo e entretenimento regulado no Brasil.`,
   },
   {
     q: "Como funciona o processo de negociação?",
@@ -52,21 +52,21 @@ const faqItems = [
     a: "Após a confirmação do pagamento, a transferência costuma ser concluída em até 7 dias úteis, dependendo do registrador escolhido pelo comprador.",
   },
   {
-    q: "Por que Belo Horizonte?",
-    a: "Belo Horizonte é o principal destino turístico de Minas Gerais, com fluxo de visitantes intenso, hotelaria consolidada e vocação para entretenimento premium — cenário ideal para projetos de cassino regulado na região.",
+    q: "Por que Porto Alegre?",
+    a: "Porto Alegre é o principal destino turístico de Rio Grande do Sul, com fluxo de visitantes intenso, hotelaria consolidada e vocação para entretenimento premium — cenário ideal para projetos de cassino regulado na região.",
   },
   {
     q: "A regulamentação de cassinos no Brasil afeta o valor deste domínio?",
-    a: "O governo federal está quase regulamentando cassinos no Brasil, seguindo modelos de países que já legalizam e fiscalizam a atividade. Essa perspectiva reforça a relevância de um domínio premium associado a turismo e entretenimento em Belo Horizonte — destino natural para resorts integrados de alto padrão.",
+    a: "O governo federal está quase regulamentando cassinos no Brasil, seguindo modelos de países que já legalizam e fiscalizam a atividade. Essa perspectiva reforça a relevância de um domínio premium associado a turismo e entretenimento em Porto Alegre — destino natural para resorts integrados de alto padrão.",
   },
 ];
 
 const valueCards = [
   { icon: Sparkles, title: "Nome memorável", text: "Fácil de lembrar, escrever e divulgar — ideal para construção de marca forte." },
-  { icon: MapPin, title: "Associação com Belo Horizonte", text: "Conexão direta com a capital mineira e um dos principais polos de turismo de negócios e eventos do Brasil." },
+  { icon: MapPin, title: "Associação com Porto Alegre", text: "Conexão direta com a capital gaúcha e um dos principais polos de turismo de negócios e eventos do Brasil." },
   { icon: Crown, title: "Potencial para branding", text: "Permite criar uma identidade premium em diversos segmentos de alto valor." },
   { icon: Hotel, title: "Turismo e entretenimento", text: "Encaixe natural em hotelaria, eventos, lazer e experiências exclusivas." },
-  { icon: Globe, title: "Domínio .COM.BR", text: "Endereço brasileiro memorável com credibilidade local e foco em Belo Horizonte." },
+  { icon: Globe, title: "Domínio .COM", text: "Endereço brasileiro memorável com credibilidade local e foco em Porto Alegre." },
   { icon: Trophy, title: "Ativo digital escasso", text: "Combinações premium como esta são raras e tendem a se valorizar com o tempo." },
   { icon: Scale, title: "Regulação iminente", text: "O governo federal está quase regulamentando cassinos no Brasil — ampliando o potencial do setor de entretenimento e turismo." },
   { icon: Shield, title: "Negociação segura", text: "Transferência documentada via registradores ICANN, com processo transparente do primeiro contato à entrega do domínio." },
@@ -75,21 +75,21 @@ const valueCards = [
 
 const useCases = [
   { icon: Crown, title: "Resorts", text: "Identidade digital para empreendimentos integrados de hospedagem, lazer e entretenimento de alto padrão." },
-  { icon: Globe, title: "Portal turístico", text: "Hub completo de informações sobre Belo Horizonte." },
+  { icon: Globe, title: "Portal turístico", text: "Hub completo de informações sobre Porto Alegre." },
   { icon: Hotel, title: "Guia de hotéis e pousadas", text: "Plataforma de reservas e curadoria de hospedagens." },
   { icon: Calendar, title: "Portal de eventos", text: "Agenda cultural, gastronômica e festivais da região." },
-  { icon: Sparkles, title: "Blog de viagens", text: "Conteúdo premium sobre Minas Gerais, gastronomia e experiências de luxo." },
+  { icon: Sparkles, title: "Blog de viagens", text: "Conteúdo premium sobre Rio Grande do Sul, gastronomia e experiências de luxo." },
   { icon: Trophy, title: "Projeto de entretenimento", text: "Marca forte para shows, espetáculos e experiências." },
-  { icon: Building2, title: "Agência de turismo", text: "Operadora especializada em pacotes premium para Belo Horizonte e Minas Gerais." },
+  { icon: Building2, title: "Agência de turismo", text: "Operadora especializada em pacotes premium para Porto Alegre e Rio Grande do Sul." },
   { icon: Award, title: "Portal histórico e cultural", text: "Acervo digital sobre patrimônio e tradições locais." },
   { icon: TrendingUp, title: "Marketplace regional", text: "Comércio local de produtores, restaurantes e artesãos." },
 ];
 
 const seoKeywords = [
-  "Cassino de Belo Horizonte",
+  "Cassino de Porto Alegre",
   "Domínio premium à venda",
   "Regulação cassinos Brasil",
-  "Turismo Minas Gerais",
+  "Turismo Rio Grande do Sul",
   "Hotelaria e resorts",
   "Entretenimento regulado",
   "Emprego formal",
@@ -113,7 +113,7 @@ function LandingPage() {
         <meta itemProp="url" content={SITE_URL} />
         <meta
           itemProp="name"
-          content={`Cassino de Belo Horizonte — domínio ${DOMAIN} à venda`}
+          content={`Cassino de Porto Alegre — domínio ${DOMAIN} à venda`}
         />
         <DomainHero />
         <DomainsStrip />
@@ -235,7 +235,7 @@ function RegulationSection() {
           <p>
             Em países onde a atividade já é legal e regulada, resorts com cassino impulsionam turismo, geração de
             empregos e arrecadação pública. Destinos premium como{" "}
-            <strong className="text-foreground">Belo Horizonte</strong> reúne o perfil ideal para esse tipo de
+            <strong className="text-foreground">Porto Alegre</strong> reúne o perfil ideal para esse tipo de
             projeto: infraestrutura hoteleira consolidada, fluxo de visitantes e turismo de lazer de alto padrão e forte
             apelo internacional.
           </p>
@@ -283,13 +283,13 @@ function SeoSection() {
               </Link>
             </li>
             <li>
-              <Link to="/blog/belo-horizonte-polo-entretenimento-regulado" className="text-primary hover:underline">
-                Belo Horizonte como polo de entretenimento licenciado
+              <Link to="/blog/porto-alegre-polo-entretenimento-regulado" className="text-primary hover:underline">
+                Porto Alegre como polo de entretenimento licenciado
               </Link>
             </li>
             <li>
-              <Link to="/blog/dominio-premium-seo-entretenimento-belo-horizonte" className="text-primary hover:underline">
-                Domínio premium e SEO no entretenimento em Belo Horizonte
+              <Link to="/blog/dominio-premium-seo-entretenimento-porto-alegre" className="text-primary hover:underline">
+                Domínio premium e SEO no entretenimento em Porto Alegre
               </Link>
             </li>
           </ul>
@@ -317,7 +317,7 @@ function UseCasesSection() {
         <SectionHeading
           eyebrow="Aplicações"
           title="Possibilidades de Utilização"
-          subtitle="Um ativo versátil que se adapta a múltiplos modelos de negócio voltados à Minas Gerais."
+          subtitle="Um ativo versátil que se adapta a múltiplos modelos de negócio voltados à Rio Grande do Sul."
         />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {useCases.map(({ icon: Icon, title, text }) => (
@@ -346,7 +346,7 @@ function BlogSection() {
           headingId="blog-heading"
           eyebrow="Conteúdo"
           title="Blog sobre regulação, emprego e turismo"
-          subtitle="Artigos informativos sobre cassinos regulados em Belo Horizonte e no Brasil — reforçando autoridade temática do domínio."
+          subtitle="Artigos informativos sobre cassinos regulados em Porto Alegre e no Brasil — reforçando autoridade temática do domínio."
         />
         <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 list-none p-0 m-0">
           {posts.map((post) => (
@@ -393,7 +393,7 @@ function DomainCtaSection() {
           <h2 className="font-serif text-3xl md:text-5xl">Adquira o Domínio Premium</h2>
           <p className="mt-5 text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Garanta presença digital estratégica com <strong className="text-foreground">{DOMAIN}</strong> — marca
-            memorável para turismo e entretenimento em Belo Horizonte.
+            memorável para turismo e entretenimento em Porto Alegre.
           </p>
           <DomainsForSalePanel compact heading="Domínio à venda" />
           <a

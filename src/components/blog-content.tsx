@@ -12,7 +12,7 @@ const MANUAL_LINK_RE = /\[\[([^\]|]+)\|([^\]]+)\]\]/g;
 const BOLD_RE = /\*\*([^*]+)\*\*/g;
 
 const GLOBAL_PATTERNS: { pattern: RegExp; href: string; external?: boolean }[] = [
-  { pattern: /cassinobh\.com\.br/gi, href: "/" },
+  { pattern: /cassinoportoalegre\.com\.br/gi, href: "/" },
 ];
 
 const TOPIC_LINKS: Record<string, string> = {
@@ -22,13 +22,13 @@ const TOPIC_LINKS: Record<string, string> = {
   "Las Vegas": "/blog/licoes-las-vegas-singapura-regulacao-brasil",
   Singapura: "/blog/licoes-las-vegas-singapura-regulacao-brasil",
   tributação: "/blog/tributacao-cassinos-regulados-financiamento-publico",
-  "resort integrado": "/blog/resorts-integrados-belo-horizonte",
-  "resorts integrados": "/blog/resorts-integrados-belo-horizonte",
-  "Belo Horizonte": "/blog/belo-horizonte-polo-entretenimento-regulado",
-  "Minas Gerais": "/blog/resorts-integrados-belo-horizonte",
+  "resort integrado": "/blog/resorts-integrados-porto-alegre",
+  "resorts integrados": "/blog/resorts-integrados-porto-alegre",
+  "Porto Alegre": "/blog/porto-alegre-polo-entretenimento-regulado",
+  "Rio Grande do Sul": "/blog/resorts-integrados-porto-alegre",
   regulação: "/blog/cassinos-brasil-emprego-renda",
-  SEO: "/blog/dominio-premium-seo-entretenimento-belo-horizonte",
-  "domínio premium": "/blog/dominio-premium-seo-entretenimento-belo-horizonte",
+  SEO: "/blog/dominio-premium-seo-entretenimento-porto-alegre",
+  "domínio premium": "/blog/dominio-premium-seo-entretenimento-porto-alegre",
 };
 
 function slugifyHeading(text: string): string {
@@ -403,7 +403,7 @@ export function ArticleFaq({ faq }: { faq: ArticleFaqItem[] }) {
       itemType="https://schema.org/FAQPage"
     >
       <h2 id="faq-artigo-heading" className="font-serif text-2xl text-foreground mb-6">
-        Perguntas frequentes sobre cassino no Brasil e Belo Horizonte
+        Perguntas frequentes sobre cassino no Brasil e Porto Alegre
       </h2>
       <dl className="space-y-6">
         {faq.map((item, i) => (
@@ -453,7 +453,7 @@ export function BlogDomainMention() {
       Sobre o domínio <DomainsForSaleInline />: ativos digitais premium à venda para projetos de{" "}
       <strong className="text-foreground">entretenimento regulado</strong> e{" "}
       <strong className="text-foreground">turismo</strong> em{" "}
-      <strong className="text-foreground">Belo Horizonte</strong>.{" "}
+      <strong className="text-foreground">Porto Alegre</strong>.{" "}
       <Link to="/" className="text-primary hover:underline">
         Saiba mais sobre a oferta
       </Link>

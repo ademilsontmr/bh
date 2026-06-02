@@ -15,12 +15,12 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     {
       listItems: [
         "Operadores internacionais mapeiam o Brasil — contexto legislativo no [[Senado Federal|gov:senado]] e dados do [[Ministério do Turismo|gov:turismo]]",
-        "Belo Horizonte combina turismo urbano e de negócios, renda elevada e vocação para [[resorts integrados|resorts-integrados-belo-horizonte]]",
+        "Porto Alegre combina turismo urbano e de negócios, renda elevada e vocação para [[resorts integrados|resorts-integrados-porto-alegre]]",
         "Regulação clara reduz risco jurídico e viabiliza parcerias público-privadas com metas de [[emprego formal|empregos-formais-hotelaria-lazer-brasil]]",
       ],
       relatedLinks: [
         { label: "Lições de Las Vegas e Singapura", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
-        { label: "Belo Horizonte como polo regulado", slug: "belo-horizonte-polo-entretenimento-regulado" },
+        { label: "Porto Alegre como polo regulado", slug: "porto-alegre-polo-entretenimento-regulado" },
       ],
       highlights: [
         "Capital paciente busca destinos com demanda doméstica e fluxo internacional",
@@ -36,17 +36,17 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       orderedItems: [
         "Operador licenciado implementa programas de capacitação reconhecidos globalmente",
         "Mão de obra local ascende em carreiras estáveis fora da sazonalidade agrícola",
-        "Certificações elevam qualificação e fixam talentos na [[Minas Gerais|resorts-integrados-belo-horizonte]]",
+        "Certificações elevam qualificação e fixam talentos na [[Rio Grande do Sul|resorts-integrados-porto-alegre]]",
       ],
       relatedLinks: [
         { label: "Empregos formais na hotelaria", slug: "empregos-formais-hotelaria-lazer-brasil" },
-        { label: "Resorts integrados na região", slug: "resorts-integrados-belo-horizonte" },
+        { label: "Resorts integrados na região", slug: "resorts-integrados-porto-alegre" },
       ],
     },
     {
       listItems: [
-        "Polo regulado em Belo Horizonte pode ser vitrine nacional de licenciamento transparente",
-        "Portais como [[cassinobh.com.br|/]] educam sobre benefícios e [[moderação|moderacao-jogo-responsavel-cassinos]]",
+        "Polo regulado em Porto Alegre pode ser vitrine nacional de licenciamento transparente",
+        "Portais como [[cassinoportoalegre.com|/]] educam sobre benefícios e [[moderação|moderacao-jogo-responsavel-cassinos]]",
         "Sem marco legal, o capital evita o país; com regras, o Brasil captura receita e tributos",
       ],
       highlights: [
@@ -54,7 +54,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Fim da exportação de receita para cassinos clandestinos ou destinos no exterior",
       ],
       relatedLinks: [
-        { label: "Potencial econômico em Belo Horizonte", slug: "cassino-belo-horizonte-potencial-economico" },
+        { label: "Potencial econômico em Porto Alegre", slug: "cassino-porto-alegre-potencial-economico" },
         { label: "Cassinos no Brasil: emprego e renda", slug: "cassinos-brasil-emprego-renda" },
       ],
     },
@@ -65,10 +65,10 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Resort integrado distribui demanda ao longo do ano — casino, convenções, spa e gastronomia",
         "Funções permanentes: recepcionista, dealer, compliance, gerente de operações",
-        "Vagas formais alinhadas ao [[Ministério do Trabalho|gov:trabalho]]; trainee reduz migração da [[Minas Gerais|resorts-integrados-belo-horizonte]]",
+        "Vagas formais alinhadas ao [[Ministério do Trabalho|gov:trabalho]]; trainee reduz migração da [[Rio Grande do Sul|resorts-integrados-porto-alegre]]",
       ],
       relatedLinks: [
-        { label: "Resorts integrados", slug: "resorts-integrados-belo-horizonte" },
+        { label: "Resorts integrados", slug: "resorts-integrados-porto-alegre" },
         { label: "Emprego e renda no Brasil", slug: "cassinos-brasil-emprego-renda" },
       ],
       highlights: [
@@ -80,7 +80,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "INSS, FGTS e férias convertem lazer legal em arrecadação para saúde e educação",
         "Licenças podem exigir metas de contratação local e transparência salarial",
-        "Salários compatíveis com qualificação são condição em [[Belo Horizonte|belo-horizonte-polo-entretenimento-regulado]]",
+        "Salários compatíveis com qualificação são condição em [[Porto Alegre|porto-alegre-polo-entretenimento-regulado]]",
       ],
       orderedItems: [
         "Operador obtém licença vinculada a metas de emprego local",
@@ -89,7 +89,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Tributação e financiamento público", slug: "tributacao-cassinos-regulados-financiamento-publico" },
-        { label: "Polo de entretenimento em Belo Horizonte", slug: "belo-horizonte-polo-entretenimento-regulado" },
+        { label: "Polo de entretenimento em Porto Alegre", slug: "porto-alegre-polo-entretenimento-regulado" },
       ],
     },
     {
@@ -99,7 +99,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Informação clara combate mitos de emprego precário ou ilegal",
       ],
       highlights: [
-        "Ecossistema digital em [[cassinobh.com.br|/]] orienta candidatos sobre requisitos e direitos",
+        "Ecossistema digital em [[cassinoportoalegre.com|/]] orienta candidatos sobre requisitos e direitos",
         "Capacitação acelera maturidade do setor no Brasil",
       ],
       relatedLinks: [
@@ -109,16 +109,16 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
   ],
 
-  "dominio-premium-seo-entretenimento-belo-horizonte": [
+  "dominio-premium-seo-entretenimento-porto-alegre": [
     {
       listItems: [
         "Domínio geográfico sinaliza credibilidade — alinhe conteúdo a dados do [[IBGE turismo|gov:ibgeTurismo]] e [[Ministério do Turismo|gov:turismo]]",
-        "[[cassinobh.com.br|/]] ancora comunicação sobre entretenimento em [[Belo Horizonte|belo-horizonte-polo-entretenimento-regulado]]",
+        "[[cassinoportoalegre.com|/]] ancora comunicação sobre entretenimento em [[Porto Alegre|porto-alegre-polo-entretenimento-regulado]]",
         "Transparência online é requisito em mercados regulados e due diligence de investidores",
       ],
       relatedLinks: [
-        { label: "Belo Horizonte como polo regulado", slug: "belo-horizonte-polo-entretenimento-regulado" },
-        { label: "Potencial econômico local", slug: "cassino-belo-horizonte-potencial-economico" },
+        { label: "Porto Alegre como polo regulado", slug: "porto-alegre-polo-entretenimento-regulado" },
+        { label: "Potencial econômico local", slug: "cassino-porto-alegre-potencial-economico" },
       ],
       highlights: [
         "SEO ético responde dúvidas reais: emprego, tributação, moderação, turismo",
@@ -128,7 +128,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     {
       listItems: [
         "Artigos sobre [[regulação|cassinos-brasil-emprego-renda]], renda e [[jogo responsável|moderacao-jogo-responsavel-cassinos]] atraem tráfego qualificado",
-        "Palavras-chave locais: emprego formal, Minas Gerais, cassino regulado",
+        "Palavras-chave locais: emprego formal, Rio Grande do Sul, cassino regulado",
         "Blog funciona como hub de conhecimento complementar às páginas institucionais",
       ],
       orderedItems: [
@@ -152,7 +152,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Reguladores identificam interlocutores transparentes via presença digital coerente",
       ],
       relatedLinks: [
-        { label: "Turismo corporativo em Belo Horizonte", slug: "turismo-corporativo-belo-horizonte-entretenimento" },
+        { label: "Turismo corporativo em Porto Alegre", slug: "turismo-corporativo-porto-alegre-entretenimento" },
         { label: "Domínio premium à venda", slug: "/" },
       ],
     },
@@ -163,7 +163,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Alíquotas e fundos setoriais: [[Receita Federal|gov:receita]], [[COAF|gov:coaf]] e [[SPA — apostas|gov:spaApostas]]",
         "Modelos internacionais inspiram o debate no [[Senado Federal|gov:senado]]; [[Las Vegas|licoes-las-vegas-singapura-regulacao-brasil]] e [[Singapura|licoes-las-vegas-singapura-regulacao-brasil]] financiam fiscalização robusta",
-        "Municípios como [[Belo Horizonte|belo-horizonte-polo-entretenimento-regulado]] podem investir em infraestrutura viária e saneamento",
+        "Municípios como [[Porto Alegre|porto-alegre-polo-entretenimento-regulado]] podem investir em infraestrutura viária e saneamento",
       ],
       relatedLinks: [
         { label: "Lições internacionais de regulação", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
@@ -178,7 +178,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Tributação excessiva empurra mercado para ilegalidade — equilíbrio é essencial",
         "Reinvestimento obrigatório em capacitação, turismo e [[moderação|moderacao-jogo-responsavel-cassinos]]",
-        "Pacto fiscal claro evita surpresas que inviabilizam [[resorts integrados|resorts-integrados-belo-horizonte]]",
+        "Pacto fiscal claro evita surpresas que inviabilizam [[resorts integrados|resorts-integrados-porto-alegre]]",
       ],
       orderedItems: [
         "Definir alíquotas competitivas com destinos vizinhos",
@@ -186,7 +186,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Garantir previsibilidade para planejamento municipal de médio prazo",
       ],
       relatedLinks: [
-        { label: "Resorts integrados em Minas Gerais", slug: "resorts-integrados-belo-horizonte" },
+        { label: "Resorts integrados em Rio Grande do Sul", slug: "resorts-integrados-porto-alegre" },
         { label: "Moderação e jogo responsável", slug: "moderacao-jogo-responsavel-cassinos" },
       ],
     },
@@ -198,25 +198,25 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       highlights: [
         "Fundos setoriais são modelo comum em jurisdições reguladas maduras",
-        "Comunicação em [[cassinobh.com.br|/]] ajuda a explicar essa lógica à população",
+        "Comunicação em [[cassinoportoalegre.com|/]] ajuda a explicar essa lógica à população",
       ],
       relatedLinks: [
         { label: "Jogo responsável em cassinos", slug: "moderacao-jogo-responsavel-cassinos" },
-        { label: "Potencial econômico em Belo Horizonte", slug: "cassino-belo-horizonte-potencial-economico" },
+        { label: "Potencial econômico em Porto Alegre", slug: "cassino-porto-alegre-potencial-economico" },
       ],
     },
   ],
 
-  "turismo-corporativo-belo-horizonte-entretenimento": [
+  "turismo-corporativo-porto-alegre-entretenimento": [
     {
       listItems: [
         "Segmento MICE busca infraestrutura, clima e experiências pós-evento",
-        "[[Ministério do Turismo|gov:turismo]] e [[IBGE|gov:ibgeTurismo]] dimensionam demanda; Belo Horizonte soma hotéis premium + [[entretenimento regulado|belo-horizonte-polo-entretenimento-regulado]]",
+        "[[Ministério do Turismo|gov:turismo]] e [[IBGE|gov:ibgeTurismo]] dimensionam demanda; Porto Alegre soma hotéis premium + [[entretenimento regulado|porto-alegre-polo-entretenimento-regulado]]",
         "Empresas preferem ambientes auditados com compliance e [[moderação|moderacao-jogo-responsavel-cassinos]]",
       ],
       relatedLinks: [
-        { label: "Polo de entretenimento regulado", slug: "belo-horizonte-polo-entretenimento-regulado" },
-        { label: "Resorts integrados", slug: "resorts-integrados-belo-horizonte" },
+        { label: "Polo de entretenimento regulado", slug: "porto-alegre-polo-entretenimento-regulado" },
+        { label: "Resorts integrados", slug: "resorts-integrados-porto-alegre" },
       ],
       highlights: [
         "Eventos corporativos estendem estadias e ocupam quartos em semanas intermediárias",
@@ -227,7 +227,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Calendário corporativo gera emprego formal previsível — vendas B2B e eventos",
         "ISS sobre serviços e hospedagem reduz volatilidade da alta temporada corporativa",
-        "Informação oficial em [[cassinobh.com.br|/]] facilita contratação por agências",
+        "Informação oficial em [[cassinoportoalegre.com|/]] facilita contratação por agências",
       ],
       orderedItems: [
         "Empresa identifica destino com infraestrutura MICE e regulação clara",
@@ -241,7 +241,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
     {
       listItems: [
-        "Belo Horizonte compete em exclusividade e região metropolitana de Belo Horizonte — não em escala de [[Las Vegas|licoes-las-vegas-singapura-regulacao-brasil]]",
+        "Porto Alegre compete em exclusividade e região metropolitana de Porto Alegre — não em escala de [[Las Vegas|licoes-las-vegas-singapura-regulacao-brasil]]",
         "Entretenimento moderado + gastronomia + natureza reforça posicionamento premium",
         "Equilíbrio protege marca da cidade como parceira de longo prazo",
       ],
@@ -251,7 +251,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Lições de Las Vegas e Singapura", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
-        { label: "Domínio premium e SEO", slug: "dominio-premium-seo-entretenimento-belo-horizonte" },
+        { label: "Domínio premium e SEO", slug: "dominio-premium-seo-entretenimento-porto-alegre" },
       ],
     },
   ],
@@ -291,7 +291,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     {
       listItems: [
         "Las Vegas diversificou: shows, esportes, convenções além do jogo",
-        "[[Belo Horizonte|belo-horizonte-polo-entretenimento-regulado]] pode ancorar gastronomia, artesanato e ecoturismo",
+        "[[Porto Alegre|porto-alegre-polo-entretenimento-regulado]] pode ancorar gastronomia, artesanato e ecoturismo",
         "Estudar casos antes de legislar reduz improviso e maximiza [[emprego formal|empregos-formais-hotelaria-lazer-brasil]]",
       ],
       highlights: [
@@ -299,22 +299,22 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Arrecadação desde o primeiro dia de operação licenciada",
       ],
       relatedLinks: [
-        { label: "Resorts integrados em Minas Gerais", slug: "resorts-integrados-belo-horizonte" },
-        { label: "Belo Horizonte: potencial econômico", slug: "cassino-belo-horizonte-potencial-economico" },
+        { label: "Resorts integrados em Rio Grande do Sul", slug: "resorts-integrados-porto-alegre" },
+        { label: "Porto Alegre: potencial econômico", slug: "cassino-porto-alegre-potencial-economico" },
       ],
     },
   ],
 
-  "belo-horizonte-polo-entretenimento-regulado": [
+  "porto-alegre-polo-entretenimento-regulado": [
     {
       listItems: [
-        "Capital mineira, turismo urbano e vocação para eventos corporativos e gastronomia",
-        "Infraestrutura hoteleira existente acelera projeto de [[resort integrado|resorts-integrados-belo-horizonte]]",
-        "Canal oficial [[cassinobh.com.br|/]] concentra comunicação e evita iniciativas paralelas",
+        "Capital gaúcha, turismo urbano e vocação para eventos corporativos e gastronomia",
+        "Infraestrutura hoteleira existente acelera projeto de [[resort integrado|resorts-integrados-porto-alegre]]",
+        "Canal oficial [[cassinoportoalegre.com|/]] concentra comunicação e evita iniciativas paralelas",
       ],
       relatedLinks: [
-        { label: "Resorts integrados", slug: "resorts-integrados-belo-horizonte" },
-        { label: "Potencial econômico local", slug: "cassino-belo-horizonte-potencial-economico" },
+        { label: "Resorts integrados", slug: "resorts-integrados-porto-alegre" },
+        { label: "Potencial econômico local", slug: "cassino-porto-alegre-potencial-economico" },
       ],
       highlights: [
         "Entretenimento regulado eleva ticket médio e pernoites além de compras e passeios",
@@ -339,9 +339,9 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
     {
       listItems: [
-        "ISS, taxas e contribuições sobre receita de jogo financiam saúde e educação na [[Minas Gerais|resorts-integrados-belo-horizonte]]",
+        "ISS, taxas e contribuições sobre receita de jogo financiam saúde e educação na [[Rio Grande do Sul|resorts-integrados-porto-alegre]]",
         "Renda estável reduz dependência de transferências e sazonalidade agrícola",
-        "Polo em Belo Horizonte de destino sazonal a hub anual de turismo e eventos",
+        "Polo em Porto Alegre de destino sazonal a hub anual de turismo e eventos",
       ],
       highlights: [
         "Referência nacional em debates sobre [[regulação|cassinos-brasil-emprego-renda]] no Brasil",
@@ -349,7 +349,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Cassinos no Brasil: emprego e renda", slug: "cassinos-brasil-emprego-renda" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-belo-horizonte-entretenimento" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-porto-alegre-entretenimento" },
       ],
     },
   ],
@@ -382,19 +382,19 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Prevenção estende-se a hotéis e escolas da região",
       ],
       relatedLinks: [
-        { label: "Belo Horizonte como polo regulado", slug: "belo-horizonte-polo-entretenimento-regulado" },
-        { label: "Potencial econômico e social", slug: "cassino-belo-horizonte-potencial-economico" },
+        { label: "Porto Alegre como polo regulado", slug: "porto-alegre-polo-entretenimento-regulado" },
+        { label: "Potencial econômico e social", slug: "cassino-porto-alegre-potencial-economico" },
       ],
     },
     {
       listItems: [
         "Proibição total empurra usuários para sites ilegais sem salvaguardas",
         "Regular com moderação investe em redução de danos — modelo de democracias maduras",
-        "[[Belo Horizonte|belo-horizonte-polo-entretenimento-regulado]] pode ser exemplo de moderação visível",
+        "[[Porto Alegre|porto-alegre-polo-entretenimento-regulado]] pode ser exemplo de moderação visível",
       ],
       highlights: [
         "Zero tolerância a exploração de vulneráveis",
-        "Material em múltiplos idiomas na alta temporada via [[cassinobh.com.br|/]]",
+        "Material em múltiplos idiomas na alta temporada via [[cassinoportoalegre.com|/]]",
       ],
       relatedLinks: [
         { label: "Empregos e formalização", slug: "empregos-formais-hotelaria-lazer-brasil" },
@@ -403,15 +403,15 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
   ],
 
-  "resorts-integrados-belo-horizonte": [
+  "resorts-integrados-porto-alegre": [
     {
       listItems: [
         "Hospedagem + entretenimento regulado + convenções — alinhado ao [[Ministério do Turismo|gov:turismo]] e [[IBGE turismo|gov:ibgeTurismo]]",
         "Visitante permanece mais tempo; município captura receita diversificada",
-        "Escala moderada compatível com contexto urbano do [[Minas Gerais|resorts-integrados-belo-horizonte]]",
+        "Escala moderada compatível com contexto urbano do [[Rio Grande do Sul|resorts-integrados-porto-alegre]]",
       ],
       relatedLinks: [
-        { label: "Belo Horizonte como polo", slug: "belo-horizonte-polo-entretenimento-regulado" },
+        { label: "Porto Alegre como polo", slug: "porto-alegre-polo-entretenimento-regulado" },
         { label: "Investimento estrangeiro", slug: "investimento-estrangeiro-turismo-entretenimento-brasil" },
       ],
       highlights: [
@@ -432,13 +432,13 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Empregos formais na hotelaria", slug: "empregos-formais-hotelaria-lazer-brasil" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-belo-horizonte-entretenimento" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-porto-alegre-entretenimento" },
       ],
     },
     {
       listItems: [
         "ESG: eficiência energética, resíduos e integração paisagística como requisito de licença",
-        "[[Belo Horizonte|belo-horizonte-polo-entretenimento-regulado]] preserva identidade de refúgio premium",
+        "[[Porto Alegre|porto-alegre-polo-entretenimento-regulado]] preserva identidade de refúgio premium",
         "Entretenimento regulado + [[moderação|moderacao-jogo-responsavel-cassinos]] reforçam referência nacional",
       ],
       highlights: [
@@ -447,7 +447,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Moderação e jogo responsável", slug: "moderacao-jogo-responsavel-cassinos" },
-        { label: "Potencial econômico em Belo Horizonte", slug: "cassino-belo-horizonte-potencial-economico" },
+        { label: "Potencial econômico em Porto Alegre", slug: "cassino-porto-alegre-potencial-economico" },
       ],
     },
   ],
@@ -461,7 +461,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Empregos formais na hotelaria", slug: "empregos-formais-hotelaria-lazer-brasil" },
-        { label: "Resorts integrados", slug: "resorts-integrados-belo-horizonte" },
+        { label: "Resorts integrados", slug: "resorts-integrados-porto-alegre" },
       ],
       highlights: [
         "Ilegalidade exporta empregos para sites offshore e destinos no exterior",
@@ -472,7 +472,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Receita bruta de jogo tributada financia saúde, educação e infraestrutura",
         "Fundos setoriais de moderação e turismo com relatórios anuais públicos",
-        "[[Belo Horizonte|belo-horizonte-polo-entretenimento-regulado]] negociaria pacote fiscal equilibrado",
+        "[[Porto Alegre|porto-alegre-polo-entretenimento-regulado]] negociaria pacote fiscal equilibrado",
       ],
       orderedItems: [
         "Marco legal define alíquotas e repartição federativa",
@@ -481,7 +481,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Tributação e financiamento público", slug: "tributacao-cassinos-regulados-financiamento-publico" },
-        { label: "Potencial econômico local", slug: "cassino-belo-horizonte-potencial-economico" },
+        { label: "Potencial econômico local", slug: "cassino-porto-alegre-potencial-economico" },
       ],
     },
     {
@@ -501,20 +501,20 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
   ],
 
-  "cassino-belo-horizonte-potencial-economico": [
+  "cassino-porto-alegre-potencial-economico": [
     {
       listItems: [
-        "Dados do [[IBGE turismo|gov:ibgeTurismo]] e da [[Governo de Minas Gerais|gov:bhPrefeitura]] orientam planejamento local",
+        "Dados do [[IBGE turismo|gov:ibgeTurismo]] e da [[Governo do Rio Grande do Sul|gov:paPrefeitura]] orientam planejamento local",
         "Infraestrutura hoteleira + malha aérea e rodoviária do Sudeste = terreno fértil para complemento regulado",
         "Resort integrado prolonga estadias e suaviza oscilações sazonais",
       ],
       relatedLinks: [
-        { label: "Polo de entretenimento regulado", slug: "belo-horizonte-polo-entretenimento-regulado" },
-        { label: "Resorts integrados", slug: "resorts-integrados-belo-horizonte" },
+        { label: "Polo de entretenimento regulado", slug: "porto-alegre-polo-entretenimento-regulado" },
+        { label: "Resorts integrados", slug: "resorts-integrados-porto-alegre" },
       ],
       highlights: [
         "Entretenimento complementa — não substitui — natureza, compras e gastronomia",
-        "Debate público informado via [[cassinobh.com.br|/]] reforça legitimidade democrática",
+        "Debate público informado via [[cassinoportoalegre.com|/]] reforça legitimidade democrática",
       ],
     },
     {
@@ -541,7 +541,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       highlights: [
         "Ativo econômico de longo prazo = emprego + renda + responsabilidade adulta",
-        "Belo Horizonte pode ser referência nacional no debate sobre regulação",
+        "Porto Alegre pode ser referência nacional no debate sobre regulação",
       ],
       relatedLinks: [
         { label: "Moderação e jogo responsável", slug: "moderacao-jogo-responsavel-cassinos" },
@@ -555,7 +555,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Marco legal nacional define operadores, tributos e proteção ao consumidor",
         "Texto em tramitação: [[PL 2234/2022 no Senado|gov:senado]] e origem [[PL 442/1991 na Câmara|gov:camara]]",
-        "[[Belo Horizonte|belo-horizonte-polo-entretenimento-regulado]] pode concorrer a licenças com metas sociais",
+        "[[Porto Alegre|porto-alegre-polo-entretenimento-regulado]] pode concorrer a licenças com metas sociais",
       ],
       relatedLinks: [
         { label: "Lições de Las Vegas e Singapura", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
@@ -569,17 +569,17 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Suspensão de licença por descumprimento vira instrumento real",
       ],
       relatedLinks: [
-        { label: "Resorts integrados", slug: "resorts-integrados-belo-horizonte" },
+        { label: "Resorts integrados", slug: "resorts-integrados-porto-alegre" },
         { label: "Tributação e financiamento público", slug: "tributacao-cassinos-regulados-financiamento-publico" },
       ],
     },
     {
       highlights: [
         "Estudos de impacto antecipados aceleram licitações pós-lei",
-        "Comunicação via [[cassinobh.com.br|/]] educa durante a transição regulatória",
+        "Comunicação via [[cassinoportoalegre.com|/]] educa durante a transição regulatória",
       ],
       relatedLinks: [
-        { label: "Potencial econômico local", slug: "cassino-belo-horizonte-potencial-economico" },
+        { label: "Potencial econômico local", slug: "cassino-porto-alegre-potencial-economico" },
         { label: "Comparativo América Latina", slug: "cassinos-america-latina-comparativo-brasil" },
       ],
     },
@@ -594,18 +594,18 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Moderação responsável", slug: "moderacao-jogo-responsavel-cassinos" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-belo-horizonte-entretenimento" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-porto-alegre-entretenimento" },
       ],
     },
     {
       listItems: [
         "Verificação de idade, limites de crédito e treinamento de equipe",
         "Relatórios públicos reforçam confiança de investidores",
-        "Protocolos únicos com hotéis e eventos em Belo Horizonte",
+        "Protocolos únicos com hotéis e eventos em Porto Alegre",
       ],
       relatedLinks: [
         { label: "Concessão e licitação", slug: "concessao-licitacao-cassino-municipio-brasil" },
-        { label: "Polo regulado", slug: "belo-horizonte-polo-entretenimento-regulado" },
+        { label: "Polo regulado", slug: "porto-alegre-polo-entretenimento-regulado" },
       ],
     },
     {
@@ -620,15 +620,15 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
   ],
 
-  "resorts-integrados-impacto-ambiental-belo-horizonte": [
+  "resorts-integrados-impacto-ambiental-porto-alegre": [
     {
       listItems: [
-        "Área de relevância hídrica exige licenciamento — consulte a [[Governo de Minas Gerais|gov:bhPrefeitura]] e o [[Governo de Minas Gerais|gov:mgGoverno]]",
+        "Área de relevância hídrica exige licenciamento — consulte a [[Governo do Rio Grande do Sul|gov:paPrefeitura]] e o [[Governo do Rio Grande do Sul|gov:rsGoverno]]",
         "Eficiência energética e gestão de resíduos alinhadas a certificações",
         "Mitigação de tráfego e ruído como tema de debate público",
       ],
       relatedLinks: [
-        { label: "Resorts integrados", slug: "resorts-integrados-belo-horizonte" },
+        { label: "Resorts integrados", slug: "resorts-integrados-porto-alegre" },
         { label: "Licitação municipal", slug: "concessao-licitacao-cassino-municipio-brasil" },
       ],
     },
@@ -639,8 +639,8 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Financiamento viário com parcela da arrecadação tributária",
       ],
       relatedLinks: [
-        { label: "Potencial econômico", slug: "cassino-belo-horizonte-potencial-economico" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-belo-horizonte-entretenimento" },
+        { label: "Potencial econômico", slug: "cassino-porto-alegre-potencial-economico" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-porto-alegre-entretenimento" },
       ],
     },
     {
@@ -649,33 +649,33 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Transparência ambiental reduz fake news locais",
       ],
       relatedLinks: [
-        { label: "Hospedagem de luxo", slug: "hospedagem-luxo-entretenimento-regulado-belo-horizonte" },
-        { label: "Polo entretenimento regulado", slug: "belo-horizonte-polo-entretenimento-regulado" },
+        { label: "Hospedagem de luxo", slug: "hospedagem-luxo-entretenimento-regulado-porto-alegre" },
+        { label: "Polo entretenimento regulado", slug: "porto-alegre-polo-entretenimento-regulado" },
       ],
     },
   ],
 
-  "marketing-digital-turismo-cassino-belo-horizonte": [
+  "marketing-digital-turismo-cassino-porto-alegre": [
     {
       listItems: [
         "Buscas por regulação crescem — dados do [[IBGE — turismo|gov:ibgeTurismo]] e do [[Ministério do Turismo|gov:turismo]] orientam estratégia",
         "Marketing ético captura intenção informativa — não clickbait",
-        "[[Domínio premium|dominio-premium-seo-entretenimento-belo-horizonte]] reforça autoridade regional",
+        "[[Domínio premium|dominio-premium-seo-entretenimento-porto-alegre]] reforça autoridade regional",
       ],
       relatedLinks: [
-        { label: "SEO e domínio premium", slug: "dominio-premium-seo-entretenimento-belo-horizonte" },
+        { label: "SEO e domínio premium", slug: "dominio-premium-seo-entretenimento-porto-alegre" },
         { label: "Lei e PL 2234/2022", slug: "lei-cassinos-brasil-pl-263-regulamentacao" },
       ],
     },
     {
       listItems: [
-        "Cauda longa: cassino regulado Belo Horizonte, resort integrado",
+        "Cauda longa: cassino regulado Porto Alegre, resort integrado",
         "FAQs e links internos aumentam profundidade editorial",
         "Google Business Profile + eventos locais amplificam alcance",
       ],
       relatedLinks: [
         { label: "Blog e conteúdo", slug: "cassinos-brasil-emprego-renda" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-belo-horizonte-entretenimento" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-porto-alegre-entretenimento" },
       ],
     },
     {
@@ -695,7 +695,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Uruguai, Argentina e Caribe capturam turistas brasileiros há anos",
         "Licenças limitadas evitam saturação urbana",
-        "Belo Horizonte ocupa nicho de destino turístico premium e escala moderada",
+        "Porto Alegre ocupa nicho de destino turístico premium e escala moderada",
       ],
       relatedLinks: [
         { label: "Lições Las Vegas e Singapura", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
@@ -716,36 +716,36 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     {
       highlights: [
         "Desenho jurídico próprio — não cópia literal de modelos importados",
-        "Belo Horizonte como caso piloto em Minas Gerais",
+        "Porto Alegre como caso piloto em Rio Grande do Sul",
       ],
       relatedLinks: [
         { label: "Lei de cassinos Brasil", slug: "lei-cassinos-brasil-pl-263-regulamentacao" },
-        { label: "Potencial econômico local", slug: "cassino-belo-horizonte-potencial-economico" },
+        { label: "Potencial econômico local", slug: "cassino-porto-alegre-potencial-economico" },
       ],
     },
   ],
 
-  "hospedagem-luxo-entretenimento-regulado-belo-horizonte": [
+  "hospedagem-luxo-entretenimento-regulado-porto-alegre": [
     {
       listItems: [
-        "Hotelaria premium já consolidada em Belo Horizonte",
+        "Hotelaria premium já consolidada em Porto Alegre",
         "Casino complementa — não substitui — natureza e gastronomia",
         "Ticket médio e permanência sobem com pacotes integrados",
       ],
       relatedLinks: [
-        { label: "Resorts integrados", slug: "resorts-integrados-belo-horizonte" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-belo-horizonte-entretenimento" },
+        { label: "Resorts integrados", slug: "resorts-integrados-porto-alegre" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-porto-alegre-entretenimento" },
       ],
     },
     {
       listItems: [
         "Pacotes coerentes: jantar, show e entretenimento licenciado",
         "Parcerias com vinícolas e roteiros culturais",
-        "Marca reforçada por [[domínio premium|dominio-premium-seo-entretenimento-belo-horizonte]]",
+        "Marca reforçada por [[domínio premium|dominio-premium-seo-entretenimento-porto-alegre]]",
       ],
       relatedLinks: [
-        { label: "Marketing digital", slug: "marketing-digital-turismo-cassino-belo-horizonte" },
-        { label: "Polo regulado", slug: "belo-horizonte-polo-entretenimento-regulado" },
+        { label: "Marketing digital", slug: "marketing-digital-turismo-cassino-porto-alegre" },
+        { label: "Polo regulado", slug: "porto-alegre-polo-entretenimento-regulado" },
       ],
     },
     {
@@ -755,7 +755,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Empregos formais", slug: "empregos-formais-hotelaria-lazer-brasil" },
-        { label: "Impacto econômico", slug: "cassino-belo-horizonte-potencial-economico" },
+        { label: "Impacto econômico", slug: "cassino-porto-alegre-potencial-economico" },
       ],
     },
   ],
@@ -763,13 +763,13 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
   "concessao-licitacao-cassino-municipio-brasil": [
     {
       listItems: [
-        "Lei federal habilita; município sede decide participar — veja [[Governo de Minas Gerais|gov:bhPrefeitura]] e tramitação no [[Senado|gov:senado]]",
+        "Lei federal habilita; município sede decide participar — veja [[Governo do Rio Grande do Sul|gov:paPrefeitura]] e tramitação no [[Senado|gov:senado]]",
         "Edital transparente seleciona operador por capacidade e metas",
         "Consulta pública antes da assinatura do contrato",
       ],
       relatedLinks: [
         { label: "Lei PL 2234/2022", slug: "lei-cassinos-brasil-pl-263-regulamentacao" },
-        { label: "Impacto ambiental", slug: "resorts-integrados-impacto-ambiental-belo-horizonte" },
+        { label: "Impacto ambiental", slug: "resorts-integrados-impacto-ambiental-porto-alegre" },
       ],
     },
     {
@@ -790,7 +790,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Investimento estrangeiro", slug: "investimento-estrangeiro-turismo-entretenimento-brasil" },
-        { label: "Potencial em Belo Horizonte", slug: "cassino-belo-horizonte-potencial-economico" },
+        { label: "Potencial em Porto Alegre", slug: "cassino-porto-alegre-potencial-economico" },
       ],
     },
   ],
@@ -800,11 +800,11 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Online: [[Lei 14.790/2023|gov:leiApostas]], [[SPA — apostas de quota fixa|gov:spaApostas]] e [[jogo responsável|gov:jogoResponsavel]]",
         "Presencial: resort, emprego local e fiscalização in loco",
-        "Belo Horizonte dialoga com modelo integrado à hotelaria",
+        "Porto Alegre dialoga com modelo integrado à hotelaria",
       ],
       relatedLinks: [
         { label: "Moderação responsável", slug: "moderacao-jogo-responsavel-cassinos" },
-        { label: "Hospedagem de luxo", slug: "hospedagem-luxo-entretenimento-regulado-belo-horizonte" },
+        { label: "Hospedagem de luxo", slug: "hospedagem-luxo-entretenimento-regulado-porto-alegre" },
       ],
     },
     {
@@ -815,7 +815,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Comparativo América Latina", slug: "cassinos-america-latina-comparativo-brasil" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-belo-horizonte-entretenimento" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-porto-alegre-entretenimento" },
       ],
     },
     {

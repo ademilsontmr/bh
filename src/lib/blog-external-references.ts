@@ -88,20 +88,20 @@ export const GOV_REFERENCES = {
     url: "https://www.gov.br/fazenda/pt-br/composicao/orgaos/secretaria-de-premios-e-apostas/jogo-responsavel",
     source: "Gov.br — SPA",
   },
-  bhPrefeitura: {
-    label: "Prefeitura de Belo Horizonte — Minas Gerais",
-    url: "https://prefeitura.pbh.gov.br/",
-    source: "Prefeitura de Belo Horizonte",
+  paPrefeitura: {
+    label: "Prefeitura de Porto Alegre",
+    url: "https://www.portoalegre.rs.gov.br/",
+    source: "Prefeitura de Porto Alegre",
   },
-  mgGoverno: {
-    label: "Governo de Minas Gerais",
-    url: "https://www.mg.gov.br/",
-    source: "Governo de Minas Gerais",
+  rsGoverno: {
+    label: "Governo do Rio Grande do Sul",
+    url: "https://www.rs.gov.br/",
+    source: "Governo do Rio Grande do Sul",
   },
-  mgTurismo: {
-    label: "Secretaria de Turismo de Minas Gerais",
-    url: "https://www.mg.gov.br/",
-    source: "Turismo MG",
+  rsTurismo: {
+    label: "Secretaria de Turismo do Rio Grande do Sul",
+    url: "https://www.rs.gov.br/",
+    source: "Turismo RS",
   },
 } as const satisfies Record<string, GovReference>;
 
@@ -111,22 +111,22 @@ export type GovRefKey = keyof typeof GOV_REFERENCES;
 export const BLOG_ARTICLE_EXTERNAL_REFS: Record<string, GovRefKey[]> = {
   "investimento-estrangeiro-turismo-entretenimento-brasil": ["senado", "turismo", "ibgePnadTurismo"],
   "empregos-formais-hotelaria-lazer-brasil": ["trabalho", "senado", "turismo"],
-  "dominio-premium-seo-entretenimento-belo-horizonte": ["turismo", "ibgeTurismo", "bhPrefeitura"],
+  "dominio-premium-seo-entretenimento-porto-alegre": ["turismo", "ibgeTurismo", "paPrefeitura"],
   "tributacao-cassinos-regulados-financiamento-publico": ["receita", "coaf", "spaApostas"],
-  "turismo-corporativo-belo-horizonte-entretenimento": ["turismo", "ibgePnadTurismo", "bhPrefeitura"],
+  "turismo-corporativo-porto-alegre-entretenimento": ["turismo", "ibgePnadTurismo", "paPrefeitura"],
   "licoes-las-vegas-singapura-regulacao-brasil": ["senado", "camara", "senadoNoticiaCassinos"],
-  "belo-horizonte-polo-entretenimento-regulado": ["bhPrefeitura", "mgTurismo", "senado"],
+  "porto-alegre-polo-entretenimento-regulado": ["paPrefeitura", "rsTurismo", "senado"],
   "moderacao-jogo-responsavel-cassinos": ["jogoResponsavel", "saude", "leiApostas"],
-  "resorts-integrados-belo-horizonte": ["turismo", "bhPrefeitura", "senado"],
+  "resorts-integrados-porto-alegre": ["turismo", "paPrefeitura", "senado"],
   "cassinos-brasil-emprego-renda": ["senado", "trabalho", "ibgePnadTurismo"],
-  "cassino-belo-horizonte-potencial-economico": ["bhPrefeitura", "ibgeTurismo", "turismo"],
+  "cassino-porto-alegre-potencial-economico": ["paPrefeitura", "ibgeTurismo", "turismo"],
   "lei-cassinos-brasil-pl-263-regulamentacao": ["senado", "camara", "senadoNoticiaCassinos"],
   "seguranca-patrimonial-compliance-cassinos-regulados": ["coaf", "receita", "spa"],
-  "resorts-integrados-impacto-ambiental-belo-horizonte": ["bhPrefeitura", "mgGoverno", "turismo"],
-  "marketing-digital-turismo-cassino-belo-horizonte": ["turismo", "ibgeTurismo", "bhPrefeitura"],
+  "resorts-integrados-impacto-ambiental-porto-alegre": ["paPrefeitura", "rsGoverno", "turismo"],
+  "marketing-digital-turismo-cassino-porto-alegre": ["turismo", "ibgeTurismo", "paPrefeitura"],
   "cassinos-america-latina-comparativo-brasil": ["turismo", "senado", "camaraNoticiaJogos"],
-  "hospedagem-luxo-entretenimento-regulado-belo-horizonte": ["turismo", "bhPrefeitura", "ibgePnadTurismo"],
-  "concessao-licitacao-cassino-municipio-brasil": ["bhPrefeitura", "senado", "camara"],
+  "hospedagem-luxo-entretenimento-regulado-porto-alegre": ["turismo", "paPrefeitura", "ibgePnadTurismo"],
+  "concessao-licitacao-cassino-municipio-brasil": ["paPrefeitura", "senado", "camara"],
   "apostas-online-cassino-presencial-regulacao": ["leiApostas", "spaApostas", "jogoResponsavel"],
 };
 

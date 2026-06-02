@@ -7,10 +7,10 @@ export const BLOG_ARTICLE_DATE_BATCH2 = `${new Date().getFullYear()}-06-02`;
 const BATCH2_SLUGS = new Set([
   "lei-cassinos-brasil-pl-263-regulamentacao",
   "seguranca-patrimonial-compliance-cassinos-regulados",
-  "resorts-integrados-impacto-ambiental-belo-horizonte",
-  "marketing-digital-turismo-cassino-belo-horizonte",
+  "resorts-integrados-impacto-ambiental-porto-alegre",
+  "marketing-digital-turismo-cassino-porto-alegre",
   "cassinos-america-latina-comparativo-brasil",
-  "hospedagem-luxo-entretenimento-regulado-belo-horizonte",
+  "hospedagem-luxo-entretenimento-regulado-porto-alegre",
   "concessao-licitacao-cassino-municipio-brasil",
   "apostas-online-cassino-presencial-regulacao",
 ]);
