@@ -164,7 +164,7 @@ function Header() {
           <a href="#faq" className="hover:text-primary transition">FAQ</a>
         </nav>
         <a
-          href="#contato"
+          href="mailto:contato@cassinocamposdojordao.com.br"
           className="text-sm bg-gradient-gold text-primary-foreground px-4 py-2 rounded-md font-medium shadow-gold hover:opacity-90 transition"
         >
           Solicitar Informações
@@ -194,13 +194,13 @@ function Hero() {
 
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="#contato"
+            href="mailto:contato@cassinocamposdojordao.com.br"
             className="inline-flex items-center justify-center gap-2 bg-gradient-gold text-primary-foreground px-7 py-3.5 rounded-md font-semibold shadow-gold hover:scale-[1.02] transition"
           >
             <Mail className="h-4 w-4" /> Solicitar Informações
           </a>
           <a
-            href="#contato"
+            href="mailto:contato@cassinocamposdojordao.com.br"
             className="inline-flex items-center justify-center gap-2 border border-gold/60 text-foreground px-7 py-3.5 rounded-md font-semibold hover:bg-card/70 transition"
           >
             <Send className="h-4 w-4" /> Enviar Oferta
@@ -371,7 +371,7 @@ function DualDomainSection() {
             ))}
           </div>
           <a
-            href="#contato"
+            href="mailto:contato@cassinocamposdojordao.com.br"
             className="mt-10 inline-flex items-center gap-2 bg-gradient-gold text-primary-foreground px-7 py-3.5 rounded-md font-semibold shadow-gold hover:scale-[1.02] transition"
           >
             <Mail className="h-4 w-4" /> Solicitar Proposta dos Dois
@@ -416,7 +416,7 @@ function Footer() {
           <span>© {new Date().getFullYear()} CassinoCamposdoJordao — Domínio Premium à Venda</span>
         </div>
         <div className="flex gap-5">
-          <a href="#contato" className="hover:text-primary transition">Contato</a>
+          <a href="mailto:contato@cassinocamposdojordao.com.br" className="hover:text-primary transition">Contato</a>
           <a href="#faq" className="hover:text-primary transition">FAQ</a>
         </div>
       </div>
