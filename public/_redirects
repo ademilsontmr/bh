@@ -1,0 +1,1 @@
+# Fallback para SPA/SSR — o worker em dist/_worker.js trata as rotas dinâmicas
