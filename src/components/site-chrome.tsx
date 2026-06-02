@@ -1,8 +1,8 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import type { ReactNode } from "react";
-import { Crown } from "lucide-react";
+import { Crown, ExternalLink } from "lucide-react";
 
-import { DOMAIN, FORM_URL } from "@/lib/site";
+import { DOMAIN, FORM_URL, getOtherNetworkDomains } from "@/lib/site";
 
 const NAV_ITEMS = [
   { label: "Vantagens", sectionId: "valor" },
@@ -64,9 +64,52 @@ function NavSectionLink({
   );
 }
 
+export function NetworkDomainsSection() {
+  const otherDomains = getOtherNetworkDomains();
+
+  if (otherDomains.length === 0) return null;
+
+  return (
+    <section
+      aria-labelledby="network-domains-heading"
+      className="border-t border-border/40 bg-card/20 py-10 mt-10"
+    >
+      <div className="container mx-auto max-w-6xl px-6">
+        <h2
+          id="network-domains-heading"
+          className="font-serif text-xl md:text-2xl text-center mb-2"
+        >
+          Outros domínios premium à venda
+        </h2>
+        <p className="text-sm text-muted-foreground text-center mb-6">
+          Estes sites também estão disponíveis para aquisição
+        </p>
+        <ul className="flex flex-wrap justify-center gap-3">
+          {otherDomains.map((domain) => (
+            <li key={domain}>
+              <a
+                href={`https://${domain}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-full border border-border/60 bg-card/50 px-4 py-2 text-sm text-muted-foreground hover:border-gold/50 hover:text-primary transition"
+              >
+                {domain}
+                <ExternalLink className="h-3.5 w-3.5 shrink-0 opacity-60" aria-hidden="true" />
+                <span className="sr-only"> (abre em nova aba)</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
 export function SiteFooter() {
   return (
-    <footer className="border-t border-border/40 py-10 mt-10">
+    <>
+      <NetworkDomainsSection />
+      <footer className="border-t border-border/40 py-10">
       <div className="container mx-auto max-w-6xl px-6 flex flex-col md:flex-row gap-4 items-center justify-between text-sm text-muted-foreground">
         <div className="flex items-center gap-2">
           <Crown className="h-4 w-4 text-primary" />
@@ -87,5 +130,6 @@ export function SiteFooter() {
         </nav>
       </div>
     </footer>
+    </>
   );
 }
