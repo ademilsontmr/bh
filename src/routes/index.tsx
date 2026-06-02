@@ -382,58 +382,6 @@ function DualDomainSection() {
   );
 }
 
-function ContactSection() {
-  const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
-  const [form, setForm] = useState({ nome: "", empresa: "", email: "", whatsapp: "", valor: "", mensagem: "" });
-
-  const onSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setStatus("sending");
-    const subject = encodeURIComponent("Proposta - Domínio CassinoCamposdoJordao");
-    const body = encodeURIComponent(
-      `Nome: ${form.nome}\nEmpresa: ${form.empresa}\nE-mail: ${form.email}\nWhatsApp: ${form.whatsapp}\nValor da proposta: ${form.valor}\n\nMensagem:\n${form.mensagem}`,
-    );
-    window.location.href = `mailto:contato@cassinocamposdojordao.com.br?subject=${subject}&body=${body}`;
-    setTimeout(() => setStatus("sent"), 600);
-  };
-
-  const field = "w-full bg-background/60 border border-border focus:border-gold rounded-md px-4 py-3 text-foreground placeholder:text-muted-foreground/60 outline-none transition";
-
-  return (
-    <section id="contato" className="py-24 bg-card/30 border-y border-border/40">
-      <div className="container mx-auto max-w-3xl px-6">
-        <SectionHeading
-          eyebrow="Contato Direto"
-          title="Envie sua Proposta"
-          subtitle="Preencha o formulário abaixo. Respondemos rapidamente todas as ofertas sérias."
-        />
-        <form onSubmit={onSubmit} className="grid gap-4 rounded-2xl border border-gold/30 bg-card/70 backdrop-blur p-6 md:p-10 shadow-elegant">
-          <div className="grid sm:grid-cols-2 gap-4">
-            <input required placeholder="Nome*" value={form.nome} onChange={(e) => setForm({ ...form, nome: e.target.value })} className={field} />
-            <input placeholder="Empresa" value={form.empresa} onChange={(e) => setForm({ ...form, empresa: e.target.value })} className={field} />
-          </div>
-          <div className="grid sm:grid-cols-2 gap-4">
-            <input required type="email" placeholder="E-mail*" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} className={field} />
-            <input placeholder="WhatsApp" value={form.whatsapp} onChange={(e) => setForm({ ...form, whatsapp: e.target.value })} className={field} />
-          </div>
-          <input placeholder="Valor da proposta (R$)" value={form.valor} onChange={(e) => setForm({ ...form, valor: e.target.value })} className={field} />
-          <textarea required placeholder="Mensagem*" rows={5} value={form.mensagem} onChange={(e) => setForm({ ...form, mensagem: e.target.value })} className={field} />
-          <button
-            type="submit"
-            disabled={status === "sending"}
-            className="mt-2 inline-flex items-center justify-center gap-2 bg-gradient-gold text-primary-foreground px-7 py-3.5 rounded-md font-semibold shadow-gold hover:scale-[1.01] transition disabled:opacity-60"
-          >
-            <Send className="h-4 w-4" />
-            {status === "sent" ? "Proposta Enviada" : "Enviar Proposta"}
-          </button>
-          <p className="text-xs text-muted-foreground text-center mt-2">
-            Ao enviar, abriremos seu cliente de e-mail com a proposta pronta para envio.
-          </p>
-        </form>
-      </div>
-    </section>
-  );
-}
 
 function FaqSection() {
   return (
