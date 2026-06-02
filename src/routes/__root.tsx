@@ -87,6 +87,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "pt_BR" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Domínio Cassino Campos do Jordão à Venda | .COM e .COM.BR" },
+      { name: "twitter:title", content: "Domínio Cassino Campos do Jordão à Venda | .COM e .COM.BR" },
+      { name: "description", content: "Showcases premium domains for sale, highlighting their value and potential for branding and digital projects." },
+      { property: "og:description", content: "Showcases premium domains for sale, highlighting their value and potential for branding and digital projects." },
+      { name: "twitter:description", content: "Showcases premium domains for sale, highlighting their value and potential for branding and digital projects." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3f420508-0a04-4537-996d-9d35f1dd5019/id-preview-86c16f2c--976579ef-4c34-4bad-9173-cb2975b67a4c.lovable.app-1780359889550.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3f420508-0a04-4537-996d-9d35f1dd5019/id-preview-86c16f2c--976579ef-4c34-4bad-9173-cb2975b67a4c.lovable.app-1780359889550.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
