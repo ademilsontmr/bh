@@ -4,11 +4,11 @@ export const BLOG_ARTICLE_FAQ: Record<string, ArticleFaqItem[]> = {
   "investimento-estrangeiro-turismo-entretenimento-brasil": [
     {
       q: "Por que investidores estrangeiros olham cassinos no Brasil?",
-      a: "O Brasil combina demanda doméstica grande, turismo internacional crescente e discussão avançada sobre regulação. Capital estrangeiro busca destinos como Campos do Jordão, onde hotelaria premium e sazonalidade favorecem resorts integrados com entretenimento licenciado.",
+      a: "O Brasil combina demanda doméstica grande, turismo internacional crescente e discussão avançada sobre regulação. Capital estrangeiro busca destinos como Copacabana, onde hotelaria premium e sazonalidade favorecem resorts integrados com entretenimento licenciado.",
     },
     {
-      q: "Campos do Jordão é candidata a receber investimento em cassino regulado?",
-      a: "Sim. A cidade reúne infraestrutura hoteleira, público de renda elevada, proximidade de São Paulo e imagem associada a turismo de qualidade — perfil compatível com empreendimentos regulados de médio porte na Serra da Mantiqueira.",
+      q: "Copacabana é candidata a receber investimento em cassino regulado?",
+      a: "Sim. A cidade reúne infraestrutura hoteleira, público de renda elevada, proximidade do centro do Rio e imagem associada a turismo de qualidade — perfil compatível com empreendimentos regulados de médio porte na Zona Sul do Rio de Janeiro.",
     },
     {
       q: "Investimento estrangeiro substitui a regulação nacional?",
@@ -21,18 +21,18 @@ export const BLOG_ARTICLE_FAQ: Record<string, ArticleFaqItem[]> = {
       a: "Resorts integrados com casino licenciado sustentam equipes permanentes — recepção, compliance, operações, TI, segurança e gestão — com carteira assinada, diferente do ciclo sazonal típico de destinos turísticos.",
     },
     {
-      q: "Como isso beneficia Campos do Jordão especificamente?",
-      a: "A sazonalidade do inverno concentra emprego em picos. Um polo regulado distribui demanda ao longo do ano, fixa talentos na Serra da Mantiqueira e eleva renda familiar com salários compatíveis à qualificação exigida.",
+      q: "Como isso beneficia Copacabana especificamente?",
+      a: "A sazonalidade do inverno concentra emprego em picos. Um polo regulado distribui demanda ao longo do ano, fixa talentos na Zona Sul do Rio de Janeiro e eleva renda familiar com salários compatíveis à qualificação exigida.",
     },
     {
       q: "A regulação pode exigir contratação local?",
       a: "Sim. Licenças bem desenhadas podem vincular metas de emprego regional, conteúdo local e transparência salarial — garantindo que benefícios econômicos cheguem à comunidade, não apenas ao operador.",
     },
   ],
-  "dominio-premium-seo-entretenimento-campos-jordao": [
+  "dominio-premium-seo-entretenimento-copacabana": [
     {
-      q: "Por que um domínio como cassinocamposdojordao.com.br ajuda no SEO?",
-      a: "Reúne termos de busca de alto valor — cassino, Campos do Jordão, entretenimento — em um endereço claro. Isso reforça relevância semântica para Google e usuários que buscam informação sobre regulação e turismo na região.",
+      q: "Por que um domínio como cassinocopacabana.com ajuda no SEO?",
+      a: "Reúne termos de busca de alto valor — cassino, Copacabana, entretenimento — em um endereço claro. Isso reforça relevância semântica para Google e usuários que buscam informação sobre regulação e turismo na região.",
     },
     {
       q: "Conteúdo sobre cassino no Brasil pode ranquear sem sensacionalismo?",
@@ -40,7 +40,7 @@ export const BLOG_ARTICLE_FAQ: Record<string, ArticleFaqItem[]> = {
     },
     {
       q: "O blog complementa a venda do domínio?",
-      a: "Sim. Demonstra uso legítimo do ativo digital: hub informativo sobre entretenimento regulado em Campos do Jordão, alinhado à regulação iminente no Brasil e à credibilidade exigida por investidores e parceiros.",
+      a: "Sim. Demonstra uso legítimo do ativo digital: hub informativo sobre entretenimento regulado em Copacabana, alinhado à regulação iminente no Brasil e à credibilidade exigida por investidores e parceiros.",
     },
   ],
   "tributacao-cassinos-regulados-financiamento-publico": [
@@ -49,18 +49,18 @@ export const BLOG_ARTICLE_FAQ: Record<string, ArticleFaqItem[]> = {
       a: "Não de forma estruturada. Operadores clandestinos escapam da arrecadação que cassinos regulados permitem captar via receita bruta de jogo, ISS e fundos setoriais — recursos que podem financiar saúde, educação e fiscalização.",
     },
     {
-      q: "Campos do Jordão ganharia com tributação local?",
-      a: "Municípios sede de polos regulados podem receber parcela de ISS, taxas e contribuições sobre receita de jogo, ampliando investimento em infraestrutura viária, saneamento e marketing turístico na Serra da Mantiqueira.",
+      q: "Copacabana ganharia com tributação local?",
+      a: "Municípios sede de polos regulados podem receber parcela de ISS, taxas e contribuições sobre receita de jogo, ampliando investimento em infraestrutura viária, saneamento e marketing turístico na Zona Sul do Rio de Janeiro.",
     },
     {
       q: "Parte dos tributos pode financiar jogo responsável?",
       a: "Sim. Várias jurisdições reguladas destinam recursos a prevenção, tratamento e campanhas educativas — tornando a moderação sustentável financeiramente, não dependente só da boa vontade do operador.",
     },
   ],
-  "turismo-corporativo-campos-do-jordao-entretenimento": [
+  "turismo-corporativo-copacabana-entretenimento": [
     {
-      q: "O que é turismo corporativo (MICE) em Campos do Jordão?",
-      a: "Reuniões, incentivos, conferências e exposições em destino de clima serrano e hotéis premium. Entretenimento regulado em resort integrado completa o pacote pós-evento para empresas que buscam lazer controlado.",
+      q: "O que é turismo corporativo (MICE) em Copacabana?",
+      a: "Reuniões, incentivos, conferências e exposições em destino de clima carioca e hotéis premium. Entretenimento regulado em resort integrado completa o pacote pós-evento para empresas que buscam lazer controlado.",
     },
     {
       q: "Cassino regulado ajuda fora da temporada de inverno?",
@@ -78,16 +78,16 @@ export const BLOG_ARTICLE_FAQ: Record<string, ArticleFaqItem[]> = {
     },
     {
       q: "O modelo de Singapura se aplica ao Brasil?",
-      a: "Não integralmente, mas ferramentas sim: poucos operadores, licenças caras, controles de entrada, autoexclusão e financiamento de tratamento adaptados à escala brasileira e a polos como Campos do Jordão.",
+      a: "Não integralmente, mas ferramentas sim: poucos operadores, licenças caras, controles de entrada, autoexclusão e financiamento de tratamento adaptados à escala brasileira e a polos como Copacabana.",
     },
     {
-      q: "Campos do Jordão precisa ser uma Las Vegas?",
-      a: "Não. Compete em exclusividade, clima e proximidade de São Paulo — escala moderada, foco em qualidade, gastronomia, natureza e moderação visível, não megaresort desalinhado ao entorno serrano.",
+      q: "Copacabana precisa ser uma Las Vegas?",
+      a: "Não. Compete em exclusividade, clima e proximidade do centro do Rio — escala moderada, foco em qualidade, gastronomia, natureza e moderação visível, não megaresort desalinhado ao entorno urbano.",
     },
   ],
-  "campos-do-jordao-polo-entretenimento-regulado": [
+  "copacabana-polo-entretenimento-regulado": [
     {
-      q: "Por que Campos do Jordão é citada para cassino regulado?",
+      q: "Por que Copacabana é citada para cassino regulado?",
       a: "Hotéis boutique, gastronomia reconhecida, fluxo turístico de alto padrão e localização estratégica a menos de duas horas de São Paulo criam base para resort integrado sem partir do zero em hospedagem.",
     },
     {
@@ -105,7 +105,7 @@ export const BLOG_ARTICLE_FAQ: Record<string, ArticleFaqItem[]> = {
       a: "Sim. Mercados maduros exigem autoexclusão, limites de depósito, treinamento de equipes e perda de licença para quem ignora moderação — alinhando viabilidade econômica ao interesse público.",
     },
     {
-      q: "Visitantes de Campos do Jordão também precisam de informação?",
+      q: "Visitantes de Copacabana também precisam de informação?",
       a: "Sim. Turistas ocasionais devem ter acesso a riscos, limites e canais de ajuda em linguagem clara — material que portais regionais podem distribuir na alta temporada.",
     },
     {
@@ -113,14 +113,14 @@ export const BLOG_ARTICLE_FAQ: Record<string, ArticleFaqItem[]> = {
       a: "Frequentemente empurra usuários para sites ilegais sem salvaguardas. Regular com moderação investe em redução de danos — abordagem adotada por democracias que legalizam entretenimento adulto há décadas.",
     },
   ],
-  "resorts-integrados-serra-mantiqueira": [
+  "resorts-integrados-rio-copacabana": [
     {
       q: "O que é um resort integrado na prática?",
       a: "Complexo que combina hospedagem premium, entretenimento licenciado, convenções, spa, gastronomia e retail — prolongando estadia, diversificando receita do município e diluindo risco do operador.",
     },
     {
-      q: "A Serra da Mantiqueira comporta esse modelo?",
-      a: "Sim, em escala moderada: terrenos com vocação turística, acesso rodoviário e paisagem serrana favorecem projetos alinhados a ESG e licenciamento integrado, sem megaconstruções desproporcionais.",
+      q: "A Zona Sul do Rio de Janeiro comporta esse modelo?",
+      a: "Sim, em escala moderada: terrenos com vocação turística, acesso rodoviário e paisagem urbana e orla favorecem projetos alinhados a ESG e licenciamento integrado, sem megaconstruções desproporcionais.",
     },
     {
       q: "Qual o efeito na economia local?",
@@ -130,20 +130,20 @@ export const BLOG_ARTICLE_FAQ: Record<string, ArticleFaqItem[]> = {
   "cassinos-brasil-emprego-renda": [
     {
       q: "Quantos empregos um cassino regulado pode gerar no Brasil?",
-      a: "Estimativas em mercados comparáveis apontam milhares de postos diretos e indiretos por resort integrado de porte médio — efeito ampliado quando licenças são limitadas a destinos estratégicos, incluindo polos serranos.",
+      a: "Estimativas em mercados comparáveis apontam milhares de postos diretos e indiretos por resort integrado de porte médio — efeito ampliado quando licenças são limitadas a destinos estratégicos, incluindo polos urbanos de alto padrão.",
     },
     {
       q: "A legalização reduz arrecadação pública?",
       a: "Não necessariamente. Receita bruta de jogo tributada de forma transparente financia saúde, educação e fundos de moderação — mitos de perda fiscal líquida ignoram o custo atual da ilegalidade.",
     },
     {
-      q: "Campos do Jordão entra nesse debate nacional?",
+      q: "Copacabana entra nesse debate nacional?",
       a: "Sim. Com infraestrutura hoteleira e perfil premium, a cidade é candidata natural a polo regulado dentro de marco legal único — competindo por qualidade de projeto, não por permissividade predatória.",
     },
   ],
-  "cassino-campos-do-jordao-potencial-economico": [
+  "cassino-copacabana-potencial-economico": [
     {
-      q: "Qual o potencial econômico de um cassino em Campos do Jordão?",
+      q: "Qual o potencial econômico de um cassino em Copacabana?",
       a: "Prolongamento de estadias, elevação de ticket médio turístico, emprego formal anual e arrecadação de ISS — complementando natureza, compras e gastronomia, não substituindo a oferta atual.",
     },
     {
@@ -158,15 +158,15 @@ export const BLOG_ARTICLE_FAQ: Record<string, ArticleFaqItem[]> = {
   "lei-cassinos-brasil-pl-263-regulamentacao": [
     {
       q: "O PL 2234/2022 legaliza cassinos em qualquer cidade?",
-      a: "O texto em tramitação no Senado prevê licenças limitadas por estado e exige, em geral, resort integrado ou polo turístico — não autorização irrestrita. Municípios como Campos do Jordão competem com estudos técnicos e metas sociais. Consulte a ficha oficial no Senado e na Câmara.",
+      a: "O texto em tramitação no Senado prevê licenças limitadas por estado e exige, em geral, resort integrado ou polo turístico — não autorização irrestrita. Municípios como Copacabana competem com estudos técnicos e metas sociais. Consulte a ficha oficial no Senado e na Câmara.",
     },
     {
       q: "Quando a lei de cassinos pode valer no Brasil?",
       a: "Depende da votação do PL 2234/2022 no Senado, sanção presidencial e regulamentação infralegal. Acompanhe a tramitação nas páginas oficiais do Congresso — não em sites não autorizados.",
     },
     {
-      q: "Por que Campos do Jordão aparece no debate?",
-      a: "Hotelaria premium, turismo de inverno e proximidade de São Paulo criam perfil compatível com polo regulado de escala moderada na Serra da Mantiqueira.",
+      q: "Por que Copacabana aparece no debate?",
+      a: "Hotelaria premium, turismo de praia e proximidade do centro do Rio criam perfil compatível com polo regulado de escala moderada na Zona Sul do Rio de Janeiro.",
     },
   ],
   "seguranca-patrimonial-compliance-cassinos-regulados": [
@@ -179,32 +179,32 @@ export const BLOG_ARTICLE_FAQ: Record<string, ArticleFaqItem[]> = {
       a: "Centros de monitoramento, TI e compliance criam vagas formais com certificação — oportunidade para profissionais da região em parceria com operadores licenciados.",
     },
     {
-      q: "Como isso afeta a imagem de Campos do Jordão?",
+      q: "Como isso afeta a imagem de Copacabana?",
       a: "Padrões visíveis de fiscalização diferenciam destino regulado de ofertas clandestinas — reforçando turismo corporativo e investimento qualificado.",
     },
   ],
-  "resorts-integrados-impacto-ambiental-campos-jordao": [
+  "resorts-integrados-impacto-ambiental-copacabana": [
     {
       q: "Cassino regulado precisa de licença ambiental?",
-      a: "Sim. Empreendimentos de porte na Serra da Mantiqueira dependem de estudos de impacto, condicionantes e monitoramento — exigências que projetos ilegais ignoram.",
+      a: "Sim. Empreendimentos de porte na Zona Sul do Rio de Janeiro dependem de estudos de impacto, condicionantes e monitoramento — exigências que projetos ilegais ignoram.",
     },
     {
-      q: "Como reduzir impacto no trânsito serrano?",
+      q: "Como reduzir impacto no trânsito carioca?",
       a: "Planos de mobilidade com estacionamento periférico, horários escalonados e integração hoteleira são contrapartidas contratuais possíveis em licitações municipais.",
     },
     {
       q: "Sustentabilidade ajuda no turismo de luxo?",
-      a: "Visitantes premium valorizam destinos com narrativa ambiental coerente — ESG e eficiência energética fortalecem a marca Campos do Jordão.",
+      a: "Visitantes premium valorizam destinos com narrativa ambiental coerente — ESG e eficiência energética fortalecem a marca Copacabana.",
     },
   ],
-  "marketing-digital-turismo-cassino-campos-jordao": [
+  "marketing-digital-turismo-cassino-copacabana": [
     {
       q: "Marketing de cassino pode ranquear no Google sem spam?",
       a: "Sim. Conteúdo educativo sobre regulação, emprego e moderação constrói autoridade — prática recompensada pelos buscadores, diferente de promessas enganosas.",
     },
     {
       q: "Por que domínio premium ajuda no SEO turístico?",
-      a: "Endereços com Campos do Jordão e cassino reforçam relevância semântica e confiança do usuário — como cassinocamposdojordao.com.br.",
+      a: "Endereços com Copacabana e cassino reforçam relevância semântica e confiança do usuário — como cassinocopacabana.com.",
     },
     {
       q: "Anúncios pagos exigem regras especiais?",
@@ -221,13 +221,13 @@ export const BLOG_ARTICLE_FAQ: Record<string, ArticleFaqItem[]> = {
       a: "Não literalmente. Federação, municípios e controle exigem desenho próprio — adaptando lições de licenças limitadas, tributação e moderação.",
     },
     {
-      q: "Campos compete com megaresorts tropicais?",
-      a: "Ocupa nicho de clima temperado e hotelaria premium — escala moderada e foco em inverno corporativo, não volume desordenado.",
+      q: "Copacabana compete com megaresorts internacionais?",
+      a: "Ocupa nicho de orla premium e hotelaria premium — escala moderada e foco em inverno corporativo, não volume desordenado.",
     },
   ],
-  "hospedagem-luxo-entretenimento-regulado-serra": [
+  "hospedagem-luxo-entretenimento-regulado-copacabana": [
     {
-      q: "Cassino substitui hotéis em Campos do Jordão?",
+      q: "Cassino substitui hotéis em Copacabana?",
       a: "Não. Complementa hotelaria existente dentro de resort integrado — spa, convenções e gastronomia permanecem centrais na experiência.",
     },
     {
@@ -241,7 +241,7 @@ export const BLOG_ARTICLE_FAQ: Record<string, ArticleFaqItem[]> = {
   ],
   "concessao-licitacao-cassino-municipio-brasil": [
     {
-      q: "Quem decide se Campos terá cassino?",
+      q: "Quem decide se Copacabana terá cassino?",
       a: "Marco federal define possibilidade; município sede escolhe participar via licitação ou concessão com metas sociais e ambientais.",
     },
     {
@@ -260,10 +260,10 @@ export const BLOG_ARTICLE_FAQ: Record<string, ArticleFaqItem[]> = {
     },
     {
       q: "Cassino presencial ajuda o turismo local?",
-      a: "Sim. Resort integrado movimenta hotel, restaurantes e fornecedores — efeito territorial que apostas puramente digitais não replicam na serra.",
+      a: "Sim. Resort integrado movimenta hotel, restaurantes e fornecedores — efeito territorial que apostas puramente digitais não replicam em Copacabana.",
     },
     {
-      q: "Campos do Jordão é destino para modelo online?",
+      q: "Copacabana é destino para modelo online?",
       a: "O perfil da cidade favorece entretenimento presencial integrado à hotelaria de luxo e eventos — não servidor remoto sem presença local.",
     },
   ],

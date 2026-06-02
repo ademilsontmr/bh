@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cassinocamposdojordao.com.br/sitemap.xml
+Sitemap: https://cassinocopacabana.com/sitemap.xml

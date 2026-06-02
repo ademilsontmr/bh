@@ -2,7 +2,7 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 import { Crown } from "lucide-react";
 
-import { DOMAIN_BR, FORM_URL } from "@/lib/site";
+import { DOMAIN, FORM_URL } from "@/lib/site";
 
 const NAV_ITEMS = [
   { label: "Vantagens", sectionId: "valor" },
@@ -22,7 +22,7 @@ export function SiteHeader() {
         <Link to="/" hash="top" className="flex items-center gap-2 group">
           <Crown className="h-5 w-5 text-primary" />
           <span className="font-serif text-lg tracking-tight">
-            Cassino<span className="text-gradient-gold"> Campos do Jordão</span>
+            Cassino<span className="text-gradient-gold"> Copacabana</span>
           </span>
         </Link>
         <nav className="hidden md:flex items-center gap-7 text-sm text-muted-foreground" aria-label="Navegação principal">
@@ -70,11 +70,11 @@ export function SiteFooter() {
       <div className="container mx-auto max-w-6xl px-6 flex flex-col md:flex-row gap-4 items-center justify-between text-sm text-muted-foreground">
         <div className="flex items-center gap-2">
           <Crown className="h-4 w-4 text-primary" />
-          <span>© {new Date().getFullYear()} {DOMAIN_BR} — Domínio Premium à Venda</span>
+          <span>© {new Date().getFullYear()} {DOMAIN} — Domínio Premium à Venda</span>
         </div>
         <nav className="flex flex-wrap justify-center gap-5" aria-label="Links do rodapé">
           <Link to="/blog" className="hover:text-primary transition">Blog</Link>
-          <a href="/#dominios" className="hover:text-primary transition">Domínios</a>
+          <a href="/#dominio" className="hover:text-primary transition">Domínio</a>
           <a
             href={FORM_URL}
             target="_blank"

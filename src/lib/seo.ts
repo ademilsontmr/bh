@@ -1,25 +1,24 @@
 import type { BlogPost } from "./blog-posts";
 import { BLOG_SUBSECTIONS } from "./blog-subsections";
 import { applyBoldPhrases, stripRichMarkup } from "./blog-rich-text";
-import { DOMAIN_BR, DOMAIN_COM, FORM_URL, OG_IMAGE, SITE_NAME, SITE_URL } from "./site";
+import { DOMAIN, FORM_URL, OG_IMAGE, SITE_NAME, SITE_URL } from "./site";
 
-const HOME_TITLE = "Cassino Campos do Jordão à Venda | .COM e .COM.BR";
+const HOME_TITLE = `Cassino Copacabana à Venda | ${DOMAIN}`;
 const HOME_DESCRIPTION =
-  "Domínios premium cassinocamposdojordao.com.br e .com à venda. Oportunidade para turismo, resorts, hotelaria e entretenimento regulado em Campos do Jordão, Serra da Mantiqueira.";
+  `Domínio premium ${DOMAIN} à venda. Oportunidade para turismo, resorts, hotelaria e entretenimento regulado em Copacabana, Rio de Janeiro.`;
 
 export function getOrganizationJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Cassino Campos do Jordão",
+    name: "Cassino Copacabana",
     url: SITE_URL,
     logo: OG_IMAGE,
-    email: "contato@cassinocamposdojordao.com.br",
-    sameAs: [FORM_URL],
+    email: "contato@cassinocopacabana.com",
     areaServed: {
       "@type": "City",
-      name: "Campos do Jordão",
-      containedInPlace: { "@type": "State", name: "São Paulo" },
+      name: "Copacabana",
+      containedInPlace: { "@type": "State", name: "Rio de Janeiro" },
     },
   };
 }
@@ -31,12 +30,7 @@ export function getWebSiteJsonLd() {
     name: SITE_NAME,
     url: SITE_URL,
     inLanguage: "pt-BR",
-    publisher: { "@type": "Organization", name: "Cassino Campos do Jordão", url: SITE_URL },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: { "@type": "EntryPoint", urlTemplate: `${SITE_URL}/blog?q={search_term_string}` },
-      "query-input": "required name=search_term_string",
-    },
+    publisher: { "@type": "Organization", name: "Cassino Copacabana", url: SITE_URL },
   };
 }
 
@@ -57,9 +51,9 @@ export function getHomeProductJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: `Domínios Premium ${DOMAIN_BR} e ${DOMAIN_COM}`,
+    name: `Domínio Premium ${DOMAIN}`,
     description: HOME_DESCRIPTION,
-    brand: { "@type": "Brand", name: "Cassino Campos do Jordão" },
+    brand: { "@type": "Brand", name: "Cassino Copacabana" },
     category: "Domínio de internet",
     url: SITE_URL,
     image: OG_IMAGE,
@@ -68,7 +62,7 @@ export function getHomeProductJsonLd() {
       availability: "https://schema.org/InStock",
       priceCurrency: "BRL",
       url: FORM_URL,
-      seller: { "@type": "Organization", name: "Cassino Campos do Jordão" },
+      seller: { "@type": "Organization", name: "Cassino Copacabana" },
     },
   };
 }
@@ -84,7 +78,7 @@ export function getHomeWebPageJsonLd() {
     isPartOf: { "@type": "WebSite", url: SITE_URL, name: SITE_NAME },
     about: [
       { "@type": "Thing", name: "Domínio premium à venda" },
-      { "@type": "Place", name: "Campos do Jordão" },
+      { "@type": "Place", name: "Copacabana" },
       { "@type": "Thing", name: "Regulação de cassinos no Brasil" },
     ],
   };
@@ -110,12 +104,12 @@ export function getHomeHeadMeta(faqItems: { q: string; a: string }[]) {
       {
         name: "keywords",
         content:
-          "cassino campos do jordão, domínio premium à venda, comprar domínio, cassinocamposdojordao.com.br, turismo, hotelaria, resorts, regulação cassinos brasil, serra da mantiqueira, entretenimento regulado",
+          "cassino copacabana, domínio premium à venda, comprar domínio, cassinocopacabana.com, turismo, hotelaria, resorts, regulação cassinos brasil, Zona Sul do Rio, entretenimento regulado",
       },
       { name: "robots", content: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" },
-      { name: "author", content: "Cassino Campos do Jordão" },
-      { name: "geo.region", content: "BR-SP" },
-      { name: "geo.placename", content: "Campos do Jordão" },
+      { name: "author", content: "Cassino Copacabana" },
+      { name: "geo.region", content: "BR-RJ" },
+      { name: "geo.placename", content: "Copacabana" },
       { property: "og:title", content: HOME_TITLE },
       { property: "og:description", content: HOME_DESCRIPTION },
       { property: "og:type", content: "website" },
@@ -123,7 +117,7 @@ export function getHomeHeadMeta(faqItems: { q: string; a: string }[]) {
       { property: "og:url", content: SITE_URL },
       { property: "og:site_name", content: SITE_NAME },
       { property: "og:image", content: OG_IMAGE },
-      { property: "og:image:alt", content: "Domínios premium Cassino Campos do Jordão à venda" },
+      { property: "og:image:alt", content: "Domínio premium Cassino Copacabana à venda" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: HOME_TITLE },
       { name: "twitter:description", content: HOME_DESCRIPTION },
@@ -141,9 +135,9 @@ export function getHomeHeadMeta(faqItems: { q: string; a: string }[]) {
 }
 
 export function getBlogIndexHeadMeta(posts: BlogPost[]) {
-  const title = "Blog | Cassino Campos do Jordão — Emprego, Renda e Regulação";
+  const title = "Blog | Cassino Copacabana — Emprego, Renda e Regulação";
   const description =
-    "Artigos sobre cassinos regulados em Campos do Jordão e no Brasil: emprego formal, renda municipal, moderação, resorts integrados, turismo e jogo responsável.";
+    "Artigos sobre cassinos regulados em Copacabana e no Brasil: emprego formal, renda municipal, moderação, resorts integrados, turismo e jogo responsável.";
   const url = `${SITE_URL}/blog`;
 
   return {
@@ -153,7 +147,7 @@ export function getBlogIndexHeadMeta(posts: BlogPost[]) {
       {
         name: "keywords",
         content:
-          "blog cassino campos do jordão, regulação cassinos brasil, emprego hotelaria, jogo responsável, resorts serra mantiqueira, turismo entretenimento",
+          "blog cassino copacabana, regulação cassinos brasil, emprego hotelaria, jogo responsável, resorts copacabana rio, turismo entretenimento",
       },
       { name: "robots", content: "index, follow, max-image-preview:large" },
       { property: "og:title", content: title },
@@ -174,11 +168,11 @@ export function getBlogIndexHeadMeta(posts: BlogPost[]) {
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Blog",
-          name: "Blog Cassino Campos do Jordão",
+          name: "Blog Cassino Copacabana",
           description,
           url,
           inLanguage: "pt-BR",
-          publisher: { "@type": "Organization", name: "Cassino Campos do Jordão", url: SITE_URL },
+          publisher: { "@type": "Organization", name: "Cassino Copacabana", url: SITE_URL },
           blogPost: posts.map((p) => ({
             "@type": "BlogPosting",
             headline: p.title,
@@ -193,7 +187,7 @@ export function getBlogIndexHeadMeta(posts: BlogPost[]) {
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "ItemList",
-          name: "Artigos sobre cassino e regulação em Campos do Jordão",
+          name: "Artigos sobre cassino e regulação em Copacabana",
           itemListElement: posts.map((p, i) => ({
             "@type": "ListItem",
             position: i + 1,
@@ -238,7 +232,7 @@ function getPostPlainText(post: BlogPost): string {
 }
 
 export function getBlogPostHeadMeta(post: BlogPost) {
-  const title = `${post.title} | Blog Cassino Campos do Jordão`;
+  const title = `${post.title} | Blog Cassino Copacabana`;
   const url = `${SITE_URL}/blog/${post.slug}`;
   const keywords = post.keywords.join(", ");
   const wordCount = getPostPlainText(post).split(/\s+/).length;
@@ -249,7 +243,7 @@ export function getBlogPostHeadMeta(post: BlogPost) {
       { name: "description", content: post.excerpt },
       { name: "keywords", content: keywords },
       { name: "robots", content: "index, follow, max-image-preview:large" },
-      { name: "author", content: "Cassino Campos do Jordão" },
+      { name: "author", content: "Cassino Copacabana" },
       { property: "og:title", content: title },
       { property: "og:description", content: post.excerpt },
       { property: "og:type", content: "article" },
@@ -283,10 +277,10 @@ export function getBlogPostHeadMeta(post: BlogPost) {
           image: OG_IMAGE,
           mainEntityOfPage: { "@type": "WebPage", "@id": url },
           articleBody: getPostPlainText(post),
-          author: { "@type": "Organization", name: "Cassino Campos do Jordão", url: SITE_URL },
+          author: { "@type": "Organization", name: "Cassino Copacabana", url: SITE_URL },
           publisher: {
             "@type": "Organization",
-            name: "Cassino Campos do Jordão",
+            name: "Cassino Copacabana",
             url: SITE_URL,
             logo: { "@type": "ImageObject", url: OG_IMAGE },
           },

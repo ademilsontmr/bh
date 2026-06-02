@@ -11,32 +11,32 @@ export const BLOG_SUBSECTIONS: Record<string, ArticleSubsection[]> = {
       afterSectionIndex: 0,
       heading: "Brasil no mapa do entretenimento regulado",
       paragraphs: [
-        "Grupos internacionais comparam o Brasil a mercados que já capturam bilhões com cassinos legais. A proximidade regulatória — com o Congresso avançando sobre marco legal — antecipa janela para **investimento estrangeiro** em **Campos do Jordão** antes que destinos concorrentes consolidem vantagem.",
+        "Grupos internacionais comparam o Brasil a mercados que já capturam bilhões com cassinos legais. A proximidade regulatória — com o Congresso avançando sobre marco legal — antecipa janela para **investimento estrangeiro** em **Copacabana** antes que destinos concorrentes consolidem vantagem.",
       ],
     },
     {
       afterSectionIndex: 2,
-      heading: "Campos do Jordão como vitrine para o país",
+      heading: "Copacabana como vitrine para o país",
       paragraphs: [
-        "Um polo transparente na **Serra da Mantiqueira** pode servir de referência nacional: licenciamento auditável, **jogo responsável** visível e comunicação clara via canais como **cassinocamposdojordao.com.br** — separando projeto legítimo de promessas vazias.",
+        "Um polo transparente na **Zona Sul do Rio de Janeiro** pode servir de referência nacional: licenciamento auditável, **jogo responsável** visível e comunicação clara via canais como **cassinocopacabana.com** — separando projeto legítimo de promessas vazias.",
       ],
     },
   ],
   "empregos-formais-hotelaria-lazer-brasil": [
     {
       afterSectionIndex: 1,
-      heading: "Formalização na prática em destinos serranos",
+      heading: "Formalização na prática em destinos urbanos premium",
       paragraphs: [
-        "Em **Campos do Jordão**, onde o custo de vida acompanha o status turístico, **emprego formal** com plano de carreira reduz êxodo de jovens qualificados e amplia consumo local — efeito que temporadas isoladas raramente sustentam.",
+        "Em **Copacabana**, onde o custo de vida acompanha o status turístico, **emprego formal** com plano de carreira reduz êxodo de jovens qualificados e amplia consumo local — efeito que temporadas isoladas raramente sustentam.",
       ],
     },
   ],
-  "dominio-premium-seo-entretenimento-campos-jordao": [
+  "dominio-premium-seo-entretenimento-copacabana": [
     {
       afterSectionIndex: 1,
       heading: "Palavras-chave que o Google associa ao tema",
       paragraphs: [
-        "Consultas como cassino **Campos do Jordão**, regulação de cassinos no **Brasil**, emprego em hotelaria e **jogo responsável** conectam intenção de busca a conteúdo verificável — exatamente o perfil editorial que um **domínio premium** regional deve sustentar.",
+        "Consultas como cassino **Copacabana**, regulação de cassinos no **Brasil**, emprego em hotelaria e **jogo responsável** conectam intenção de busca a conteúdo verificável — exatamente o perfil editorial que um **domínio premium** regional deve sustentar.",
       ],
     },
   ],
@@ -45,16 +45,16 @@ export const BLOG_SUBSECTIONS: Record<string, ArticleSubsection[]> = {
       afterSectionIndex: 0,
       heading: "Arrecadação que a ilegalidade não entrega",
       paragraphs: [
-        "Enquanto operadores clandestinos não contribuem proporcionalmente, **cassinos regulados** permitem definir alíquotas sobre receita de jogo e destinar parcela a saúde, educação e fiscalização em municípios como **Campos do Jordão**.",
+        "Enquanto operadores clandestinos não contribuem proporcionalmente, **cassinos regulados** permitem definir alíquotas sobre receita de jogo e destinar parcela a saúde, educação e fiscalização em municípios como **Copacabana**.",
       ],
     },
   ],
-  "turismo-corporativo-campos-do-jordao-entretenimento": [
+  "turismo-corporativo-copacabana-entretenimento": [
     {
       afterSectionIndex: 0,
-      heading: "MICE e entretenimento na serra",
+      heading: "MICE e entretenimento em Copacabana",
       paragraphs: [
-        "Empresas que promovem convenções em **Campos do Jordão** valorizam destinos com lazer pós-evento regulado — diferencial frente a cidades sem **resort integrado** ou com oferta informal sem garantias legais.",
+        "Empresas que promovem convenções em **Copacabana** valorizam destinos com lazer pós-evento regulado — diferencial frente a cidades sem **resort integrado** ou com oferta informal sem garantias legais.",
       ],
     },
   ],
@@ -63,23 +63,23 @@ export const BLOG_SUBSECTIONS: Record<string, ArticleSubsection[]> = {
       afterSectionIndex: 1,
       heading: "Adaptando moderação ao Brasil",
       paragraphs: [
-        "Ferramentas de **Las Vegas** e **Singapura** — autoexclusão, limites de crédito, taxa de entrada — podem ser calibradas para polos serranos, financiando CAPS regionais e campanhas de **jogo responsável** em **Campos do Jordão**.",
+        "Ferramentas de **Las Vegas** e **Singapura** — autoexclusão, limites de crédito, taxa de entrada — podem ser calibradas para polos urbanos de alto padrão, financiando CAPS regionais e campanhas de **jogo responsável** em **Copacabana**.",
       ],
     },
   ],
-  "campos-do-jordao-polo-entretenimento-regulado": [
+  "copacabana-polo-entretenimento-regulado": [
     {
       afterSectionIndex: 0,
       heading: "Por que a cidade lidera o debate regional",
       paragraphs: [
-        "Altitude, clima europeu e hotéis consolidados vendem experiência; **cassino regulado** complementa estadia além de compras e passeios, elevando pernoites e ticket médio na **Serra da Mantiqueira**.",
+        "Altitude, clima europeu e hotéis consolidados vendem experiência; **cassino regulado** complementa estadia além de compras e passeios, elevando pernoites e ticket médio na **Zona Sul do Rio de Janeiro**.",
       ],
     },
     {
       afterSectionIndex: 2,
       heading: "Renda municipal de longo prazo",
       paragraphs: [
-        "ISS, taxas e contribuições sobre receita de jogo desacoplam parcialmente **Campos do Jordão** de sazonalidade extrema — abrindo espaço para investimento contínuo em mobilidade, saúde e educação.",
+        "ISS, taxas e contribuições sobre receita de jogo desacoplam parcialmente **Copacabana** de sazonalidade extrema — abrindo espaço para investimento contínuo em mobilidade, saúde e educação.",
       ],
     },
   ],
@@ -88,16 +88,16 @@ export const BLOG_SUBSECTIONS: Record<string, ArticleSubsection[]> = {
       afterSectionIndex: 0,
       heading: "Moderação como condição de licença",
       paragraphs: [
-        "No **Brasil**, incorporar **jogo responsável** à lei e aos contratos municipais — inclusive em **Campos do Jordão** — evita corrida para o fundo e protege consumidores sem inviabilizar **cassinos regulados**.",
+        "No **Brasil**, incorporar **jogo responsável** à lei e aos contratos municipais — inclusive em **Copacabana** — evita corrida para o fundo e protege consumidores sem inviabilizar **cassinos regulados**.",
       ],
     },
   ],
-  "resorts-integrados-serra-mantiqueira": [
+  "resorts-integrados-rio-copacabana": [
     {
       afterSectionIndex: 1,
       heading: "Emprego além do casino",
       paragraphs: [
-        "Fornecedores locais, programas de trainee e parcerias com escolas técnicas fixam talentos na região — revertendo histórico de migração em busca de **emprego formal** fora da **Serra da Mantiqueira**.",
+        "Fornecedores locais, programas de trainee e parcerias com escolas técnicas fixam talentos na região — revertendo histórico de migração em busca de **emprego formal** fora da **Zona Sul do Rio de Janeiro**.",
       ],
     },
   ],
@@ -106,16 +106,16 @@ export const BLOG_SUBSECTIONS: Record<string, ArticleSubsection[]> = {
       afterSectionIndex: 0,
       heading: "Dimensionamento para o Brasil",
       paragraphs: [
-        "Licenças limitadas em destinos estratégicos — com **Campos do Jordão** no radar — concentram **emprego formal** e **arrecadação** sem proliferar mesas de jogo de forma desordenada pelo território nacional.",
+        "Licenças limitadas em destinos estratégicos — com **Copacabana** no radar — concentram **emprego formal** e **arrecadação** sem proliferar mesas de jogo de forma desordenada pelo território nacional.",
       ],
     },
   ],
-  "cassino-campos-do-jordao-potencial-economico": [
+  "cassino-copacabana-potencial-economico": [
     {
       afterSectionIndex: 1,
       heading: "Indicadores para acompanhar o polo",
       paragraphs: [
-        "Ocupação hoteleira fora de pico, ISS municipal e empregos com carteira assinada são métricas objetivas para avaliar se o **cassino regulado** em **Campos do Jordão** cumpre promessa econômica e social contratualizada.",
+        "Ocupação hoteleira fora de pico, ISS municipal e empregos com carteira assinada são métricas objetivas para avaliar se o **cassino regulado** em **Copacabana** cumpre promessa econômica e social contratualizada.",
       ],
     },
   ],
@@ -124,7 +124,7 @@ export const BLOG_SUBSECTIONS: Record<string, ArticleSubsection[]> = {
       afterSectionIndex: 0,
       heading: "PL 2234/2022 e o debate no Congresso",
       paragraphs: [
-        "Acompanhar o texto do **PL 2234/2022** (tramitação no [[Senado Federal|gov:senado]], origem [[PL 442/1991|gov:camara]]) evita confusão entre **regulação** responsável e narrativas de liberação irrestrita — ponto central para **Campos do Jordão**.",
+        "Acompanhar o texto do **PL 2234/2022** (tramitação no [[Senado Federal|gov:senado]], origem [[PL 442/1991|gov:camara]]) evita confusão entre **regulação** responsável e narrativas de liberação irrestrita — ponto central para **Copacabana**.",
       ],
     },
   ],
@@ -133,25 +133,25 @@ export const BLOG_SUBSECTIONS: Record<string, ArticleSubsection[]> = {
       afterSectionIndex: 1,
       heading: "AML e reputação do destino",
       paragraphs: [
-        "Políticas anti-lavagem e **jogo responsável** protegem a imagem de **Campos do Jordão** frente a turismo corporativo que exige compliance auditável, não apenas mesas de jogo.",
+        "Políticas anti-lavagem e **jogo responsável** protegem a imagem de **Copacabana** frente a turismo corporativo que exige compliance auditável, não apenas mesas de jogo.",
       ],
     },
   ],
-  "resorts-integrados-impacto-ambiental-campos-jordao": [
+  "resorts-integrados-impacto-ambiental-copacabana": [
     {
       afterSectionIndex: 0,
-      heading: "Licenciamento na Mantiqueira",
+      heading: "Licenciamento em Copacabana",
       paragraphs: [
         "Áreas de preservação e mananciais exigem **estudo de impacto ambiental** rigoroso — condição para qualquer **resort integrado** com **cassino regulado** na região.",
       ],
     },
   ],
-  "marketing-digital-turismo-cassino-campos-jordao": [
+  "marketing-digital-turismo-cassino-copacabana": [
     {
       afterSectionIndex: 1,
       heading: "SEO e domínio regional",
       paragraphs: [
-        "Consultas sobre **cassino Campos do Jordão** e **regulação no Brasil** favorecem sites com **domínio premium**, blog atualizado e FAQs verificáveis — padrão editorial que o Google associa a autoridade.",
+        "Consultas sobre **cassino Copacabana** e **regulação no Brasil** favorecem sites com **domínio premium**, blog atualizado e FAQs verificáveis — padrão editorial que o Google associa a autoridade.",
       ],
     },
   ],
@@ -160,16 +160,16 @@ export const BLOG_SUBSECTIONS: Record<string, ArticleSubsection[]> = {
       afterSectionIndex: 0,
       heading: "Receita que hoje sai do país",
       paragraphs: [
-        "Pacotes para Montevidéu e Buenos Aires mostram demanda reprimida: **cassinos regulados** no **Brasil** podem reter turismo com **emprego formal** em destinos como a **Serra da Mantiqueira**.",
+        "Pacotes para Montevidéu e Buenos Aires mostram demanda reprimida: **cassinos regulados** no **Brasil** podem reter turismo com **emprego formal** em destinos como a **Zona Sul do Rio de Janeiro**.",
       ],
     },
   ],
-  "hospedagem-luxo-entretenimento-regulado-serra": [
+  "hospedagem-luxo-entretenimento-regulado-copacabana": [
     {
       afterSectionIndex: 0,
       heading: "Luxo e regulação caminham juntos",
       paragraphs: [
-        "Hóspedes de alto padrão esperam **hospedagem de luxo** com entretenimento licenciado — combinação que reforça o posicionamento premium de **Campos do Jordão**.",
+        "Hóspedes de alto padrão esperam **hospedagem de luxo** com entretenimento licenciado — combinação que reforça o posicionamento premium de **Copacabana**.",
       ],
     },
   ],
@@ -187,7 +187,7 @@ export const BLOG_SUBSECTIONS: Record<string, ArticleSubsection[]> = {
       afterSectionIndex: 0,
       heading: "Canais distintos na mesma lei?",
       paragraphs: [
-        "Marco legal pode disciplinar **apostas online** e **cassino presencial** com regras específicas — sem tratar **Campos do Jordão** como servidor remoto sem impacto local.",
+        "Marco legal pode disciplinar **apostas online** e **cassino presencial** com regras específicas — sem tratar **Copacabana** como servidor remoto sem impacto local.",
       ],
     },
   ],

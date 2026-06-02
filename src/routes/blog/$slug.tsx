@@ -11,10 +11,11 @@ import {
   RelatedPosts,
 } from "@/components/blog-content";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { DomainHero } from "@/components/domain-hero";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { getBlogPost, getRelatedPosts } from "@/lib/blog-posts";
 import { getBlogPostHeadMeta } from "@/lib/seo";
-import { FORM_URL, OG_IMAGE } from "@/lib/site";
+import { DOMAIN, FORM_URL, OG_IMAGE } from "@/lib/site";
 
 export const Route = createFileRoute("/blog/$slug")({
   loader: ({ params }) => {
@@ -70,18 +71,19 @@ function BlogPostPage() {
             </h1>
 
             <figure className="mb-8 rounded-xl overflow-hidden border border-border bg-card/40">
+              <aside aria-label="Domínio premium à venda">
+                <DomainHero compact />
+              </aside>
               <img
                 src={OG_IMAGE}
-                alt="Cassino regulado em Campos do Jordão — turismo, emprego e entretenimento licenciado no Brasil"
+                alt=""
                 width={1200}
                 height={630}
-                loading="eager"
-                decoding="async"
-                className="w-full h-auto object-cover"
+                className="sr-only"
                 itemProp="image"
               />
               <figcaption className="text-xs text-muted-foreground px-4 py-3 text-center border-t border-border/40">
-                Regulação de cassinos no Brasil e potencial turístico de Campos do Jordão, Serra da Mantiqueira
+                Domínio premium {DOMAIN} — turismo e entretenimento regulado em Copacabana, Rio de Janeiro
               </figcaption>
             </figure>
 
@@ -103,8 +105,8 @@ function BlogPostPage() {
         <section aria-label="Oferta de domínio" className="mt-16 rounded-xl border border-gold/40 bg-card/60 p-8 text-center">
           <h2 className="font-serif text-2xl mb-3">Domínio premium à venda</h2>
           <p className="text-muted-foreground mb-6">
-            Adquira <strong>cassinocamposdojordao.com.br</strong> e <strong>.com</strong> — posicionamento
-            digital para entretenimento regulado em Campos do Jordão.
+            Adquira <strong>cassinocopacabana.com</strong> — posicionamento digital para entretenimento
+            regulado em Copacabana, Rio de Janeiro.
           </p>
           <a
             href={FORM_URL}

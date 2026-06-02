@@ -11,8 +11,7 @@ const MANUAL_LINK_RE = /\[\[([^\]|]+)\|([^\]]+)\]\]/g;
 const BOLD_RE = /\*\*([^*]+)\*\*/g;
 
 const GLOBAL_PATTERNS: { pattern: RegExp; href: string; external?: boolean }[] = [
-  { pattern: /cassinocamposdojordao\.com\.br/gi, href: "/" },
-  { pattern: /cassinocamposdojordao\.com(?!\.br)/gi, href: "/" },
+  { pattern: /cassinocopacabana\.com/gi, href: "/" },
 ];
 
 const TOPIC_LINKS: Record<string, string> = {
@@ -22,13 +21,13 @@ const TOPIC_LINKS: Record<string, string> = {
   "Las Vegas": "/blog/licoes-las-vegas-singapura-regulacao-brasil",
   Singapura: "/blog/licoes-las-vegas-singapura-regulacao-brasil",
   tributação: "/blog/tributacao-cassinos-regulados-financiamento-publico",
-  "resort integrado": "/blog/resorts-integrados-serra-mantiqueira",
-  "resorts integrados": "/blog/resorts-integrados-serra-mantiqueira",
-  "Campos do Jordão": "/blog/campos-do-jordao-polo-entretenimento-regulado",
-  "Serra da Mantiqueira": "/blog/resorts-integrados-serra-mantiqueira",
+  "resort integrado": "/blog/resorts-integrados-rio-copacabana",
+  "resorts integrados": "/blog/resorts-integrados-rio-copacabana",
+  "Copacabana": "/blog/copacabana-polo-entretenimento-regulado",
+  "Zona Sul do Rio de Janeiro": "/blog/resorts-integrados-rio-copacabana",
   regulação: "/blog/cassinos-brasil-emprego-renda",
-  SEO: "/blog/dominio-premium-seo-entretenimento-campos-jordao",
-  "domínio premium": "/blog/dominio-premium-seo-entretenimento-campos-jordao",
+  SEO: "/blog/dominio-premium-seo-entretenimento-copacabana",
+  "domínio premium": "/blog/dominio-premium-seo-entretenimento-copacabana",
 };
 
 function slugifyHeading(text: string): string {
@@ -403,7 +402,7 @@ export function ArticleFaq({ faq }: { faq: ArticleFaqItem[] }) {
       itemType="https://schema.org/FAQPage"
     >
       <h2 id="faq-artigo-heading" className="font-serif text-2xl text-foreground mb-6">
-        Perguntas frequentes sobre cassino no Brasil e Campos do Jordão
+        Perguntas frequentes sobre cassino no Brasil e Copacabana
       </h2>
       <dl className="space-y-6">
         {faq.map((item, i) => (
@@ -452,11 +451,11 @@ export function BlogDomainMention() {
     <p className="text-sm text-muted-foreground mt-8 border-t border-border/30 pt-6">
       Sobre o domínio{" "}
       <Link to="/" className="text-primary hover:underline">
-        cassinocamposdojordao.com.br
+        cassinocopacabana.com
       </Link>
       : ativo digital premium à venda para projetos de <strong className="text-foreground">entretenimento regulado</strong> e{" "}
       <strong className="text-foreground">turismo</strong> em{" "}
-      <strong className="text-foreground">Campos do Jordão</strong>.{" "}
+      <strong className="text-foreground">Copacabana</strong>.{" "}
       <Link to="/" className="text-primary hover:underline">
         Saiba mais sobre a oferta
       </Link>

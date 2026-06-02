@@ -15,12 +15,12 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     {
       listItems: [
         "Operadores internacionais mapeiam o Brasil — contexto legislativo no [[Senado Federal|gov:senado]] e dados do [[Ministério do Turismo|gov:turismo]]",
-        "Campos do Jordão combina turismo de inverno, renda elevada e vocação para [[resorts integrados|resorts-integrados-serra-mantiqueira]]",
+        "Copacabana combina turismo de praia, renda elevada e vocação para [[resorts integrados|resorts-integrados-rio-copacabana]]",
         "Regulação clara reduz risco jurídico e viabiliza parcerias público-privadas com metas de [[emprego formal|empregos-formais-hotelaria-lazer-brasil]]",
       ],
       relatedLinks: [
         { label: "Lições de Las Vegas e Singapura", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
-        { label: "Campos do Jordão como polo regulado", slug: "campos-do-jordao-polo-entretenimento-regulado" },
+        { label: "Copacabana como polo regulado", slug: "copacabana-polo-entretenimento-regulado" },
       ],
       highlights: [
         "Capital paciente busca destinos com demanda doméstica e fluxo internacional",
@@ -36,17 +36,17 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       orderedItems: [
         "Operador licenciado implementa programas de capacitação reconhecidos globalmente",
         "Mão de obra local ascende em carreiras estáveis fora da sazonalidade agrícola",
-        "Certificações elevam qualificação e fixam talentos na [[Serra da Mantiqueira|resorts-integrados-serra-mantiqueira]]",
+        "Certificações elevam qualificação e fixam talentos na [[Zona Sul do Rio de Janeiro|resorts-integrados-rio-copacabana]]",
       ],
       relatedLinks: [
         { label: "Empregos formais na hotelaria", slug: "empregos-formais-hotelaria-lazer-brasil" },
-        { label: "Resorts integrados na região", slug: "resorts-integrados-serra-mantiqueira" },
+        { label: "Resorts integrados na região", slug: "resorts-integrados-rio-copacabana" },
       ],
     },
     {
       listItems: [
-        "Polo regulado em Campos do Jordão pode ser vitrine nacional de licenciamento transparente",
-        "Portais como [[cassinocamposdojordao.com.br|/]] educam sobre benefícios e [[moderação|moderacao-jogo-responsavel-cassinos]]",
+        "Polo regulado em Copacabana pode ser vitrine nacional de licenciamento transparente",
+        "Portais como [[cassinocopacabana.com|/]] educam sobre benefícios e [[moderação|moderacao-jogo-responsavel-cassinos]]",
         "Sem marco legal, o capital evita o país; com regras, o Brasil captura receita e tributos",
       ],
       highlights: [
@@ -54,7 +54,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Fim da exportação de receita para cassinos clandestinos ou destinos no exterior",
       ],
       relatedLinks: [
-        { label: "Potencial econômico em Campos do Jordão", slug: "cassino-campos-do-jordao-potencial-economico" },
+        { label: "Potencial econômico em Copacabana", slug: "cassino-copacabana-potencial-economico" },
         { label: "Cassinos no Brasil: emprego e renda", slug: "cassinos-brasil-emprego-renda" },
       ],
     },
@@ -65,10 +65,10 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Resort integrado distribui demanda ao longo do ano — casino, convenções, spa e gastronomia",
         "Funções permanentes: recepcionista, dealer, compliance, gerente de operações",
-        "Vagas formais alinhadas ao [[Ministério do Trabalho|gov:trabalho]]; trainee reduz migração da [[Serra da Mantiqueira|resorts-integrados-serra-mantiqueira]]",
+        "Vagas formais alinhadas ao [[Ministério do Trabalho|gov:trabalho]]; trainee reduz migração da [[Zona Sul do Rio de Janeiro|resorts-integrados-rio-copacabana]]",
       ],
       relatedLinks: [
-        { label: "Resorts integrados", slug: "resorts-integrados-serra-mantiqueira" },
+        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
         { label: "Emprego e renda no Brasil", slug: "cassinos-brasil-emprego-renda" },
       ],
       highlights: [
@@ -80,7 +80,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "INSS, FGTS e férias convertem lazer legal em arrecadação para saúde e educação",
         "Licenças podem exigir metas de contratação local e transparência salarial",
-        "Salários compatíveis com qualificação são condição em [[Campos do Jordão|campos-do-jordao-polo-entretenimento-regulado]]",
+        "Salários compatíveis com qualificação são condição em [[Copacabana|copacabana-polo-entretenimento-regulado]]",
       ],
       orderedItems: [
         "Operador obtém licença vinculada a metas de emprego local",
@@ -89,7 +89,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Tributação e financiamento público", slug: "tributacao-cassinos-regulados-financiamento-publico" },
-        { label: "Polo de entretenimento em Campos do Jordão", slug: "campos-do-jordao-polo-entretenimento-regulado" },
+        { label: "Polo de entretenimento em Copacabana", slug: "copacabana-polo-entretenimento-regulado" },
       ],
     },
     {
@@ -99,7 +99,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Informação clara combate mitos de emprego precário ou ilegal",
       ],
       highlights: [
-        "Ecossistema digital em [[cassinocamposdojordao.com.br|/]] orienta candidatos sobre requisitos e direitos",
+        "Ecossistema digital em [[cassinocopacabana.com|/]] orienta candidatos sobre requisitos e direitos",
         "Capacitação acelera maturidade do setor no Brasil",
       ],
       relatedLinks: [
@@ -109,16 +109,16 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
   ],
 
-  "dominio-premium-seo-entretenimento-campos-jordao": [
+  "dominio-premium-seo-entretenimento-copacabana": [
     {
       listItems: [
         "Domínio geográfico sinaliza credibilidade — alinhe conteúdo a dados do [[IBGE turismo|gov:ibgeTurismo]] e [[Ministério do Turismo|gov:turismo]]",
-        "[[cassinocamposdojordao.com.br|/]] ancora comunicação sobre entretenimento em [[Campos do Jordão|campos-do-jordao-polo-entretenimento-regulado]]",
+        "[[cassinocopacabana.com|/]] ancora comunicação sobre entretenimento em [[Copacabana|copacabana-polo-entretenimento-regulado]]",
         "Transparência online é requisito em mercados regulados e due diligence de investidores",
       ],
       relatedLinks: [
-        { label: "Campos do Jordão como polo regulado", slug: "campos-do-jordao-polo-entretenimento-regulado" },
-        { label: "Potencial econômico local", slug: "cassino-campos-do-jordao-potencial-economico" },
+        { label: "Copacabana como polo regulado", slug: "copacabana-polo-entretenimento-regulado" },
+        { label: "Potencial econômico local", slug: "cassino-copacabana-potencial-economico" },
       ],
       highlights: [
         "SEO ético responde dúvidas reais: emprego, tributação, moderação, turismo",
@@ -128,7 +128,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     {
       listItems: [
         "Artigos sobre [[regulação|cassinos-brasil-emprego-renda]], renda e [[jogo responsável|moderacao-jogo-responsavel-cassinos]] atraem tráfego qualificado",
-        "Palavras-chave locais: emprego formal, Serra da Mantiqueira, cassino regulado",
+        "Palavras-chave locais: emprego formal, Zona Sul do Rio de Janeiro, cassino regulado",
         "Blog funciona como hub de conhecimento complementar às páginas institucionais",
       ],
       orderedItems: [
@@ -152,7 +152,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Reguladores identificam interlocutores transparentes via presença digital coerente",
       ],
       relatedLinks: [
-        { label: "Turismo corporativo em Campos do Jordão", slug: "turismo-corporativo-campos-do-jordao-entretenimento" },
+        { label: "Turismo corporativo em Copacabana", slug: "turismo-corporativo-copacabana-entretenimento" },
         { label: "Domínio premium à venda", slug: "/" },
       ],
     },
@@ -163,7 +163,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Alíquotas e fundos setoriais: [[Receita Federal|gov:receita]], [[COAF|gov:coaf]] e [[SPA — apostas|gov:spaApostas]]",
         "Modelos internacionais inspiram o debate no [[Senado Federal|gov:senado]]; [[Las Vegas|licoes-las-vegas-singapura-regulacao-brasil]] e [[Singapura|licoes-las-vegas-singapura-regulacao-brasil]] financiam fiscalização robusta",
-        "Municípios como [[Campos do Jordão|campos-do-jordao-polo-entretenimento-regulado]] podem investir em infraestrutura viária e saneamento",
+        "Municípios como [[Copacabana|copacabana-polo-entretenimento-regulado]] podem investir em infraestrutura viária e saneamento",
       ],
       relatedLinks: [
         { label: "Lições internacionais de regulação", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
@@ -178,7 +178,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Tributação excessiva empurra mercado para ilegalidade — equilíbrio é essencial",
         "Reinvestimento obrigatório em capacitação, turismo e [[moderação|moderacao-jogo-responsavel-cassinos]]",
-        "Pacto fiscal claro evita surpresas que inviabilizam [[resorts integrados|resorts-integrados-serra-mantiqueira]]",
+        "Pacto fiscal claro evita surpresas que inviabilizam [[resorts integrados|resorts-integrados-rio-copacabana]]",
       ],
       orderedItems: [
         "Definir alíquotas competitivas com destinos vizinhos",
@@ -186,7 +186,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Garantir previsibilidade para planejamento municipal de médio prazo",
       ],
       relatedLinks: [
-        { label: "Resorts integrados na Serra da Mantiqueira", slug: "resorts-integrados-serra-mantiqueira" },
+        { label: "Resorts integrados na Zona Sul do Rio de Janeiro", slug: "resorts-integrados-rio-copacabana" },
         { label: "Moderação e jogo responsável", slug: "moderacao-jogo-responsavel-cassinos" },
       ],
     },
@@ -198,25 +198,25 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       highlights: [
         "Fundos setoriais são modelo comum em jurisdições reguladas maduras",
-        "Comunicação em [[cassinocamposdojordao.com.br|/]] ajuda a explicar essa lógica à população",
+        "Comunicação em [[cassinocopacabana.com|/]] ajuda a explicar essa lógica à população",
       ],
       relatedLinks: [
         { label: "Jogo responsável em cassinos", slug: "moderacao-jogo-responsavel-cassinos" },
-        { label: "Potencial econômico em Campos do Jordão", slug: "cassino-campos-do-jordao-potencial-economico" },
+        { label: "Potencial econômico em Copacabana", slug: "cassino-copacabana-potencial-economico" },
       ],
     },
   ],
 
-  "turismo-corporativo-campos-do-jordao-entretenimento": [
+  "turismo-corporativo-copacabana-entretenimento": [
     {
       listItems: [
         "Segmento MICE busca infraestrutura, clima e experiências pós-evento",
-        "[[Ministério do Turismo|gov:turismo]] e [[IBGE|gov:ibgeTurismo]] dimensionam demanda; Campos soma hotéis premium + [[entretenimento regulado|campos-do-jordao-polo-entretenimento-regulado]]",
+        "[[Ministério do Turismo|gov:turismo]] e [[IBGE|gov:ibgeTurismo]] dimensionam demanda; Copacabana soma hotéis premium + [[entretenimento regulado|copacabana-polo-entretenimento-regulado]]",
         "Empresas preferem ambientes auditados com compliance e [[moderação|moderacao-jogo-responsavel-cassinos]]",
       ],
       relatedLinks: [
-        { label: "Polo de entretenimento regulado", slug: "campos-do-jordao-polo-entretenimento-regulado" },
-        { label: "Resorts integrados", slug: "resorts-integrados-serra-mantiqueira" },
+        { label: "Polo de entretenimento regulado", slug: "copacabana-polo-entretenimento-regulado" },
+        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
       ],
       highlights: [
         "Eventos corporativos estendem estadias e ocupam quartos em semanas intermediárias",
@@ -227,7 +227,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Calendário corporativo gera emprego formal previsível — vendas B2B e eventos",
         "ISS sobre serviços e hospedagem reduz volatilidade da temporada de inverno",
-        "Informação oficial em [[cassinocamposdojordao.com.br|/]] facilita contratação por agências",
+        "Informação oficial em [[cassinocopacabana.com|/]] facilita contratação por agências",
       ],
       orderedItems: [
         "Empresa identifica destino com infraestrutura MICE e regulação clara",
@@ -241,7 +241,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
     {
       listItems: [
-        "Campos compete em exclusividade e proximidade de São Paulo — não em escala de [[Las Vegas|licoes-las-vegas-singapura-regulacao-brasil]]",
+        "Copacabana compete em exclusividade e proximidade do centro do Rio — não em escala de [[Las Vegas|licoes-las-vegas-singapura-regulacao-brasil]]",
         "Entretenimento moderado + gastronomia + natureza reforça posicionamento premium",
         "Equilíbrio protege marca da cidade como parceira de longo prazo",
       ],
@@ -251,7 +251,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Lições de Las Vegas e Singapura", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
-        { label: "Domínio premium e SEO", slug: "dominio-premium-seo-entretenimento-campos-jordao" },
+        { label: "Domínio premium e SEO", slug: "dominio-premium-seo-entretenimento-copacabana" },
       ],
     },
   ],
@@ -276,7 +276,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Singapura: taxa de entrada para residentes + financiamento de tratamento",
         "Nevada: autoexclusão e limites de crédito em bases compartilhadas",
-        "Adaptar à escala serrana: CAPS, limites de propaganda, identificação biométrica",
+        "Adaptar à escala urbana: CAPS, limites de propaganda, identificação biométrica",
       ],
       orderedItems: [
         "Estudar externalidades sociais em jurisdições maduras",
@@ -291,7 +291,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     {
       listItems: [
         "Las Vegas diversificou: shows, esportes, convenções além do jogo",
-        "[[Campos do Jordão|campos-do-jordao-polo-entretenimento-regulado]] pode ancorar gastronomia, artesanato e ecoturismo",
+        "[[Copacabana|copacabana-polo-entretenimento-regulado]] pode ancorar gastronomia, artesanato e ecoturismo",
         "Estudar casos antes de legislar reduz improviso e maximiza [[emprego formal|empregos-formais-hotelaria-lazer-brasil]]",
       ],
       highlights: [
@@ -299,22 +299,22 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Arrecadação desde o primeiro dia de operação licenciada",
       ],
       relatedLinks: [
-        { label: "Resorts integrados na Serra da Mantiqueira", slug: "resorts-integrados-serra-mantiqueira" },
-        { label: "Campos do Jordão: potencial econômico", slug: "cassino-campos-do-jordao-potencial-economico" },
+        { label: "Resorts integrados na Zona Sul do Rio de Janeiro", slug: "resorts-integrados-rio-copacabana" },
+        { label: "Copacabana: potencial econômico", slug: "cassino-copacabana-potencial-economico" },
       ],
     },
   ],
 
-  "campos-do-jordao-polo-entretenimento-regulado": [
+  "copacabana-polo-entretenimento-regulado": [
     {
       listItems: [
         "Menos de 2h de São Paulo; hotéis boutique e gastronomia reconhecida",
-        "Infraestrutura hoteleira existente acelera projeto de [[resort integrado|resorts-integrados-serra-mantiqueira]]",
-        "Canal oficial [[cassinocamposdojordao.com.br|/]] concentra comunicação e evita iniciativas paralelas",
+        "Infraestrutura hoteleira existente acelera projeto de [[resort integrado|resorts-integrados-rio-copacabana]]",
+        "Canal oficial [[cassinocopacabana.com|/]] concentra comunicação e evita iniciativas paralelas",
       ],
       relatedLinks: [
-        { label: "Resorts integrados", slug: "resorts-integrados-serra-mantiqueira" },
-        { label: "Potencial econômico local", slug: "cassino-campos-do-jordao-potencial-economico" },
+        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
+        { label: "Potencial econômico local", slug: "cassino-copacabana-potencial-economico" },
       ],
       highlights: [
         "Entretenimento regulado eleva ticket médio e pernoites além de compras e passeios",
@@ -339,9 +339,9 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
     {
       listItems: [
-        "ISS, taxas e contribuições sobre receita de jogo financiam saúde e educação na [[Serra da Mantiqueira|resorts-integrados-serra-mantiqueira]]",
+        "ISS, taxas e contribuições sobre receita de jogo financiam saúde e educação na [[Zona Sul do Rio de Janeiro|resorts-integrados-rio-copacabana]]",
         "Renda estável reduz dependência de transferências e sazonalidade agrícola",
-        "Polo elevado Campos de destino sazonal a hub anual de turismo e eventos",
+        "Polo em Copacabana de destino sazonal a hub anual de turismo e eventos",
       ],
       highlights: [
         "Referência nacional em debates sobre [[regulação|cassinos-brasil-emprego-renda]] no Brasil",
@@ -349,7 +349,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Cassinos no Brasil: emprego e renda", slug: "cassinos-brasil-emprego-renda" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-campos-do-jordao-entretenimento" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-copacabana-entretenimento" },
       ],
     },
   ],
@@ -382,19 +382,19 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Prevenção estende-se a hotéis e escolas da região",
       ],
       relatedLinks: [
-        { label: "Campos do Jordão como polo regulado", slug: "campos-do-jordao-polo-entretenimento-regulado" },
-        { label: "Potencial econômico e social", slug: "cassino-campos-do-jordao-potencial-economico" },
+        { label: "Copacabana como polo regulado", slug: "copacabana-polo-entretenimento-regulado" },
+        { label: "Potencial econômico e social", slug: "cassino-copacabana-potencial-economico" },
       ],
     },
     {
       listItems: [
         "Proibição total empurra usuários para sites ilegais sem salvaguardas",
         "Regular com moderação investe em redução de danos — modelo de democracias maduras",
-        "[[Campos do Jordão|campos-do-jordao-polo-entretenimento-regulado]] pode ser exemplo de moderação visível",
+        "[[Copacabana|copacabana-polo-entretenimento-regulado]] pode ser exemplo de moderação visível",
       ],
       highlights: [
         "Zero tolerância a exploração de vulneráveis",
-        "Material em múltiplos idiomas na alta temporada via [[cassinocamposdojordao.com.br|/]]",
+        "Material em múltiplos idiomas na alta temporada via [[cassinocopacabana.com|/]]",
       ],
       relatedLinks: [
         { label: "Empregos e formalização", slug: "empregos-formais-hotelaria-lazer-brasil" },
@@ -403,15 +403,15 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
   ],
 
-  "resorts-integrados-serra-mantiqueira": [
+  "resorts-integrados-rio-copacabana": [
     {
       listItems: [
         "Hospedagem + entretenimento regulado + convenções — alinhado ao [[Ministério do Turismo|gov:turismo]] e [[IBGE turismo|gov:ibgeTurismo]]",
         "Visitante permanece mais tempo; município captura receita diversificada",
-        "Escala moderada compatível com paisagem da [[Serra da Mantiqueira|resorts-integrados-serra-mantiqueira]]",
+        "Escala moderada compatível com paisagem da [[Zona Sul do Rio de Janeiro|resorts-integrados-rio-copacabana]]",
       ],
       relatedLinks: [
-        { label: "Campos do Jordão como polo", slug: "campos-do-jordao-polo-entretenimento-regulado" },
+        { label: "Copacabana como polo", slug: "copacabana-polo-entretenimento-regulado" },
         { label: "Investimento estrangeiro", slug: "investimento-estrangeiro-turismo-entretenimento-brasil" },
       ],
       highlights: [
@@ -432,22 +432,22 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Empregos formais na hotelaria", slug: "empregos-formais-hotelaria-lazer-brasil" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-campos-do-jordao-entretenimento" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-copacabana-entretenimento" },
       ],
     },
     {
       listItems: [
         "ESG: eficiência energética, resíduos e integração paisagística como requisito de licença",
-        "[[Campos do Jordão|campos-do-jordao-polo-entretenimento-regulado]] preserva identidade de refúgio premium",
+        "[[Copacabana|copacabana-polo-entretenimento-regulado]] preserva identidade de refúgio premium",
         "Entretenimento regulado + [[moderação|moderacao-jogo-responsavel-cassinos]] reforçam referência nacional",
       ],
       highlights: [
         "Compromissos ambientais deixam de ser marketing opcional",
-        "Resort amplia proposta sem descaracterizar o destino serrano",
+        "Resort amplia proposta sem descaracterizar o destino de orla premium",
       ],
       relatedLinks: [
         { label: "Moderação e jogo responsável", slug: "moderacao-jogo-responsavel-cassinos" },
-        { label: "Potencial econômico em Campos do Jordão", slug: "cassino-campos-do-jordao-potencial-economico" },
+        { label: "Potencial econômico em Copacabana", slug: "cassino-copacabana-potencial-economico" },
       ],
     },
   ],
@@ -461,7 +461,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Empregos formais na hotelaria", slug: "empregos-formais-hotelaria-lazer-brasil" },
-        { label: "Resorts integrados", slug: "resorts-integrados-serra-mantiqueira" },
+        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
       ],
       highlights: [
         "Ilegalidade exporta empregos para sites offshore e destinos no exterior",
@@ -472,7 +472,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Receita bruta de jogo tributada financia saúde, educação e infraestrutura",
         "Fundos setoriais de moderação e turismo com relatórios anuais públicos",
-        "[[Campos do Jordão|campos-do-jordao-polo-entretenimento-regulado]] negociaria pacote fiscal equilibrado",
+        "[[Copacabana|copacabana-polo-entretenimento-regulado]] negociaria pacote fiscal equilibrado",
       ],
       orderedItems: [
         "Marco legal define alíquotas e repartição federativa",
@@ -481,7 +481,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Tributação e financiamento público", slug: "tributacao-cassinos-regulados-financiamento-publico" },
-        { label: "Potencial econômico local", slug: "cassino-campos-do-jordao-potencial-economico" },
+        { label: "Potencial econômico local", slug: "cassino-copacabana-potencial-economico" },
       ],
     },
     {
@@ -501,20 +501,20 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
   ],
 
-  "cassino-campos-do-jordao-potencial-economico": [
+  "cassino-copacabana-potencial-economico": [
     {
       listItems: [
-        "Dados do [[IBGE turismo|gov:ibgeTurismo]] e da [[Prefeitura de Campos do Jordão|gov:camposPrefeitura]] orientam planejamento local",
+        "Dados do [[IBGE turismo|gov:ibgeTurismo]] e da [[Prefeitura do Rio de Janeiro|gov:rioPrefeitura]] orientam planejamento local",
         "Infraestrutura hoteleira + eixo Rio–São Paulo = terreno fértil para complemento regulado",
         "Resort integrado prolonga estadias e suaviza oscilações sazonais",
       ],
       relatedLinks: [
-        { label: "Polo de entretenimento regulado", slug: "campos-do-jordao-polo-entretenimento-regulado" },
-        { label: "Resorts integrados", slug: "resorts-integrados-serra-mantiqueira" },
+        { label: "Polo de entretenimento regulado", slug: "copacabana-polo-entretenimento-regulado" },
+        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
       ],
       highlights: [
         "Entretenimento complementa — não substitui — natureza, compras e gastronomia",
-        "Debate público informado via [[cassinocamposdojordao.com.br|/]] reforça legitimidade democrática",
+        "Debate público informado via [[cassinocopacabana.com|/]] reforça legitimidade democrática",
       ],
     },
     {
@@ -526,7 +526,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       orderedItems: [
         "Estabelecer linha de base antes da operação",
         "Publicar indicadores trimestrais auditados",
-        "Comparar com destinos internacionais de clima temperado e perfil premium",
+        "Comparar com destinos internacionais de orla premium e perfil premium",
       ],
       relatedLinks: [
         { label: "Empregos formais", slug: "empregos-formais-hotelaria-lazer-brasil" },
@@ -541,7 +541,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       highlights: [
         "Ativo econômico de longo prazo = emprego + renda + responsabilidade adulta",
-        "Campos pode ser referência nacional no debate sobre regulação",
+        "Copacabana pode ser referência nacional no debate sobre regulação",
       ],
       relatedLinks: [
         { label: "Moderação e jogo responsável", slug: "moderacao-jogo-responsavel-cassinos" },
@@ -555,7 +555,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Marco legal nacional define operadores, tributos e proteção ao consumidor",
         "Texto em tramitação: [[PL 2234/2022 no Senado|gov:senado]] e origem [[PL 442/1991 na Câmara|gov:camara]]",
-        "[[Campos do Jordão|campos-do-jordao-polo-entretenimento-regulado]] pode concorrer a licenças com metas sociais",
+        "[[Copacabana|copacabana-polo-entretenimento-regulado]] pode concorrer a licenças com metas sociais",
       ],
       relatedLinks: [
         { label: "Lições de Las Vegas e Singapura", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
@@ -569,17 +569,17 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Suspensão de licença por descumprimento vira instrumento real",
       ],
       relatedLinks: [
-        { label: "Resorts integrados", slug: "resorts-integrados-serra-mantiqueira" },
+        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
         { label: "Tributação e financiamento público", slug: "tributacao-cassinos-regulados-financiamento-publico" },
       ],
     },
     {
       highlights: [
         "Estudos de impacto antecipados aceleram licitações pós-lei",
-        "Comunicação via [[cassinocamposdojordao.com.br|/]] educa durante a transição regulatória",
+        "Comunicação via [[cassinocopacabana.com|/]] educa durante a transição regulatória",
       ],
       relatedLinks: [
-        { label: "Potencial econômico local", slug: "cassino-campos-do-jordao-potencial-economico" },
+        { label: "Potencial econômico local", slug: "cassino-copacabana-potencial-economico" },
         { label: "Comparativo América Latina", slug: "cassinos-america-latina-comparativo-brasil" },
       ],
     },
@@ -594,18 +594,18 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Moderação responsável", slug: "moderacao-jogo-responsavel-cassinos" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-campos-do-jordao-entretenimento" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-copacabana-entretenimento" },
       ],
     },
     {
       listItems: [
         "Verificação de idade, limites de crédito e treinamento de equipe",
         "Relatórios públicos reforçam confiança de investidores",
-        "Protocolos únicos com hotéis e eventos na serra",
+        "Protocolos únicos com hotéis e eventos em Copacabana",
       ],
       relatedLinks: [
         { label: "Concessão e licitação", slug: "concessao-licitacao-cassino-municipio-brasil" },
-        { label: "Polo regulado", slug: "campos-do-jordao-polo-entretenimento-regulado" },
+        { label: "Polo regulado", slug: "copacabana-polo-entretenimento-regulado" },
       ],
     },
     {
@@ -620,15 +620,15 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
   ],
 
-  "resorts-integrados-impacto-ambiental-campos-jordao": [
+  "resorts-integrados-impacto-ambiental-copacabana": [
     {
       listItems: [
-        "Área de relevância hídrica exige licenciamento — consulte a [[Prefeitura de Campos do Jordão|gov:camposPrefeitura]] e o [[Governo de São Paulo|gov:spGoverno]]",
+        "Área de relevância hídrica exige licenciamento — consulte a [[Prefeitura do Rio de Janeiro|gov:rioPrefeitura]] e o [[Governo de São Paulo|gov:spGoverno]]",
         "Eficiência energética e gestão de resíduos alinhadas a certificações",
         "Mitigação de tráfego e ruído como tema de debate público",
       ],
       relatedLinks: [
-        { label: "Resorts integrados", slug: "resorts-integrados-serra-mantiqueira" },
+        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
         { label: "Licitação municipal", slug: "concessao-licitacao-cassino-municipio-brasil" },
       ],
     },
@@ -639,8 +639,8 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Financiamento viário com parcela da arrecadação tributária",
       ],
       relatedLinks: [
-        { label: "Potencial econômico", slug: "cassino-campos-do-jordao-potencial-economico" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-campos-do-jordao-entretenimento" },
+        { label: "Potencial econômico", slug: "cassino-copacabana-potencial-economico" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-copacabana-entretenimento" },
       ],
     },
     {
@@ -649,33 +649,33 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Transparência ambiental reduz fake news locais",
       ],
       relatedLinks: [
-        { label: "Hospedagem de luxo", slug: "hospedagem-luxo-entretenimento-regulado-serra" },
-        { label: "Polo entretenimento regulado", slug: "campos-do-jordao-polo-entretenimento-regulado" },
+        { label: "Hospedagem de luxo", slug: "hospedagem-luxo-entretenimento-regulado-copacabana" },
+        { label: "Polo entretenimento regulado", slug: "copacabana-polo-entretenimento-regulado" },
       ],
     },
   ],
 
-  "marketing-digital-turismo-cassino-campos-jordao": [
+  "marketing-digital-turismo-cassino-copacabana": [
     {
       listItems: [
         "Buscas por regulação crescem — dados do [[IBGE — turismo|gov:ibgeTurismo]] e do [[Ministério do Turismo|gov:turismo]] orientam estratégia",
         "Marketing ético captura intenção informativa — não clickbait",
-        "[[Domínio premium|dominio-premium-seo-entretenimento-campos-jordao]] reforça autoridade regional",
+        "[[Domínio premium|dominio-premium-seo-entretenimento-copacabana]] reforça autoridade regional",
       ],
       relatedLinks: [
-        { label: "SEO e domínio premium", slug: "dominio-premium-seo-entretenimento-campos-jordao" },
+        { label: "SEO e domínio premium", slug: "dominio-premium-seo-entretenimento-copacabana" },
         { label: "Lei e PL 2234/2022", slug: "lei-cassinos-brasil-pl-263-regulamentacao" },
       ],
     },
     {
       listItems: [
-        "Cauda longa: cassino regulado Campos do Jordão, resort integrado",
+        "Cauda longa: cassino regulado Copacabana, resort integrado",
         "FAQs e links internos aumentam profundidade editorial",
         "Google Business Profile + eventos locais amplificam alcance",
       ],
       relatedLinks: [
         { label: "Blog e conteúdo", slug: "cassinos-brasil-emprego-renda" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-campos-do-jordao-entretenimento" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-copacabana-entretenimento" },
       ],
     },
     {
@@ -695,7 +695,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Uruguai, Argentina e Caribe capturam turistas brasileiros há anos",
         "Licenças limitadas evitam saturação urbana",
-        "Campos ocupa nicho de clima temperado e escala moderada",
+        "Copacabana ocupa nicho de orla premium e escala moderada",
       ],
       relatedLinks: [
         { label: "Lições Las Vegas e Singapura", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
@@ -716,36 +716,36 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     {
       highlights: [
         "Desenho jurídico próprio — não cópia literal de modelos importados",
-        "Campos como caso piloto na Serra da Mantiqueira",
+        "Copacabana como caso piloto na Zona Sul do Rio de Janeiro",
       ],
       relatedLinks: [
         { label: "Lei de cassinos Brasil", slug: "lei-cassinos-brasil-pl-263-regulamentacao" },
-        { label: "Potencial econômico local", slug: "cassino-campos-do-jordao-potencial-economico" },
+        { label: "Potencial econômico local", slug: "cassino-copacabana-potencial-economico" },
       ],
     },
   ],
 
-  "hospedagem-luxo-entretenimento-regulado-serra": [
+  "hospedagem-luxo-entretenimento-regulado-copacabana": [
     {
       listItems: [
-        "Hotelaria premium já consolidada em Campos do Jordão",
+        "Hotelaria premium já consolidada em Copacabana",
         "Casino complementa — não substitui — natureza e gastronomia",
         "Ticket médio e permanência sobem com pacotes integrados",
       ],
       relatedLinks: [
-        { label: "Resorts integrados", slug: "resorts-integrados-serra-mantiqueira" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-campos-do-jordao-entretenimento" },
+        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-copacabana-entretenimento" },
       ],
     },
     {
       listItems: [
         "Pacotes coerentes: jantar, show e entretenimento licenciado",
         "Parcerias com vinícolas e roteiros culturais",
-        "Marca reforçada por [[domínio premium|dominio-premium-seo-entretenimento-campos-jordao]]",
+        "Marca reforçada por [[domínio premium|dominio-premium-seo-entretenimento-copacabana]]",
       ],
       relatedLinks: [
-        { label: "Marketing digital", slug: "marketing-digital-turismo-cassino-campos-jordao" },
-        { label: "Polo regulado", slug: "campos-do-jordao-polo-entretenimento-regulado" },
+        { label: "Marketing digital", slug: "marketing-digital-turismo-cassino-copacabana" },
+        { label: "Polo regulado", slug: "copacabana-polo-entretenimento-regulado" },
       ],
     },
     {
@@ -755,7 +755,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Empregos formais", slug: "empregos-formais-hotelaria-lazer-brasil" },
-        { label: "Impacto econômico", slug: "cassino-campos-do-jordao-potencial-economico" },
+        { label: "Impacto econômico", slug: "cassino-copacabana-potencial-economico" },
       ],
     },
   ],
@@ -763,13 +763,13 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
   "concessao-licitacao-cassino-municipio-brasil": [
     {
       listItems: [
-        "Lei federal habilita; município sede decide participar — veja [[Prefeitura de Campos do Jordão|gov:camposPrefeitura]] e tramitação no [[Senado|gov:senado]]",
+        "Lei federal habilita; município sede decide participar — veja [[Prefeitura do Rio de Janeiro|gov:rioPrefeitura]] e tramitação no [[Senado|gov:senado]]",
         "Edital transparente seleciona operador por capacidade e metas",
         "Consulta pública antes da assinatura do contrato",
       ],
       relatedLinks: [
         { label: "Lei PL 2234/2022", slug: "lei-cassinos-brasil-pl-263-regulamentacao" },
-        { label: "Impacto ambiental", slug: "resorts-integrados-impacto-ambiental-campos-jordao" },
+        { label: "Impacto ambiental", slug: "resorts-integrados-impacto-ambiental-copacabana" },
       ],
     },
     {
@@ -790,7 +790,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Investimento estrangeiro", slug: "investimento-estrangeiro-turismo-entretenimento-brasil" },
-        { label: "Potencial em Campos", slug: "cassino-campos-do-jordao-potencial-economico" },
+        { label: "Potencial em Copacabana", slug: "cassino-copacabana-potencial-economico" },
       ],
     },
   ],
@@ -800,11 +800,11 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Online: [[Lei 14.790/2023|gov:leiApostas]], [[SPA — apostas de quota fixa|gov:spaApostas]] e [[jogo responsável|gov:jogoResponsavel]]",
         "Presencial: resort, emprego local e fiscalização in loco",
-        "Campos dialoga com modelo integrado à hotelaria",
+        "Copacabana dialoga com modelo integrado à hotelaria",
       ],
       relatedLinks: [
         { label: "Moderação responsável", slug: "moderacao-jogo-responsavel-cassinos" },
-        { label: "Hospedagem de luxo", slug: "hospedagem-luxo-entretenimento-regulado-serra" },
+        { label: "Hospedagem de luxo", slug: "hospedagem-luxo-entretenimento-regulado-copacabana" },
       ],
     },
     {
@@ -815,7 +815,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Comparativo América Latina", slug: "cassinos-america-latina-comparativo-brasil" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-campos-do-jordao-entretenimento" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-copacabana-entretenimento" },
       ],
     },
     {
