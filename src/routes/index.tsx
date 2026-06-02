@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { Link, createFileRoute } from "@tanstack/react-router";
 import {
   Award,
   Building2,
@@ -9,15 +9,17 @@ import {
   Hotel,
   Mail,
   MapPin,
-  Send,
   Shield,
+  Scale,
   Sparkles,
   TrendingUp,
   Trophy,
+  ArrowRight,
 } from "lucide-react";
 
-const DOMAIN_BR = "cassinocamposdojordao.com.br";
-const DOMAIN_COM = "cassinocamposdojordao.com";
+import { getSortedBlogPosts } from "@/lib/blog-posts";
+import { getHomeHeadMeta } from "@/lib/seo";
+import { DOMAIN_BR, DOMAIN_COM, FORM_URL } from "@/lib/site";
 
 const faqItems = [
   {
@@ -40,6 +42,10 @@ const faqItems = [
     q: "Qual o prazo para transferência dos domínios?",
     a: "Após a confirmação do pagamento, a transferência costuma ser concluída em até 7 dias úteis, dependendo do registrador escolhido pelo comprador.",
   },
+  {
+    q: "A regulamentação de cassinos no Brasil afeta o valor deste domínio?",
+    a: "O governo federal está quase regulamentando cassinos no Brasil, seguindo modelos de países que já legalizam e fiscalizam a atividade. Essa perspectiva reforça a relevância de um domínio premium associado a turismo e entretenimento em Campos do Jordão — destino natural para resorts integrados de alto padrão.",
+  },
 ];
 
 const valueCards = [
@@ -49,9 +55,13 @@ const valueCards = [
   { icon: Hotel, title: "Turismo e entretenimento", text: "Encaixe natural em hotelaria, eventos, lazer e experiências exclusivas." },
   { icon: Globe, title: "Versão .COM e .COM.BR", text: "Cobertura nacional e internacional com proteção total da marca." },
   { icon: Trophy, title: "Ativo digital escasso", text: "Combinações premium como esta são raras e tendem a se valorizar com o tempo." },
+  { icon: Scale, title: "Regulação iminente", text: "O governo federal está quase regulamentando cassinos no Brasil — ampliando o potencial do setor de entretenimento e turismo." },
+  { icon: Shield, title: "Negociação segura", text: "Transferência documentada via Registro.br e registradores ICANN, com processo transparente do primeiro contato à entrega dos domínios." },
+  { icon: TrendingUp, title: "Interesse de busca em alta", text: "Palavras-chave de turismo, entretenimento e regulação tendem a crescer — posicionar-se cedo amplifica visibilidade orgânica no Google." },
 ];
 
 const useCases = [
+  { icon: Crown, title: "Resorts", text: "Identidade digital para empreendimentos integrados de hospedagem, lazer e entretenimento de alto padrão." },
   { icon: Globe, title: "Portal turístico", text: "Hub completo de informações sobre Campos do Jordão." },
   { icon: Hotel, title: "Guia de hotéis e pousadas", text: "Plataforma de reservas e curadoria de hospedagens." },
   { icon: Calendar, title: "Portal de eventos", text: "Agenda cultural, gastronômica e festivais da região." },
@@ -62,69 +72,19 @@ const useCases = [
   { icon: TrendingUp, title: "Marketplace regional", text: "Comércio local de produtores, restaurantes e artesãos." },
 ];
 
-const seoKeywords = ["Cassino", "Campos do Jordão", "Turismo", "Hotelaria", "Eventos", "Entretenimento"];
-
-const orgJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Product",
-  name: "Domínios Premium CassinoCamposdoJordao.com.br e .com",
-  description:
-    "Domínio premium à venda — CassinoCamposdoJordao.com.br e CassinoCamposdoJordao.com. Ativo digital exclusivo para projetos de turismo, hotelaria, eventos e entretenimento.",
-  brand: { "@type": "Brand", name: "Cassino Campos do Jordão" },
-  offers: {
-    "@type": "Offer",
-    availability: "https://schema.org/InStock",
-    priceCurrency: "BRL",
-    priceSpecification: { "@type": "PriceSpecification", priceCurrency: "BRL", price: "0", valueAddedTaxIncluded: true },
-  },
-};
-
-const faqJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: faqItems.map((f) => ({
-    "@type": "Question",
-    name: f.q,
-    acceptedAnswer: { "@type": "Answer", text: f.a },
-  })),
-};
+const seoKeywords = [
+  "Cassino Campos do Jordão",
+  "Domínio premium à venda",
+  "Regulação cassinos Brasil",
+  "Turismo Serra da Mantiqueira",
+  "Hotelaria e resorts",
+  "Entretenimento regulado",
+  "Emprego formal",
+  "Jogo responsável",
+];
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Domínio Cassino Campos do Jordão à Venda | .COM e .COM.BR" },
-      {
-        name: "description",
-        content:
-          "Domínio premium CassinoCamposdoJordao.com.br à venda. Inclui versões .com e .com.br. Excelente oportunidade para branding, turismo e projetos digitais.",
-      },
-      {
-        name: "keywords",
-        content:
-          "cassino campos do jordão, domínio premium à venda, comprar domínio, campos do jordão, turismo, hotelaria, eventos, entretenimento",
-      },
-      { property: "og:title", content: "Domínio Cassino Campos do Jordão à Venda | .COM e .COM.BR" },
-      {
-        property: "og:description",
-        content:
-          "Adquira um ativo digital exclusivo. Domínios .com e .com.br disponíveis para projetos de turismo, hotelaria e entretenimento em Campos do Jordão.",
-      },
-      { property: "og:type", content: "website" },
-      { property: "og:locale", content: "pt_BR" },
-      { property: "og:url", content: "/" },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Domínio Cassino Campos do Jordão à Venda" },
-      {
-        name: "twitter:description",
-        content: "Domínio premium .com e .com.br à venda. Oportunidade única para projetos digitais em Campos do Jordão.",
-      },
-    ],
-    links: [{ rel: "canonical", href: "/" }],
-    scripts: [
-      { type: "application/ld+json", children: JSON.stringify(orgJsonLd) },
-      { type: "application/ld+json", children: JSON.stringify(faqJsonLd) },
-    ],
-  }),
+  head: () => getHomeHeadMeta(faqItems),
   component: LandingPage,
 });
 
@@ -132,14 +92,15 @@ function LandingPage() {
   return (
     <div className="min-h-screen">
       <Header />
-      <main>
+      <main id="conteudo-principal">
         <Hero />
         <DomainsStrip />
         <ValueSection />
+        <RegulationSection />
         <SeoSection />
         <UseCasesSection />
+        <BlogSection />
         <DualDomainSection />
-        
         <FaqSection />
       </main>
       <Footer />
@@ -157,13 +118,15 @@ function Header() {
             Cassino<span className="text-gradient-gold"> Campos do Jordão</span>
           </span>
         </a>
-        <nav className="hidden md:flex items-center gap-7 text-sm text-muted-foreground">
+        <nav className="hidden md:flex items-center gap-7 text-sm text-muted-foreground" aria-label="Navegação principal">
           <a href="#valor" className="hover:text-primary transition">Vantagens</a>
+          <a href="#regulamentacao" className="hover:text-primary transition">Regulação</a>
           <a href="#aplicacoes" className="hover:text-primary transition">Aplicações</a>
+          <Link to="/blog" className="hover:text-primary transition">Blog</Link>
           <a href="#faq" className="hover:text-primary transition">FAQ</a>
         </nav>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLScZsTiGDiqQgtbjZzd7sChgbQLBHWO6dLgVYS_wbTQYi9ecyw/viewform?usp=header"
+          href={FORM_URL}
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm bg-gradient-gold text-primary-foreground px-4 py-2 rounded-md font-medium shadow-gold hover:opacity-90 transition"
@@ -190,29 +153,22 @@ function Hero() {
         </h1>
         <p className="mt-7 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
           Adquira um domínio estratégico, memorável e com forte potencial de marca para projetos relacionados a
-          turismo, entretenimento, hotelaria, eventos e negócios digitais.
+          turismo, entretenimento, hotelaria, eventos e negócios digitais — em um momento em que o governo federal
+          está quase regulamentando cassinos no Brasil, como já ocorre em diversos países.
         </p>
 
-        <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="mt-10 flex justify-center">
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScZsTiGDiqQgtbjZzd7sChgbQLBHWO6dLgVYS_wbTQYi9ecyw/viewform?usp=header"
+            href={FORM_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-gradient-gold text-primary-foreground px-7 py-3.5 rounded-md font-semibold shadow-gold hover:scale-[1.02] transition"
           >
             <Mail className="h-4 w-4" /> Enviar Oferta
           </a>
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScZsTiGDiqQgtbjZzd7sChgbQLBHWO6dLgVYS_wbTQYi9ecyw/viewform?usp=header"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 border border-gold/60 text-foreground px-7 py-3.5 rounded-md font-semibold hover:bg-card/70 transition"
-          >
-            <Send className="h-4 w-4" /> Enviar Proposta
-          </a>
         </div>
 
-        <div className="mt-14 grid sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+        <div id="dominios" className="mt-14 grid sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
           {[DOMAIN_BR, DOMAIN_COM].map((d) => (
             <div
               key={d}
@@ -288,6 +244,41 @@ function ValueSection() {
   );
 }
 
+function RegulationSection() {
+  return (
+    <section id="regulamentacao" className="py-24 bg-card/30 border-y border-border/40">
+      <div className="container mx-auto max-w-5xl px-6">
+        <SectionHeading
+          eyebrow="Contexto de Mercado"
+          title="Regulamentação de Cassinos no Brasil"
+          subtitle="O governo federal está quase regulamentando a atividade, seguindo o modelo adotado por diversos países."
+        />
+        <div className="prose prose-invert max-w-none text-muted-foreground leading-relaxed text-lg space-y-5">
+          <p>
+            Assim como nos <strong className="text-foreground">Estados Unidos, Portugal, Singapura</strong> e em
+            vários destinos turísticos da Europa e da América Latina, o Brasil está próximo de estabelecer um marco
+            regulatório para cassinos. O governo federal avança na definição de regras claras, fiscalização e
+            contribuição à economia — abrindo espaço para empreendimentos integrados de lazer, hotelaria e
+            entretenimento.
+          </p>
+          <p>
+            Em países onde a atividade já é legal e regulada, resorts com cassino impulsionam turismo, geração de
+            empregos e arrecadação pública. Destinos premium como{" "}
+            <strong className="text-foreground">Campos do Jordão</strong> reúnem o perfil ideal para esse tipo de
+            projeto: infraestrutura hoteleira consolidada, fluxo turístico de alto padrão e forte apelo
+            internacional.
+          </p>
+          <p>
+            Possuir um domínio com posicionamento claro neste segmento — neste momento de transição regulatória —
+            representa uma vantagem estratégica para investidores, empreendedores e grupos hoteleiros que desejam
+            antecipar tendências e construir uma marca sólida no mercado brasileiro.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function SeoSection() {
   return (
     <section className="py-24 bg-card/30 border-y border-border/40">
@@ -306,15 +297,37 @@ function SeoSection() {
           </p>
           <p>
             Para projetos digitais que buscam construir autoridade ao longo do tempo, partir de um domínio com
-            tamanha clareza temática representa uma base sólida. Aliado a uma estratégia editorial consistente,
-            esse ativo pode sustentar portais informativos, plataformas de reservas, guias culturais e
+            tamanha clareza temática representa uma base sólida — especialmente com o governo federal quase
+            regulamentando cassinos no Brasil. Aliado a uma estratégia editorial consistente no{" "}
+            <Link to="/blog" className="text-primary hover:underline">
+              blog sobre regulação e turismo
+            </Link>
+            , esse ativo pode sustentar portais informativos, plataformas de reservas, guias culturais e
             experiências de marca premium voltadas ao público que visita ou se interessa pela região.
           </p>
+          <ul className="list-disc list-inside space-y-2 text-base mt-6">
+            <li>
+              <Link to="/blog/cassinos-brasil-emprego-renda" className="text-primary hover:underline">
+                Emprego e renda com cassinos regulados no Brasil
+              </Link>
+            </li>
+            <li>
+              <Link to="/blog/campos-do-jordao-polo-entretenimento-regulado" className="text-primary hover:underline">
+                Campos do Jordão como polo de entretenimento licenciado
+              </Link>
+            </li>
+            <li>
+              <Link to="/blog/dominio-premium-seo-entretenimento-campos-jordao" className="text-primary hover:underline">
+                Domínio premium e SEO no entretenimento serrano
+              </Link>
+            </li>
+          </ul>
         </div>
-        <div className="mt-10 flex flex-wrap justify-center gap-3">
+        <div className="mt-10 flex flex-wrap justify-center gap-3" role="list" aria-label="Palavras-chave estratégicas">
           {seoKeywords.map((k) => (
             <span
               key={k}
+              role="listitem"
               className="px-4 py-2 rounded-full border border-gold/40 bg-background/60 text-sm text-foreground"
             >
               {k}
@@ -335,7 +348,7 @@ function UseCasesSection() {
           title="Possibilidades de Utilização"
           subtitle="Um ativo versátil que se adapta a múltiplos modelos de negócio voltados à serra da Mantiqueira."
         />
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {useCases.map(({ icon: Icon, title, text }) => (
             <div
               key={title}
@@ -346,6 +359,51 @@ function UseCasesSection() {
               <p className="text-sm text-muted-foreground leading-relaxed">{text}</p>
             </div>
           ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function BlogSection() {
+  const posts = getSortedBlogPosts().slice(0, 6);
+
+  return (
+    <section id="blog" className="py-24 bg-card/30 border-y border-border/40" aria-labelledby="blog-heading">
+      <div className="container mx-auto max-w-6xl px-6">
+        <SectionHeading
+          eyebrow="Conteúdo"
+          title="Blog sobre regulação, emprego e turismo"
+          subtitle="Artigos informativos sobre cassinos regulados em Campos do Jordão e no Brasil — reforçando autoridade temática do domínio."
+        />
+        <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 list-none p-0 m-0">
+          {posts.map((post) => (
+            <li key={post.slug}>
+              <article className="h-full rounded-xl border border-border bg-card/60 p-6 hover:border-gold/50 transition flex flex-col">
+                <h3 className="font-serif text-lg mb-3 leading-snug">
+                  <Link to="/blog/$slug" params={{ slug: post.slug }} className="hover:text-primary transition">
+                    {post.title}
+                  </Link>
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed flex-1 mb-4">{post.excerpt}</p>
+                <Link
+                  to="/blog/$slug"
+                  params={{ slug: post.slug }}
+                  className="inline-flex items-center gap-1 text-sm text-primary font-medium"
+                >
+                  Ler artigo <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
+              </article>
+            </li>
+          ))}
+        </ul>
+        <div className="text-center mt-10">
+          <Link
+            to="/blog"
+            className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:gap-3 transition-all"
+          >
+            Ver todos os artigos <ArrowRight className="h-4 w-4" />
+          </Link>
         </div>
       </div>
     </section>
@@ -376,7 +434,7 @@ function DualDomainSection() {
             ))}
           </div>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScZsTiGDiqQgtbjZzd7sChgbQLBHWO6dLgVYS_wbTQYi9ecyw/viewform?usp=header"
+            href={FORM_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-10 inline-flex items-center gap-2 bg-gradient-gold text-primary-foreground px-7 py-3.5 rounded-md font-semibold shadow-gold hover:scale-[1.02] transition"
@@ -392,20 +450,27 @@ function DualDomainSection() {
 
 function FaqSection() {
   return (
-    <section id="faq" className="py-24">
+    <section id="faq" className="py-24" aria-labelledby="faq-heading">
       <div className="container mx-auto max-w-3xl px-6">
         <SectionHeading eyebrow="Dúvidas Frequentes" title="Perguntas e Respostas" />
-        <div className="space-y-3">
+        <div className="space-y-3" itemScope itemType="https://schema.org/FAQPage">
           {faqItems.map((item, i) => (
             <details
               key={i}
               className="group rounded-xl border border-border bg-card/60 p-6 open:border-gold/50 transition"
+              itemScope
+              itemProp="mainEntity"
+              itemType="https://schema.org/Question"
             >
               <summary className="cursor-pointer list-none flex items-start justify-between gap-4 font-serif text-lg">
-                {item.q}
-                <span className="text-primary text-2xl leading-none transition group-open:rotate-45">+</span>
+                <span itemProp="name">{item.q}</span>
+                <span className="text-primary text-2xl leading-none transition group-open:rotate-45" aria-hidden="true">+</span>
               </summary>
-              <p className="mt-4 text-muted-foreground leading-relaxed">{item.a}</p>
+              <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                <p className="mt-4 text-muted-foreground leading-relaxed" itemProp="text">
+                  {item.a}
+                </p>
+              </div>
             </details>
           ))}
         </div>
@@ -413,20 +478,29 @@ function FaqSection() {
     </section>
   );
 }
-
 function Footer() {
   return (
     <footer className="border-t border-border/40 py-10 mt-10">
       <div className="container mx-auto max-w-6xl px-6 flex flex-col md:flex-row gap-4 items-center justify-between text-sm text-muted-foreground">
         <div className="flex items-center gap-2">
           <Crown className="h-4 w-4 text-primary" />
-          <span>© {new Date().getFullYear()} CassinoCamposdoJordao — Domínio Premium à Venda</span>
+          <span>© {new Date().getFullYear()} {DOMAIN_BR} — Domínio Premium à Venda</span>
         </div>
-        <div className="flex gap-5">
-          <a href="mailto:contato@cassinocamposdojordao.com.br" className="hover:text-primary transition">Contato</a>
+        <nav className="flex flex-wrap justify-center gap-5" aria-label="Links do rodapé">
+          <Link to="/blog" className="hover:text-primary transition">Blog</Link>
+          <a href="#dominios" className="hover:text-primary transition">Domínios</a>
+          <a
+            href={FORM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-primary transition"
+          >
+            Contato
+          </a>
           <a href="#faq" className="hover:text-primary transition">FAQ</a>
-        </div>
+        </nav>
       </div>
     </footer>
   );
 }
+

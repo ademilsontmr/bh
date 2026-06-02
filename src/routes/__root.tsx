@@ -11,22 +11,24 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { getOrganizationJsonLd, getWebSiteJsonLd } from "../lib/seo";
+import { OG_IMAGE, SITE_NAME, SITE_URL } from "../lib/site";
 
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
         <h1 className="text-7xl font-bold text-foreground">404</h1>
-        <h2 className="mt-4 text-xl font-semibold text-foreground">Page not found</h2>
+        <h2 className="mt-4 text-xl font-semibold text-foreground">Página não encontrada</h2>
         <p className="mt-2 text-sm text-muted-foreground">
-          The page you're looking for doesn't exist or has been moved.
+          A página que você procura não existe ou foi movida.
         </p>
         <div className="mt-6">
           <Link
             to="/"
             className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
           >
-            Go home
+            Voltar ao início
           </Link>
         </div>
       </div>
@@ -45,10 +47,10 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
         <h1 className="text-xl font-semibold tracking-tight text-foreground">
-          This page didn't load
+          Não foi possível carregar esta página
         </h1>
         <p className="mt-2 text-sm text-muted-foreground">
-          Something went wrong on our end. You can try refreshing or head back home.
+          Algo deu errado. Tente atualizar ou volte ao início.
         </p>
         <div className="mt-6 flex flex-wrap justify-center gap-2">
           <button
@@ -58,13 +60,13 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
             }}
             className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
           >
-            Try again
+            Tentar novamente
           </button>
           <a
             href="/"
             className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent"
           >
-            Go home
+            Voltar ao início
           </a>
         </div>
       </div>
@@ -72,28 +74,30 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   );
 }
 
+const DEFAULT_DESCRIPTION =
+  "Domínios premium cassinocamposdojordao.com.br e .com à venda para turismo, resorts e entretenimento regulado em Campos do Jordão.";
+
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Domínio Cassino Campos do Jordão à Venda | .COM e .COM.BR" },
-      {
-        name: "description",
-        content:
-          "Domínio premium CassinoCamposdoJordao.com.br à venda. Inclui versões .com e .com.br. Excelente oportunidade para branding, turismo e projetos digitais.",
-      },
+      { title: "Cassino Campos do Jordão à Venda | .COM e .COM.BR" },
+      { name: "description", content: DEFAULT_DESCRIPTION },
+      { name: "robots", content: "index, follow" },
       { name: "theme-color", content: "#0a0a0a" },
+      { name: "language", content: "pt-BR" },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "pt_BR" },
+      { property: "og:site_name", content: SITE_NAME },
+      { property: "og:url", content: SITE_URL },
+      { property: "og:title", content: "Cassino Campos do Jordão à Venda | .COM e .COM.BR" },
+      { property: "og:description", content: DEFAULT_DESCRIPTION },
+      { property: "og:image", content: OG_IMAGE },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:title", content: "Domínio Cassino Campos do Jordão à Venda | .COM e .COM.BR" },
-      { name: "twitter:title", content: "Domínio Cassino Campos do Jordão à Venda | .COM e .COM.BR" },
-      { name: "description", content: "Showcases premium domains for sale, highlighting their value and potential for branding and digital projects." },
-      { property: "og:description", content: "Showcases premium domains for sale, highlighting their value and potential for branding and digital projects." },
-      { name: "twitter:description", content: "Showcases premium domains for sale, highlighting their value and potential for branding and digital projects." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3f420508-0a04-4537-996d-9d35f1dd5019/id-preview-86c16f2c--976579ef-4c34-4bad-9173-cb2975b67a4c.lovable.app-1780359889550.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3f420508-0a04-4537-996d-9d35f1dd5019/id-preview-86c16f2c--976579ef-4c34-4bad-9173-cb2975b67a4c.lovable.app-1780359889550.png" },
+      { name: "twitter:title", content: "Cassino Campos do Jordão à Venda | .COM e .COM.BR" },
+      { name: "twitter:description", content: DEFAULT_DESCRIPTION },
+      { name: "twitter:image", content: OG_IMAGE },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -103,6 +107,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap",
       },
+      { rel: "alternate", hrefLang: "pt-BR", href: SITE_URL },
+      { rel: "alternate", hrefLang: "x-default", href: SITE_URL },
+    ],
+    scripts: [
+      { type: "application/ld+json", children: JSON.stringify(getOrganizationJsonLd()) },
+      { type: "application/ld+json", children: JSON.stringify(getWebSiteJsonLd()) },
     ],
   }),
   shellComponent: RootShell,
@@ -113,7 +123,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
         <HeadContent />
       </head>
@@ -130,7 +140,6 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
     </QueryClientProvider>
   );

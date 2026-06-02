@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://cassinocamposdojordao.com.br/sitemap.xml
