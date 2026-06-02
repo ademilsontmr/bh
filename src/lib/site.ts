@@ -1,17 +1,17 @@
 export const SITE_URL =
-  import.meta.env.VITE_SITE_URL ?? "https://cassinodesalinas.com.br";
+  import.meta.env.VITE_SITE_URL ?? "https://cassinobh.com.br";
 
-export const SITE_NAME = "Cassino de Salinas — Domínio Premium à Venda";
+export const SITE_NAME = "Cassino de Belo Horizonte — Domínio Premium à Venda";
 
-export const CONTACT_EMAIL = "contato@cassinodesalinas.com.br";
+export const CONTACT_EMAIL = "contato@cassinobh.com.br";
 
 export const FORM_URL = "https://forms.gle/aCxqHaa7pMHu83HH7";
 
 /** Domínio principal do site (canônico) */
-export const DOMAIN = "cassinodesalinas.com.br";
+export const DOMAIN = "cassinobh.com.br";
 
 /** Domínio à venda */
-export const DOMAINS_FOR_SALE = ["cassinodesalinas.com.br"] as const;
+export const DOMAINS_FOR_SALE = ["cassinobh.com.br"] as const;
 
 /** Lista em português: "a, b e c" */
 export function formatDomainsListPt(
