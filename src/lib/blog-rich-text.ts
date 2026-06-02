@@ -1,9 +1,9 @@
-/** Termos destacados com <strong> no corpo dos artigos — foco cassino BR / São Paulo */
+/** Termos destacados com <strong> no corpo dos artigos — foco cassino BR / Gramado */
 export const SEO_BOLD_PHRASES = [
   "cassino regulado",
   "cassinos regulados",
-  "São Paulo",
-  "Grande São Paulo",
+  "Gramado",
+  "Serra Gaúcha",
   "jogo responsável",
   "emprego formal",
   "resort integrado",
@@ -19,9 +19,7 @@ export const SEO_BOLD_PHRASES = [
   "Singapura",
   "tributação",
   "domínio premium",
-  "cassinodesaopaulo.com.br",
-  "cassinodesaopaulo.com",
-  "cassinosaopaulo.com",
+  "cassinodegramado.com.br",
 ];
 
 export function applyBoldPhrases(text: string): string {

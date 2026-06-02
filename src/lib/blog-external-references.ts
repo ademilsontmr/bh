@@ -88,20 +88,20 @@ export const GOV_REFERENCES = {
     url: "https://www.gov.br/fazenda/pt-br/composicao/orgaos/secretaria-de-premios-e-apostas/jogo-responsavel",
     source: "Gov.br — SPA",
   },
-  spPrefeitura: {
-    label: "Prefeitura da Cidade de São Paulo",
-    url: "https://www.capital.sp.gov.br/",
-    source: "Prefeitura de São Paulo",
+  gramadoPrefeitura: {
+    label: "Prefeitura Municipal de Gramado",
+    url: "https://www.gramado.rs.gov.br/",
+    source: "Prefeitura de Gramado",
   },
-  spGoverno: {
-    label: "Governo do Estado de São Paulo",
-    url: "https://www.saopaulo.sp.gov.br/",
-    source: "Governo SP",
+  rsGoverno: {
+    label: "Governo do Estado do Rio Grande do Sul",
+    url: "https://www.estado.rs.gov.br/",
+    source: "Governo RS",
   },
-  spTurismo: {
-    label: "Secretaria de Turismo do Estado de SP",
-    url: "https://www.turismo.sp.gov.br/",
-    source: "Turismo SP",
+  rsTurismo: {
+    label: "Secretaria de Turismo do Rio Grande do Sul",
+    url: "https://www.turismo.rs.gov.br/",
+    source: "Turismo RS",
   },
 } as const satisfies Record<string, GovReference>;
 
@@ -111,22 +111,22 @@ export type GovRefKey = keyof typeof GOV_REFERENCES;
 export const BLOG_ARTICLE_EXTERNAL_REFS: Record<string, GovRefKey[]> = {
   "investimento-estrangeiro-turismo-entretenimento-brasil": ["senado", "turismo", "ibgePnadTurismo"],
   "empregos-formais-hotelaria-lazer-brasil": ["trabalho", "senado", "turismo"],
-  "dominio-premium-seo-entretenimento-sao-paulo": ["turismo", "ibgeTurismo", "spPrefeitura"],
+  "dominio-premium-seo-entretenimento-gramado": ["turismo", "ibgeTurismo", "gramadoPrefeitura"],
   "tributacao-cassinos-regulados-financiamento-publico": ["receita", "coaf", "spaApostas"],
-  "turismo-corporativo-sao-paulo-entretenimento": ["turismo", "ibgePnadTurismo", "spPrefeitura"],
+  "turismo-corporativo-gramado-entretenimento": ["turismo", "ibgePnadTurismo", "gramadoPrefeitura"],
   "licoes-las-vegas-singapura-regulacao-brasil": ["senado", "camara", "senadoNoticiaCassinos"],
-  "sao-paulo-polo-entretenimento-regulado": ["spPrefeitura", "spTurismo", "senado"],
+  "gramado-polo-entretenimento-regulado": ["gramadoPrefeitura", "rsTurismo", "senado"],
   "moderacao-jogo-responsavel-cassinos": ["jogoResponsavel", "saude", "leiApostas"],
-  "resorts-integrados-sao-paulo": ["turismo", "spPrefeitura", "senado"],
+  "resorts-integrados-gramado": ["turismo", "gramadoPrefeitura", "senado"],
   "cassinos-brasil-emprego-renda": ["senado", "trabalho", "ibgePnadTurismo"],
-  "cassino-sao-paulo-potencial-economico": ["spPrefeitura", "ibgeTurismo", "turismo"],
+  "cassino-gramado-potencial-economico": ["gramadoPrefeitura", "ibgeTurismo", "turismo"],
   "lei-cassinos-brasil-pl-263-regulamentacao": ["senado", "camara", "senadoNoticiaCassinos"],
   "seguranca-patrimonial-compliance-cassinos-regulados": ["coaf", "receita", "spa"],
-  "resorts-integrados-impacto-ambiental-sao-paulo": ["spPrefeitura", "spGoverno", "turismo"],
-  "marketing-digital-turismo-cassino-sao-paulo": ["turismo", "ibgeTurismo", "spPrefeitura"],
+  "resorts-integrados-impacto-ambiental-gramado": ["gramadoPrefeitura", "rsGoverno", "turismo"],
+  "marketing-digital-turismo-cassino-gramado": ["turismo", "ibgeTurismo", "gramadoPrefeitura"],
   "cassinos-america-latina-comparativo-brasil": ["turismo", "senado", "camaraNoticiaJogos"],
-  "hospedagem-luxo-entretenimento-regulado-sao-paulo": ["turismo", "spPrefeitura", "ibgePnadTurismo"],
-  "concessao-licitacao-cassino-municipio-brasil": ["spPrefeitura", "senado", "camara"],
+  "hospedagem-luxo-entretenimento-regulado-gramado": ["turismo", "gramadoPrefeitura", "ibgePnadTurismo"],
+  "concessao-licitacao-cassino-municipio-brasil": ["gramadoPrefeitura", "senado", "camara"],
   "apostas-online-cassino-presencial-regulacao": ["leiApostas", "spaApostas", "jogoResponsavel"],
 };
 

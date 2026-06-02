@@ -12,9 +12,7 @@ const MANUAL_LINK_RE = /\[\[([^\]|]+)\|([^\]]+)\]\]/g;
 const BOLD_RE = /\*\*([^*]+)\*\*/g;
 
 const GLOBAL_PATTERNS: { pattern: RegExp; href: string; external?: boolean }[] = [
-  { pattern: /cassinodesaopaulo\.com\.br/gi, href: "/" },
-  { pattern: /cassinodesaopaulo\.com(?!\.)/gi, href: "/" },
-  { pattern: /cassinosaopaulo\.com/gi, href: "/" },
+  { pattern: /cassinodegramado\.com\.br/gi, href: "/" },
 ];
 
 const TOPIC_LINKS: Record<string, string> = {
@@ -24,13 +22,13 @@ const TOPIC_LINKS: Record<string, string> = {
   "Las Vegas": "/blog/licoes-las-vegas-singapura-regulacao-brasil",
   Singapura: "/blog/licoes-las-vegas-singapura-regulacao-brasil",
   tributação: "/blog/tributacao-cassinos-regulados-financiamento-publico",
-  "resort integrado": "/blog/resorts-integrados-sao-paulo",
-  "resorts integrados": "/blog/resorts-integrados-sao-paulo",
-  "São Paulo": "/blog/sao-paulo-polo-entretenimento-regulado",
-  "Grande São Paulo": "/blog/resorts-integrados-sao-paulo",
+  "resort integrado": "/blog/resorts-integrados-gramado",
+  "resorts integrados": "/blog/resorts-integrados-gramado",
+  "Gramado": "/blog/gramado-polo-entretenimento-regulado",
+  "Serra Gaúcha": "/blog/resorts-integrados-gramado",
   regulação: "/blog/cassinos-brasil-emprego-renda",
-  SEO: "/blog/dominio-premium-seo-entretenimento-sao-paulo",
-  "domínio premium": "/blog/dominio-premium-seo-entretenimento-sao-paulo",
+  SEO: "/blog/dominio-premium-seo-entretenimento-gramado",
+  "domínio premium": "/blog/dominio-premium-seo-entretenimento-gramado",
 };
 
 function slugifyHeading(text: string): string {
@@ -405,7 +403,7 @@ export function ArticleFaq({ faq }: { faq: ArticleFaqItem[] }) {
       itemType="https://schema.org/FAQPage"
     >
       <h2 id="faq-artigo-heading" className="font-serif text-2xl text-foreground mb-6">
-        Perguntas frequentes sobre cassino no Brasil e São Paulo
+        Perguntas frequentes sobre cassino no Brasil e Gramado
       </h2>
       <dl className="space-y-6">
         {faq.map((item, i) => (
@@ -452,10 +450,10 @@ export function RelatedPosts({ post, related }: { post: BlogPost; related: BlogP
 export function BlogDomainMention() {
   return (
     <p className="text-sm text-muted-foreground mt-8 border-t border-border/30 pt-6">
-      Sobre os domínios <DomainsForSaleInline />: ativos digitais premium à venda para projetos de{" "}
+      Sobre o domínio <DomainsForSaleInline />: ativos digitais premium à venda para projetos de{" "}
       <strong className="text-foreground">entretenimento regulado</strong> e{" "}
       <strong className="text-foreground">turismo</strong> em{" "}
-      <strong className="text-foreground">São Paulo</strong>.{" "}
+      <strong className="text-foreground">Gramado</strong>.{" "}
       <Link to="/" className="text-primary hover:underline">
         Saiba mais sobre a oferta
       </Link>

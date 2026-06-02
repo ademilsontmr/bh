@@ -1,21 +1,17 @@
 export const SITE_URL =
-  import.meta.env.VITE_SITE_URL ?? "https://cassinodesaopaulo.com.br";
+  import.meta.env.VITE_SITE_URL ?? "https://cassinodegramado.com.br";
 
-export const SITE_NAME = "Cassino de São Paulo — Domínio Premium à Venda";
+export const SITE_NAME = "Cassino de Gramado — Domínio Premium à Venda";
 
-export const CONTACT_EMAIL = "contato@cassinodesaopaulo.com.br";
+export const CONTACT_EMAIL = "contato@cassinodegramado.com.br";
 
 export const FORM_URL = "https://forms.gle/aCxqHaa7pMHu83HH7";
 
 /** Domínio principal do site (canônico) */
-export const DOMAIN = "cassinodesaopaulo.com.br";
+export const DOMAIN = "cassinodegramado.com.br";
 
-/** Portfólio de domínios à venda */
-export const DOMAINS_FOR_SALE = [
-  "cassinodesaopaulo.com.br",
-  "cassinodesaopaulo.com",
-  "cassinosaopaulo.com",
-] as const;
+/** Domínio à venda */
+export const DOMAINS_FOR_SALE = ["cassinodegramado.com.br"] as const;
 
 /** Lista em português: "a, b e c" */
 export function formatDomainsListPt(

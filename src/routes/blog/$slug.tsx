@@ -83,7 +83,7 @@ function BlogPostPage() {
                 itemProp="image"
               />
               <figcaption className="text-xs text-muted-foreground px-4 py-3 text-center border-t border-border/40">
-                Domínios premium {formatDomainsListPt()} — turismo e entretenimento regulado em São Paulo
+                Domínio premium {formatDomainsListPt()} — turismo e entretenimento regulado em Gramado
               </figcaption>
             </figure>
 
@@ -106,7 +106,7 @@ function BlogPostPage() {
           <h2 className="font-serif text-2xl mb-3">Domínio premium à venda</h2>
           <p className="text-muted-foreground mb-6">
             Adquira <strong>{formatDomainsListPt()}</strong> — posicionamento digital para entretenimento
-            regulado em São Paulo.
+            regulado em Gramado.
           </p>
           <a
             href={FORM_URL}

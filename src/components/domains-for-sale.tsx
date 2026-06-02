@@ -7,7 +7,7 @@ type DomainsForSalePanelProps = {
 
 export function DomainsForSalePanel({
   compact = false,
-  heading = "Domínios disponíveis",
+  heading = "Domínio disponível",
 }: DomainsForSalePanelProps) {
   return (
     <div

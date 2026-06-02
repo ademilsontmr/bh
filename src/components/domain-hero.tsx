@@ -23,7 +23,7 @@ export function DomainHero({ compact = false }: DomainHeroProps) {
       }
       aria-label={
         compact
-          ? `Oferta dos domínios ${formatDomainsListPt()}`
+          ? `Oferta do domínio ${formatDomainsListPt()}`
           : undefined
       }
     >
@@ -46,11 +46,11 @@ export function DomainHero({ compact = false }: DomainHeroProps) {
         </div>
         {compact ? (
           <p className={titleClassName}>
-            Domínios Premium à Venda
+            Domínio Premium à Venda
           </p>
         ) : (
           <h1 className={titleClassName}>
-            Domínios Premium à Venda
+            Domínio Premium à Venda
           </h1>
         )}
         <p
@@ -69,7 +69,7 @@ export function DomainHero({ compact = false }: DomainHeroProps) {
               : "mt-7 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed"
           }
         >
-          Adquira domínios estratégicos, memoráveis e com forte potencial de marca para projetos relacionados a
+          Adquira um domínio estratégico, memorável e com forte potencial de marca para projetos relacionados a
           turismo, entretenimento, hotelaria, eventos e negócios digitais — em um momento em que o governo federal
           está quase regulamentando cassinos no Brasil, como já ocorre em diversos países.
         </p>
