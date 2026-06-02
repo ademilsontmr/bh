@@ -139,7 +139,7 @@ function LandingPage() {
         <SeoSection />
         <UseCasesSection />
         <DualDomainSection />
-        <ContactSection />
+        
         <FaqSection />
       </main>
       <Footer />
