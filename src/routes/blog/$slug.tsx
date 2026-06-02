@@ -2,6 +2,7 @@ import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import { ArrowLeft, Calendar, Clock } from "lucide-react";
 
 import {
+  ArticleFaq,
   BlogContent,
   BlogDomainMention,
   BlogKeywordTags,
@@ -12,7 +13,7 @@ import { Breadcrumbs } from "@/components/breadcrumbs";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { getBlogPost, getRelatedPosts } from "@/lib/blog-posts";
 import { getBlogPostHeadMeta } from "@/lib/seo";
-import { FORM_URL } from "@/lib/site";
+import { FORM_URL, OG_IMAGE } from "@/lib/site";
 
 export const Route = createFileRoute("/blog/$slug")({
   loader: ({ params }) => {
@@ -63,17 +64,35 @@ function BlogPostPage() {
               </span>
             </div>
 
-            <h1 className="font-serif text-3xl md:text-5xl leading-tight mb-4" itemProp="headline">
+            <h1 className="font-serif text-3xl md:text-5xl leading-tight mb-6" itemProp="headline">
               {post.title}
             </h1>
+
+            <figure className="mb-8 rounded-xl overflow-hidden border border-border bg-card/40">
+              <img
+                src={OG_IMAGE}
+                alt="Cassino regulado em Campos do Jordão — turismo, emprego e entretenimento licenciado no Brasil"
+                width={1200}
+                height={630}
+                loading="eager"
+                decoding="async"
+                className="w-full h-auto object-cover"
+                itemProp="image"
+              />
+              <figcaption className="text-xs text-muted-foreground px-4 py-3 text-center border-t border-border/40">
+                Regulação de cassinos no Brasil e potencial turístico de Campos do Jordão, Serra da Mantiqueira
+              </figcaption>
+            </figure>
+
             <p className="text-lg text-muted-foreground leading-relaxed mb-6" itemProp="description">
               {post.excerpt}
             </p>
             <BlogKeywordTags keywords={post.keywords} />
           </header>
 
-          <BlogTableOfContents sections={post.sections} />
+          <BlogTableOfContents post={post} sections={post.sections} />
           <BlogContent post={post} sections={post.sections} />
+          <ArticleFaq faq={post.faq} />
           <BlogDomainMention />
         </article>
 

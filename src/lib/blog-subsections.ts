@@ -1,0 +1,122 @@
+/** Subseções h3 inseridas após seções específicas — reforço semântico por artigo */
+export type ArticleSubsection = {
+  afterSectionIndex: number;
+  heading: string;
+  paragraphs: string[];
+};
+
+export const BLOG_SUBSECTIONS: Record<string, ArticleSubsection[]> = {
+  "investimento-estrangeiro-turismo-entretenimento-brasil": [
+    {
+      afterSectionIndex: 0,
+      heading: "Brasil no mapa do entretenimento regulado",
+      paragraphs: [
+        "Grupos internacionais comparam o Brasil a mercados que já capturam bilhões com cassinos legais. A proximidade regulatória — com o Congresso avançando sobre marco legal — antecipa janela para **investimento estrangeiro** em **Campos do Jordão** antes que destinos concorrentes consolidem vantagem.",
+      ],
+    },
+    {
+      afterSectionIndex: 2,
+      heading: "Campos do Jordão como vitrine para o país",
+      paragraphs: [
+        "Um polo transparente na **Serra da Mantiqueira** pode servir de referência nacional: licenciamento auditável, **jogo responsável** visível e comunicação clara via canais como **cassinocamposdojordao.com.br** — separando projeto legítimo de promessas vazias.",
+      ],
+    },
+  ],
+  "empregos-formais-hotelaria-lazer-brasil": [
+    {
+      afterSectionIndex: 1,
+      heading: "Formalização na prática em destinos serranos",
+      paragraphs: [
+        "Em **Campos do Jordão**, onde o custo de vida acompanha o status turístico, **emprego formal** com plano de carreira reduz êxodo de jovens qualificados e amplia consumo local — efeito que temporadas isoladas raramente sustentam.",
+      ],
+    },
+  ],
+  "dominio-premium-seo-entretenimento-campos-jordao": [
+    {
+      afterSectionIndex: 1,
+      heading: "Palavras-chave que o Google associa ao tema",
+      paragraphs: [
+        "Consultas como cassino **Campos do Jordão**, regulação de cassinos no **Brasil**, emprego em hotelaria e **jogo responsável** conectam intenção de busca a conteúdo verificável — exatamente o perfil editorial que um **domínio premium** regional deve sustentar.",
+      ],
+    },
+  ],
+  "tributacao-cassinos-regulados-financiamento-publico": [
+    {
+      afterSectionIndex: 0,
+      heading: "Arrecadação que a ilegalidade não entrega",
+      paragraphs: [
+        "Enquanto operadores clandestinos não contribuem proporcionalmente, **cassinos regulados** permitem definir alíquotas sobre receita de jogo e destinar parcela a saúde, educação e fiscalização em municípios como **Campos do Jordão**.",
+      ],
+    },
+  ],
+  "turismo-corporativo-campos-do-jordao-entretenimento": [
+    {
+      afterSectionIndex: 0,
+      heading: "MICE e entretenimento na serra",
+      paragraphs: [
+        "Empresas que promovem convenções em **Campos do Jordão** valorizam destinos com lazer pós-evento regulado — diferencial frente a cidades sem **resort integrado** ou com oferta informal sem garantias legais.",
+      ],
+    },
+  ],
+  "licoes-las-vegas-singapura-regulacao-brasil": [
+    {
+      afterSectionIndex: 1,
+      heading: "Adaptando moderação ao Brasil",
+      paragraphs: [
+        "Ferramentas de **Las Vegas** e **Singapura** — autoexclusão, limites de crédito, taxa de entrada — podem ser calibradas para polos serranos, financiando CAPS regionais e campanhas de **jogo responsável** em **Campos do Jordão**.",
+      ],
+    },
+  ],
+  "campos-do-jordao-polo-entretenimento-regulado": [
+    {
+      afterSectionIndex: 0,
+      heading: "Por que a cidade lidera o debate regional",
+      paragraphs: [
+        "Altitude, clima europeu e hotéis consolidados vendem experiência; **cassino regulado** complementa estadia além de compras e passeios, elevando pernoites e ticket médio na **Serra da Mantiqueira**.",
+      ],
+    },
+    {
+      afterSectionIndex: 2,
+      heading: "Renda municipal de longo prazo",
+      paragraphs: [
+        "ISS, taxas e contribuições sobre receita de jogo desacoplam parcialmente **Campos do Jordão** de sazonalidade extrema — abrindo espaço para investimento contínuo em mobilidade, saúde e educação.",
+      ],
+    },
+  ],
+  "moderacao-jogo-responsavel-cassinos": [
+    {
+      afterSectionIndex: 0,
+      heading: "Moderação como condição de licença",
+      paragraphs: [
+        "No **Brasil**, incorporar **jogo responsável** à lei e aos contratos municipais — inclusive em **Campos do Jordão** — evita corrida para o fundo e protege consumidores sem inviabilizar **cassinos regulados**.",
+      ],
+    },
+  ],
+  "resorts-integrados-serra-mantiqueira": [
+    {
+      afterSectionIndex: 1,
+      heading: "Emprego além do casino",
+      paragraphs: [
+        "Fornecedores locais, programas de trainee e parcerias com escolas técnicas fixam talentos na região — revertendo histórico de migração em busca de **emprego formal** fora da **Serra da Mantiqueira**.",
+      ],
+    },
+  ],
+  "cassinos-brasil-emprego-renda": [
+    {
+      afterSectionIndex: 0,
+      heading: "Dimensionamento para o Brasil",
+      paragraphs: [
+        "Licenças limitadas em destinos estratégicos — com **Campos do Jordão** no radar — concentram **emprego formal** e **arrecadação** sem proliferar mesas de jogo de forma desordenada pelo território nacional.",
+      ],
+    },
+  ],
+  "cassino-campos-do-jordao-potencial-economico": [
+    {
+      afterSectionIndex: 1,
+      heading: "Indicadores para acompanhar o polo",
+      paragraphs: [
+        "Ocupação hoteleira fora de pico, ISS municipal e empregos com carteira assinada são métricas objetivas para avaliar se o **cassino regulado** em **Campos do Jordão** cumpre promessa econômica e social contratualizada.",
+      ],
+    },
+  ],
+};

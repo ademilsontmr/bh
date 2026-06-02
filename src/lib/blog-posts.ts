@@ -1,4 +1,5 @@
 import { BLOG_ARTICLE_DATE } from "./blog-dates";
+import { BLOG_ARTICLE_FAQ, type ArticleFaqItem } from "./blog-article-faq";
 import { BLOG_ENRICHMENTS } from "./blog-enrichments";
 
 export type BlogSection = {
@@ -21,6 +22,7 @@ export type BlogPost = {
   readTime: string;
   keywords: string[];
   sections: BlogSection[];
+  faq: ArticleFaqItem[];
   date: string;
 };
 
@@ -432,6 +434,7 @@ function applyEnrichments(slug: string, sections: BlogSection[]): BlogSection[] 
 const enrichedPosts = rawPosts.map((post) => ({
   ...post,
   sections: applyEnrichments(post.slug, post.sections),
+  faq: BLOG_ARTICLE_FAQ[post.slug] ?? [],
 }));
 
 export const blogPosts: BlogPost[] = enrichedPosts.map((post) => ({

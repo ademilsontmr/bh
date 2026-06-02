@@ -1,4 +1,6 @@
 import type { BlogPost } from "./blog-posts";
+import { BLOG_SUBSECTIONS } from "./blog-subsections";
+import { applyBoldPhrases, stripRichMarkup } from "./blog-rich-text";
 import { DOMAIN_BR, DOMAIN_COM, FORM_URL, OG_IMAGE, SITE_NAME, SITE_URL } from "./site";
 
 const HOME_TITLE = "Cassino Campos do Jordão à Venda | .COM e .COM.BR";
@@ -214,17 +216,23 @@ export function getBlogIndexHeadMeta(posts: BlogPost[]) {
 }
 
 function stripManualLinks(text: string): string {
-  return text.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$1");
+  return stripRichMarkup(text);
 }
 
 function getPostPlainText(post: BlogPost): string {
-  return post.sections
-    .flatMap((s) => [
+  const subsectionText = (BLOG_SUBSECTIONS[post.slug] ?? []).flatMap((s) => [s.heading, ...s.paragraphs]);
+  const faqText = post.faq.flatMap((f) => [f.q, f.a]);
+
+  return [
+    ...post.sections.flatMap((s) => [
       ...(s.listItems ?? []),
-      ...s.paragraphs,
+      ...s.paragraphs.map(applyBoldPhrases),
       ...(s.orderedItems ?? []),
       ...(s.highlights ?? []),
-    ])
+    ]),
+    ...subsectionText.map(applyBoldPhrases),
+    ...faqText.map(applyBoldPhrases),
+  ]
     .map(stripManualLinks)
     .join(" ");
 }
@@ -294,6 +302,14 @@ export function getBlogPostHeadMeta(post: BlogPost) {
           ]),
         ),
       },
+      ...(post.faq.length > 0
+        ? [
+            {
+              type: "application/ld+json" as const,
+              children: JSON.stringify(getFaqJsonLd(post.faq)),
+            },
+          ]
+        : []),
     ],
   };
 }
