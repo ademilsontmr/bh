@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Cassino Campos do Jordão">
+  <rect width="32" height="32" rx="7" fill="#0a0a0a"/>
+  <defs>
+    <linearGradient id="gold" x1="6" y1="8" x2="26" y2="24" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e8c96a"/>
+      <stop offset="1" stop-color="#b8860b"/>
+    </linearGradient>
+  </defs>
+  <path
+    fill="url(#gold)"
+    d="M6 22h20v2H6v-2zm2.2-12 2.8 5.2L16 9.5l4.9 5.7L23.8 10 26 22H6l2.2-12zm3.4 7.4L16 14.8l4.4 2.6-1.5-6.2L16 13.2l-3 3.2-1.5-6.2z"
+  />
+</svg>

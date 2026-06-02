@@ -119,4 +119,76 @@ export const BLOG_SUBSECTIONS: Record<string, ArticleSubsection[]> = {
       ],
     },
   ],
+  "lei-cassinos-brasil-pl-263-regulamentacao": [
+    {
+      afterSectionIndex: 0,
+      heading: "PL 2234/2022 e o debate no Congresso",
+      paragraphs: [
+        "Acompanhar o texto do **PL 2234/2022** (tramitação no [[Senado Federal|gov:senado]], origem [[PL 442/1991|gov:camara]]) evita confusão entre **regulação** responsável e narrativas de liberação irrestrita — ponto central para **Campos do Jordão**.",
+      ],
+    },
+  ],
+  "seguranca-patrimonial-compliance-cassinos-regulados": [
+    {
+      afterSectionIndex: 1,
+      heading: "AML e reputação do destino",
+      paragraphs: [
+        "Políticas anti-lavagem e **jogo responsável** protegem a imagem de **Campos do Jordão** frente a turismo corporativo que exige compliance auditável, não apenas mesas de jogo.",
+      ],
+    },
+  ],
+  "resorts-integrados-impacto-ambiental-campos-jordao": [
+    {
+      afterSectionIndex: 0,
+      heading: "Licenciamento na Mantiqueira",
+      paragraphs: [
+        "Áreas de preservação e mananciais exigem **estudo de impacto ambiental** rigoroso — condição para qualquer **resort integrado** com **cassino regulado** na região.",
+      ],
+    },
+  ],
+  "marketing-digital-turismo-cassino-campos-jordao": [
+    {
+      afterSectionIndex: 1,
+      heading: "SEO e domínio regional",
+      paragraphs: [
+        "Consultas sobre **cassino Campos do Jordão** e **regulação no Brasil** favorecem sites com **domínio premium**, blog atualizado e FAQs verificáveis — padrão editorial que o Google associa a autoridade.",
+      ],
+    },
+  ],
+  "cassinos-america-latina-comparativo-brasil": [
+    {
+      afterSectionIndex: 0,
+      heading: "Receita que hoje sai do país",
+      paragraphs: [
+        "Pacotes para Montevidéu e Buenos Aires mostram demanda reprimida: **cassinos regulados** no **Brasil** podem reter turismo com **emprego formal** em destinos como a **Serra da Mantiqueira**.",
+      ],
+    },
+  ],
+  "hospedagem-luxo-entretenimento-regulado-serra": [
+    {
+      afterSectionIndex: 0,
+      heading: "Luxo e regulação caminham juntos",
+      paragraphs: [
+        "Hóspedes de alto padrão esperam **hospedagem de luxo** com entretenimento licenciado — combinação que reforça o posicionamento premium de **Campos do Jordão**.",
+      ],
+    },
+  ],
+  "concessao-licitacao-cassino-municipio-brasil": [
+    {
+      afterSectionIndex: 1,
+      heading: "Transparência na concessão",
+      paragraphs: [
+        "Relatórios trimestrais e metas de **ISS** vinculam renovação de contrato a desempenho real — ferramenta para prefeituras sede de **cassino regulado**.",
+      ],
+    },
+  ],
+  "apostas-online-cassino-presencial-regulacao": [
+    {
+      afterSectionIndex: 0,
+      heading: "Canais distintos na mesma lei?",
+      paragraphs: [
+        "Marco legal pode disciplinar **apostas online** e **cassino presencial** com regras específicas — sem tratar **Campos do Jordão** como servidor remoto sem impacto local.",
+      ],
+    },
+  ],
 };

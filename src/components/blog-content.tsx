@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 
 import type { ArticleFaqItem } from "@/lib/blog-article-faq";
 import type { BlogPost, BlogSection } from "@/lib/blog-posts";
+import { getArticleExternalRefs, resolveLinkTarget } from "@/lib/blog-external-references";
 import { applyBoldPhrases } from "@/lib/blog-rich-text";
 import { BLOG_SUBSECTIONS, type ArticleSubsection } from "@/lib/blog-subsections";
 
@@ -40,6 +41,21 @@ function slugifyHeading(text: string): string {
 }
 
 function renderManualLink(label: string, target: string, key: string): ReactNode {
+  const resolved = resolveLinkTarget(target);
+  if (resolved?.external) {
+    return (
+      <a
+        key={key}
+        href={resolved.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-primary hover:underline"
+        title="Abre em site oficial (nova aba)"
+      >
+        {label}
+      </a>
+    );
+  }
   if (target === "/") {
     return (
       <Link key={key} to="/" className="text-primary hover:underline">
@@ -151,26 +167,90 @@ function renderPlainWithAutoLinks(text: string, currentSlug: string, keyOffset: 
   return nodes;
 }
 
-function SectionRelatedLinks({ links }: { links: { label: string; slug: string }[] }) {
+type SectionLink =
+  | { label: string; slug: string }
+  | { label: string; href: string; external: true };
+
+function SectionRelatedLinks({ links }: { links: SectionLink[] }) {
+  const internal = links.filter((l): l is { label: string; slug: string } => !("external" in l));
+  const external = links.filter((l): l is { label: string; href: string; external: true } => "external" in l);
+
   return (
-    <nav aria-label="Links relacionados nesta seção" className="mt-6 pt-5 border-t border-border/30">
-      <h3 className="text-sm font-medium text-foreground mb-3">Links relacionados</h3>
-      <ul className="space-y-2 text-sm">
-        {links.map((link) => (
-          <li key={link.slug + link.label}>
-            {link.slug === "/" ? (
-              <Link to="/" className="text-primary hover:underline">
-                → {link.label}
-              </Link>
-            ) : (
-              <Link to="/blog/$slug" params={{ slug: link.slug }} className="text-primary hover:underline">
-                → {link.label}
-              </Link>
-            )}
+    <div className="mt-6 pt-5 border-t border-border/30 space-y-5">
+      {internal.length > 0 && (
+        <nav aria-label="Links relacionados nesta seção">
+          <h3 className="text-sm font-medium text-foreground mb-3">Links relacionados</h3>
+          <ul className="space-y-2 text-sm">
+            {internal.map((link) => (
+              <li key={(link.slug || "/") + link.label}>
+                {link.slug === "/" ? (
+                  <Link to="/" className="text-primary hover:underline">
+                    → {link.label}
+                  </Link>
+                ) : (
+                  <Link to="/blog/$slug" params={{ slug: link.slug }} className="text-primary hover:underline">
+                    → {link.label}
+                  </Link>
+                )}
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
+      {external.length > 0 && (
+        <nav aria-label="Referências oficiais nesta seção">
+          <h3 className="text-sm font-medium text-foreground mb-3">Referências oficiais</h3>
+          <ul className="space-y-2 text-sm text-muted-foreground">
+            {external.map((link) => (
+              <li key={link.href + link.label}>
+                <a
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  ↗ {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
+    </div>
+  );
+}
+
+export function ArticleExternalReferences({ slug }: { slug: string }) {
+  const refs = getArticleExternalRefs(slug);
+  if (refs.length === 0) return null;
+
+  return (
+    <section
+      aria-labelledby="refs-oficiais-heading"
+      className="mt-12 rounded-xl border border-border/50 bg-card/30 p-6"
+    >
+      <h2 id="refs-oficiais-heading" className="font-serif text-xl text-foreground mb-2">
+        Referências oficiais
+      </h2>
+      <p className="text-sm text-muted-foreground mb-4">
+        Fontes governamentais e institucionais para aprofundar o tema. Links abrem em nova aba.
+      </p>
+      <ul className="space-y-3 text-sm">
+        {refs.map((ref) => (
+          <li key={ref.url} className="flex flex-col gap-0.5 sm:flex-row sm:items-baseline sm:gap-2">
+            <a
+              href={ref.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline font-medium"
+            >
+              {ref.label}
+            </a>
+            <span className="text-xs text-muted-foreground">({ref.source})</span>
           </li>
         ))}
       </ul>
-    </nav>
+    </section>
   );
 }
 

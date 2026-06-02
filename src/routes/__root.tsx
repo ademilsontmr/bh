@@ -9,6 +9,7 @@ import {
 } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
 
+import { SiteHeader } from "@/components/site-chrome";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { getOrganizationJsonLd, getWebSiteJsonLd } from "../lib/seo";
@@ -16,7 +17,9 @@ import { OG_IMAGE, SITE_NAME, SITE_URL } from "../lib/site";
 
 function NotFoundComponent() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background px-4">
+    <div className="min-h-screen bg-background">
+      <SiteHeader />
+      <div className="flex flex-1 items-center justify-center px-4 py-24">
       <div className="max-w-md text-center">
         <h1 className="text-7xl font-bold text-foreground">404</h1>
         <h2 className="mt-4 text-xl font-semibold text-foreground">Página não encontrada</h2>
@@ -33,6 +36,7 @@ function NotFoundComponent() {
         </div>
       </div>
     </div>
+    </div>
   );
 }
 
@@ -44,7 +48,9 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   }, [error]);
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background px-4">
+    <div className="min-h-screen bg-background">
+      <SiteHeader />
+      <div className="flex flex-1 items-center justify-center px-4 py-24">
       <div className="max-w-md text-center">
         <h1 className="text-xl font-semibold tracking-tight text-foreground">
           Não foi possível carregar esta página
@@ -70,6 +76,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
           </a>
         </div>
       </div>
+    </div>
     </div>
   );
 }
@@ -100,6 +107,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:image", content: OG_IMAGE },
     ],
     links: [
+      { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
+      { rel: "manifest", href: "/site.webmanifest" },
+      { rel: "apple-touch-icon", href: "/favicon.svg" },
       { rel: "stylesheet", href: appCss },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },

@@ -1,5 +1,6 @@
-import { BLOG_ARTICLE_DATE } from "./blog-dates";
+import { getBlogArticleDate } from "./blog-dates";
 import { BLOG_ARTICLE_FAQ, type ArticleFaqItem } from "./blog-article-faq";
+import { BLOG_ARTICLE_EXTERNAL_REFS, GOV_REFERENCES } from "./blog-external-references";
 import { BLOG_ENRICHMENTS } from "./blog-enrichments";
 
 export type BlogSection = {
@@ -11,8 +12,11 @@ export type BlogSection = {
   orderedItems?: string[];
   /** Destaques após os parágrafos */
   highlights?: string[];
-  /** Links internos curados */
-  relatedLinks?: { label: string; slug: string }[];
+  /** Links internos e referências oficiais (href + external para sites do governo) */
+  relatedLinks?: (
+    | { label: string; slug: string }
+    | { label: string; href: string; external: true }
+  )[];
 };
 
 export type BlogPost = {
@@ -420,14 +424,345 @@ const rawPosts: Omit<BlogPost, "date">[] = [
       },
     ],
   },
+  {
+    slug: "lei-cassinos-brasil-pl-263-regulamentacao",
+    title: "Lei de cassinos no Brasil: PL 2234/2022 e o marco regulatório",
+    excerpt:
+      "Entenda o que propõe a regulação de cassinos no Congresso, como o PL 2234/2022 se relaciona com turismo integrado e por que Campos do Jordão aparece no debate nacional.",
+    readTime: "7 min",
+    keywords: [
+      "lei cassinos Brasil",
+      "PL 2234/2022",
+      "regulamentação",
+      "Campos do Jordão",
+      "turismo",
+    ],
+    sections: [
+      {
+        heading: "O que muda com um marco legal nacional",
+        paragraphs: [
+          "Décadas de proibição ampla não eliminaram a demanda por entretenimento com jogos — apenas deslocaram receita para mercados informais ou para o exterior. Um marco legal nacional define quem pode operar, onde, com quais tributos e como proteger o consumidor. O debate no Congresso gira em torno do [[PL 2234/2022|gov:senado]] (origem na Câmara como [[PL 442/1991|gov:camara]]), buscando equilibrar arrecadação, emprego formal e moderação.",
+          "Para municípios turísticos, a lei não é abstração: define se Campos do Jordão pode concorrer a licenças, quais exigências ambientais e sociais serão contratuais e como a comunidade participa do monitoramento. Transparência legislativa reduz especulação e atrai investimento qualificado.",
+          "Portais informativos como cassinocamposdojordao.com.br ajudam moradores e investidores a acompanhar o texto legal, prazos e impactos — separando projeto regulado de boatos sobre liberação irrestrita.",
+        ],
+      },
+      {
+        heading: "Licenças limitadas e destinos estratégicos",
+        paragraphs: [
+          "Modelos internacionais raramente autorizam cassinos em qualquer cidade. Licenças limitadas concentram fiscalização, evitam saturação e permitem metas de emprego regional. Destinos com hotelaria premium e fluxo estável — como polos na Serra da Mantiqueira — figuram naturalmente no mapa de oportunidades.",
+          "A regulação pode exigir resort integrado: casino dentro de complexo com hospedagem, gastronomia e eventos, ampliando a cadeia turística além das mesas. Isso alinha o setor à vocação de Campos do Jordão, sem transformar a cidade apenas em sala de jogos.",
+          "Parlamentares e gestores públicos ganham instrumentos para auditar operadores, suspender licenças por descumprimento e destinar parte da arrecadação a saúde, educação e prevenção ao jogo problemático.",
+        ],
+      },
+      {
+        heading: "Próximos passos para Campos do Jordão",
+        paragraphs: [
+          "Mesmo antes da votação final, prefeitos, câmaras e empresários locais podem mapear áreas, tráfego, fornecedores e programas de capacitação. Antecipar estudos de impacto acelera licitações quando a lei entrar em vigor e evita decisões improvisadas.",
+          "Um domínio premium regional reforça comunicação responsável durante a transição regulatória: educar sobre emprego, tributos e moderação posiciona Campos como polo maduro, não como aposta especulativa.",
+          "A regulação é oportunidade de capturar turismo que hoje embarca para Las Vegas, Montevidéu ou destinos clandestinos — com emprego formal, ISS municipal e jogo responsável contratualizado.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "seguranca-patrimonial-compliance-cassinos-regulados",
+    title: "Segurança patrimonial e compliance em cassinos regulados",
+    excerpt:
+      "Cassino legal exige controles de AML, vigilância, auditoria e integração com autoridades. Veja como a segurança patrimonial sustenta a credibilidade do setor em Campos do Jordão.",
+    readTime: "6 min",
+    keywords: [
+      "segurança patrimonial",
+      "compliance",
+      "cassino regulado",
+      "AML",
+      "Campos do Jordão",
+    ],
+    sections: [
+      {
+        heading: "Por que segurança é requisito de licença",
+        paragraphs: [
+          "Em mercados regulados, a licença de operação depende de planos de segurança patrimonial, prevenção à lavagem de dinheiro (AML) e canais de cooperação com polícia e receita. Sem isso, o cassino não abre — independentemente do tamanho do investimento.",
+          "Câmeras, controle de acesso, contagem de fichas e trilhas de auditoria digital reduzem fraudes internas e externas. Operadores respondem por falhas graves com multas, suspensão ou revogação da licença.",
+          "Para visitantes de Campos do Jordão, segurança visível transmite padrão internacional de hospitalidade: o entretenimento regulado não compete com ambientes clandestinos onde não há garantia alguma.",
+        ],
+      },
+      {
+        heading: "Compliance e reputação do destino",
+        paragraphs: [
+          "Compliance vai além de segurança física: políticas de jogo responsável, verificação de idade, limites de crédito e treinamento de equipe fazem parte do pacote regulatório. Falhas repetidas mancham o destino inteiro, não apenas o operador.",
+          "Auditorias independentes e relatórios públicos agregam confiança para turismo corporativo, investidores e moradores. Municípios podem exigir indicadores trimestrais como condição de renovação contratual.",
+          "Integração com hotéis e eventos na serra exige protocolos únicos de credenciamento — evitando que o casino seja ponto fraco num ecossistema premium.",
+        ],
+      },
+      {
+        heading: "Emprego qualificado em segurança e TI",
+        paragraphs: [
+          "Centros de monitoramento, cibersegurança e análise de dados geram vagas formais para profissionais da região, com certificações reconhecidas. Programas de trainee podem incluir parcerias com instituições de São Paulo e do Vale do Paraíba.",
+          "A combinação de segurança rigorosa e comunicação transparente — como a veiculada em iniciativas ligadas a cassinocamposdojordao.com.br — diferencia um polo regulado de narrativas sensacionalistas sobre crime e ilegalidade.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "resorts-integrados-impacto-ambiental-campos-jordao",
+    title: "Resorts integrados e impacto ambiental em Campos do Jordão",
+    excerpt:
+      "Licenciamento ambiental, mobilidade e gestão de resíduos são centrais para um cassino regulado na Serra da Mantiqueira. Entenda como projetos podem ser sustentáveis.",
+    readTime: "6 min",
+    keywords: [
+      "impacto ambiental",
+      "resort integrado",
+      "Campos do Jordão",
+      "sustentabilidade",
+      "cassino regulado",
+    ],
+    sections: [
+      {
+        heading: "Serra da Mantiqueira: sensibilidade ambiental",
+        paragraphs: [
+          "Campos do Jordão e vizinhas ocupam área de relevância hídrica e turismo de natureza. Qualquer empreendimento de grande porte precisa de estudo de impacto ambiental, licenças condicionadas e plano de compensação — requisitos que a ilegalidade ignora.",
+          "Resorts integrados regulados podem adotar eficiência energética, gestão de água e resíduos alinhada a certificações internacionais, reduzindo pressão sobre mananciais e florestas.",
+          "A comunidade legitima projetos que demonstram mitigação real: tráfego gerenciado, transporte compartilhado e monitoramento de ruído são temas de debate público, não apenas de sala técnica.",
+        ],
+      },
+      {
+        heading: "Mobilidade e infraestrutura viária",
+        paragraphs: [
+          "Picos de visitação no inverno já testam estradas serranas. Projetos regulados devem apresentar plano de mobilidade com horários escalonados, estacionamentos periféricos e integração com hotéis parceiros — evitando colapso logístico.",
+          "Parte da arrecadação tributária pode financiar melhorias viárias e saneamento, convertendo investimento privado em benefício coletivo mensurável.",
+          "Transparência sobre fluxos esperados permite à prefeitura negociar metas contratuais e fiscalizar cumprimento ao longo da concessão.",
+        ],
+      },
+      {
+        heading: "Sustentabilidade como vantagem competitiva",
+        paragraphs: [
+          "Turistas de alto padrão valorizam destinos com narrativa ambiental coerente. Um polo regulado que combina entretenimento, hotelaria e práticas ESG fortalece a marca Campos do Jordão frente a concorrentes que apostam apenas em volume.",
+          "Informação acessível sobre licenciamento e compromissos ambientais — veiculada em hubs como cassinocamposdojordao.com.br — reduz fake news e constrói apoio local duradouro.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "marketing-digital-turismo-cassino-campos-jordao",
+    title: "Marketing digital de turismo e cassino em Campos do Jordão",
+    excerpt:
+      "Estratégias de SEO, conteúdo e mídia paga para posicionar um destino regulado sem promessas enganosas — e o papel de um domínio premium na autoridade online.",
+    readTime: "6 min",
+    keywords: [
+      "marketing digital",
+      "SEO turismo",
+      "Campos do Jordão",
+      "cassino regulado",
+      "domínio premium",
+    ],
+    sections: [
+      {
+        heading: "Turismo digital pós-regulação",
+        paragraphs: [
+          "Quando o marco legal avança, buscas por cassino no Brasil, regulação e destinos serranos crescem. Marketing digital ético captura intenção informativa com artigos, vídeos e dados verificáveis — não com anúncios enganosos que buscadores penalizam.",
+          "Campos do Jordão compete com outras cidades por atenção do viajante corporativo e de lazer. Autoridade online depende de consistência: domínio claro, blog atualizado e páginas que respondem dúvidas sobre emprego, moderação e impacto local.",
+          "cassinocamposdojordao.com.br exemplifica ativo de marca: termos geográficos e temáticos no endereço reforçam relevância semântica para Google e para parceiros institucionais.",
+        ],
+      },
+      {
+        heading: "SEO local e conteúdo de autoridade",
+        paragraphs: [
+          "Palavras-chave de cauda longa — cassino regulado Campos do Jordão, resort integrado Serra da Mantiqueira, emprego hotelaria — atraem público qualificado. Listas, FAQs e links internos entre artigos aumentam tempo de permanência e sinalizam profundidade editorial.",
+          "Google recompensa sites que educam; punem práticas agressivas de aposta ilegal. Um hub regional alinhado à regulação constrói tráfego orgânico sustentável ao longo dos anos.",
+          "Integração com Google Business Profile, eventos locais e parcerias com hotéis amplifica alcance sem depender só de mídia paga.",
+        ],
+      },
+      {
+        heading: "Mídia paga com compliance",
+        paragraphs: [
+          "Anúncios sobre entretenimento regulado devem respeitar restrições de idade, linguagem responsável e jurisdição. Campanhas segmentadas para turismo corporativo e pacotes de inverno têm ROI superior a cliques genéricos.",
+          "Investidores avaliam presença digital antes de licitações: domínio .com e .com.br protegidos, conteúdo consistente e formulário de contato profissional reduzem fricção na due diligence.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "cassinos-america-latina-comparativo-brasil",
+    title: "Cassinos na América Latina: comparativo e lições para o Brasil",
+    excerpt:
+      "Uruguai, Argentina, Chile e outros mercados já regulam ou debatem jogos. O que o Brasil pode adaptar — e por que Campos do Jordão entra na conversa.",
+    readTime: "7 min",
+    keywords: [
+      "cassinos América Latina",
+      "comparativo",
+      "Brasil",
+      "regulação",
+      "Campos do Jordão",
+    ],
+    sections: [
+      {
+        heading: "Panorama regional",
+        paragraphs: [
+          "Vizinhos latino-americanos capturam turistas brasileiros em cassinos legais há anos. Montevidéu, Buenos Aires e destinos caribenhos combinam entretenimento com hotelaria — receita que o Brasil deixa na fronteira quando não oferece alternativa regulada interna.",
+          "Cada país calibra número de licenças, tributação e exigências de investimento local. O Brasil pode aprender com sucessos e excessos: saturação urbana, falta de moderação ou concentração excessiva em uma única cidade.",
+          "Destinos de clima temperado e perfil premium — como Campos do Jordão — ocupam nicho distinto de megaresorts tropicais, favorecendo escala moderada e foco em turismo de inverno.",
+        ],
+      },
+      {
+        heading: "Competitividade e retenção de receita",
+        paragraphs: [
+          "Sem polos nacionais regulados, agências e operadoras exportam pacotes para o exterior. Com licenças claras, hotéis serranos retêm pernoites, ISS e emprego formal.",
+          "Comparativos públicos de arrecadação e emprego por habitante ajudam parlamentares a dimensionar benefícios — desde que acompanhados de metas de jogo responsável.",
+          "Marcas digitais regionais reforçam narrativa local frente a concorrentes internacionais genéricos.",
+        ],
+      },
+      {
+        heading: "Adaptação ao contexto brasileiro",
+        paragraphs: [
+          "Federação, municípios e órgãos de controle exigem desenho jurídico próprio — não cópia literal de modelos importados. Participação social, transparência de contratos e limites geográficos são diferenciais possíveis.",
+          "Campos do Jordão pode ser caso piloto de resort integrado na serra, com indicadores publicados e comunidade informada via canais como cassinocamposdojordao.com.br.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hospedagem-luxo-entretenimento-regulado-serra",
+    title: "Hospedagem de luxo e entretenimento regulado na Serra",
+    excerpt:
+      "Suítes premium, gastronomia e casino licenciado formam o tripé do resort integrado. Como a hotelaria de Campos do Jordão pode evoluir com regulação.",
+    readTime: "6 min",
+    keywords: [
+      "hospedagem luxo",
+      "hotelaria",
+      "resort integrado",
+      "Campos do Jordão",
+      "cassino regulado",
+    ],
+    sections: [
+      {
+        heading: "Hotelaria que já existe na serra",
+        paragraphs: [
+          "Campos do Jordão reúne pousadas boutique, redes internacionais e capacidade para eventos corporativos. O entretenimento regulado não substitui natureza ou gastronomia — complementa a estadia com oferta licenciada e fiscalizada.",
+          "Suítes ligadas a spa, centro de convenções e área de jogos aumentam ticket médio e permanência média, especialmente fora dos picos absolutos de julho.",
+          "Padrões de serviço importados de mercados regulados elevam treinamento e remuneração da equipe de hotelaria.",
+        ],
+      },
+      {
+        heading: "Experiência integrada e marca",
+        paragraphs: [
+          "Hóspedes premium esperam pacotes coerentes: jantar, show e entretenimento com regras claras. Resorts integrados vendem experiência completa, não acesso isolado a mesas.",
+          "Marcas locais e domínios como cassinocamposdojordao.com.br comunicam posicionamento antes mesmo da obra: seriedade, regulação e foco geográfico.",
+          "Parcerias com vinícolas, roteiros culturais e esqui ampliam diferencial frente a cassinos urbanos sem vocação turística natural.",
+        ],
+      },
+      {
+        heading: "Ocupação e investimento em retrofit",
+        paragraphs: [
+          "Parte da hotelaria existente pode ser integrada ou revitalizada por operadores licenciados, gerando retrofit e emprego de construção civil sem partir do zero.",
+          "Indicadores de ocupação fora de temporada são a métrica-chave para avaliar sucesso do modelo na Serra da Mantiqueira.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "concessao-licitacao-cassino-municipio-brasil",
+    title: "Concessão e licitação de cassino: papel do município",
+    excerpt:
+      "Como prefeituras podem estruturar licitações, metas sociais e fiscalização de um polo regulado — guia para gestores de Campos do Jordão.",
+    readTime: "7 min",
+    keywords: [
+      "licitação",
+      "concessão",
+      "município",
+      "cassino regulado",
+      "Campos do Jordão",
+    ],
+    sections: [
+      {
+        heading: "Do marco federal ao contrato local",
+        paragraphs: [
+          "A lei nacional define o que é permitido; municípios sede decidem se querem concorrer, onde e com quais contrapartidas. Licitação transparente seleciona operador por capacidade financeira, plano de investimento e compromissos sociais — não por promessa informal.",
+          "Estudos de impacto urbano, ambiental e turístico alimentam o edital. Moradores e associações devem ter canal de consulta antes da assinatura.",
+          "Campos do Jordão, com histórico de turismo premium, pode exigir padrões acima do mínimo legal: conteúdo local, metas de emprego e fundo de jogo responsável.",
+        ],
+      },
+      {
+        heading: "Metas contratuais e renovação",
+        paragraphs: [
+          "Contratos de concessão podem vincular renovação a ocupação hoteleira média, arrecadação de ISS e indicadores de moderação. Descumprimento abre caminho para sanção ou troca de operador.",
+          "Receita municipal não deve depender só de taxa upfront: parcela recorrente sobre receita de jogo alinha interesse público ao desempenho de longo prazo.",
+          "Publicação digital de relatórios trimestrais reduz opacidade e fortalece legitimidade democrática.",
+        ],
+      },
+      {
+        heading: "Comunicação pública responsável",
+        paragraphs: [
+          "Gestores precisam separar fato de rumor: o que a lei permite, onde pode ser instalado e quais benefícios são mensuráveis. Hubs informativos como cassinocamposdojordao.com.br complementam audiências públicas e materiais oficiais.",
+          "Licitação bem feita transforma debate polarizado em processo técnico auditável — condição para investimento estrangeiro e apoio local.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "apostas-online-cassino-presencial-regulacao",
+    title: "Apostas online vs cassino presencial regulado",
+    excerpt:
+      "São mercados distintos na lei e na experiência do usuário. Entenda diferenças de tributação, moderação e turismo em Campos do Jordão.",
+    readTime: "6 min",
+    keywords: [
+      "apostas online",
+      "cassino presencial",
+      "regulação",
+      "Brasil",
+      "turismo",
+    ],
+    sections: [
+      {
+        heading: "Dois canais, duas lógicas",
+        paragraphs: [
+          "Apostas esportivas e jogos online mobilizam plataformas digitais, publicidade massiva e desafios de moderação remota — já disciplinados pela [[Lei nº 14.790/2023|gov:leiApostas]] e pela [[Secretaria de Prêmios e Apostas|gov:spa]]. Cassino presencial regulado ancora-se em resort, emprego local, turismo e fiscalização in loco — complementares, não idênticos.",
+          "Confundir os dois alimenta medo de proliferação irrestrita. A regulação pode limitar licenças físicas a poucos destinos turísticos enquanto disciplina online com regras próprias.",
+          "Campos do Jordão dialoga naturalmente com modelo presencial integrado à hotelaria, não com servidor em jurisdição desconhecida.",
+        ],
+      },
+      {
+        heading: "Turismo e experiência presencial",
+        paragraphs: [
+          "Casino em resort prolonga estadia, movimenta restaurantes e gera emprego de proximidade — efeitos que apostas puramente online não replicam no território.",
+          "Turismo corporativo e de inverno na serra beneficia-se de entretenimento presencial com compliance visível: crachás, limites, segurança patrimonial.",
+          "Capturar visitantes que hoje cruzam fronteira exige oferta legal com qualidade equivalente e narrativa regional forte.",
+        ],
+      },
+      {
+        heading: "Moderação em ambos os canais",
+        paragraphs: [
+          "Jogo responsável deve cobrir autoexclusão digital e presencial, publicidade restrita e financiamento de prevenção. Recursos tributários de cada canal podem alimentar o mesmo fundo setorial.",
+          "Educação clara — como artigos em cassinocamposdojordao.com.br — reduz mitos e posiciona o Brasil para regulação madura em todas as frentes.",
+        ],
+      },
+    ],
+  },
 ];
+
+function govLinksForSection(slug: string, sectionIndex: number, total: number) {
+  if (sectionIndex !== total - 1) return [];
+  const keys = BLOG_ARTICLE_EXTERNAL_REFS[slug];
+  if (!keys?.length) return [];
+  return keys.slice(0, 2).map((key) => ({
+    label: GOV_REFERENCES[key].label,
+    href: GOV_REFERENCES[key].url,
+    external: true as const,
+  }));
+}
 
 function applyEnrichments(slug: string, sections: BlogSection[]): BlogSection[] {
   const enrichments = BLOG_ENRICHMENTS[slug];
-  if (!enrichments) return sections;
+  const total = sections.length;
   return sections.map((section, i) => {
-    const extra = enrichments[i];
-    return extra ? { ...section, ...extra } : section;
+    const extra = enrichments?.[i];
+    const merged = extra ? { ...section, ...extra } : { ...section };
+    const govLinks = govLinksForSection(slug, i, total);
+    if (govLinks.length === 0) return merged;
+    const existing = merged.relatedLinks ?? [];
+    const withoutDup = govLinks.filter(
+      (g) => !existing.some((e) => "href" in e && e.href === g.href),
+    );
+    return { ...merged, relatedLinks: [...existing, ...withoutDup] };
   });
 }
 
@@ -439,7 +774,7 @@ const enrichedPosts = rawPosts.map((post) => ({
 
 export const blogPosts: BlogPost[] = enrichedPosts.map((post) => ({
   ...post,
-  date: BLOG_ARTICLE_DATE,
+  date: getBlogArticleDate(post.slug),
 }));
 
 export function getBlogPost(slug: string): BlogPost | undefined {

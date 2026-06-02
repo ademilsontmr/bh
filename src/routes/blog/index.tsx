@@ -17,7 +17,7 @@ function BlogIndexPage() {
 
   return (
     <div className="min-h-screen">
-      <SiteHeader variant="inner" />
+      <SiteHeader />
       <main className="container mx-auto max-w-4xl px-6 py-16 md:py-24">
         <Breadcrumbs
           items={[

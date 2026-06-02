@@ -155,4 +155,116 @@ export const BLOG_ARTICLE_FAQ: Record<string, ArticleFaqItem[]> = {
       a: "Sim. Potencial econômico só se sustenta com confiança: debate público informado, fiscalização independente e contrapartidas claras em prevenção e infraestrutura reforçam legitimidade democrática.",
     },
   ],
+  "lei-cassinos-brasil-pl-263-regulamentacao": [
+    {
+      q: "O PL 2234/2022 legaliza cassinos em qualquer cidade?",
+      a: "O texto em tramitação no Senado prevê licenças limitadas por estado e exige, em geral, resort integrado ou polo turístico — não autorização irrestrita. Municípios como Campos do Jordão competem com estudos técnicos e metas sociais. Consulte a ficha oficial no Senado e na Câmara.",
+    },
+    {
+      q: "Quando a lei de cassinos pode valer no Brasil?",
+      a: "Depende da votação do PL 2234/2022 no Senado, sanção presidencial e regulamentação infralegal. Acompanhe a tramitação nas páginas oficiais do Congresso — não em sites não autorizados.",
+    },
+    {
+      q: "Por que Campos do Jordão aparece no debate?",
+      a: "Hotelaria premium, turismo de inverno e proximidade de São Paulo criam perfil compatível com polo regulado de escala moderada na Serra da Mantiqueira.",
+    },
+  ],
+  "seguranca-patrimonial-compliance-cassinos-regulados": [
+    {
+      q: "Cassino regulado precisa de plano anti-lavagem de dinheiro?",
+      a: "Sim. Mercados licenciados exigem AML, KYC, trilhas de auditoria e cooperação com autoridades — condição de licença, não opcional de marketing.",
+    },
+    {
+      q: "Segurança patrimonial gera emprego local?",
+      a: "Centros de monitoramento, TI e compliance criam vagas formais com certificação — oportunidade para profissionais da região em parceria com operadores licenciados.",
+    },
+    {
+      q: "Como isso afeta a imagem de Campos do Jordão?",
+      a: "Padrões visíveis de fiscalização diferenciam destino regulado de ofertas clandestinas — reforçando turismo corporativo e investimento qualificado.",
+    },
+  ],
+  "resorts-integrados-impacto-ambiental-campos-jordao": [
+    {
+      q: "Cassino regulado precisa de licença ambiental?",
+      a: "Sim. Empreendimentos de porte na Serra da Mantiqueira dependem de estudos de impacto, condicionantes e monitoramento — exigências que projetos ilegais ignoram.",
+    },
+    {
+      q: "Como reduzir impacto no trânsito serrano?",
+      a: "Planos de mobilidade com estacionamento periférico, horários escalonados e integração hoteleira são contrapartidas contratuais possíveis em licitações municipais.",
+    },
+    {
+      q: "Sustentabilidade ajuda no turismo de luxo?",
+      a: "Visitantes premium valorizam destinos com narrativa ambiental coerente — ESG e eficiência energética fortalecem a marca Campos do Jordão.",
+    },
+  ],
+  "marketing-digital-turismo-cassino-campos-jordao": [
+    {
+      q: "Marketing de cassino pode ranquear no Google sem spam?",
+      a: "Sim. Conteúdo educativo sobre regulação, emprego e moderação constrói autoridade — prática recompensada pelos buscadores, diferente de promessas enganosas.",
+    },
+    {
+      q: "Por que domínio premium ajuda no SEO turístico?",
+      a: "Endereços com Campos do Jordão e cassino reforçam relevância semântica e confiança do usuário — como cassinocamposdojordao.com.br.",
+    },
+    {
+      q: "Anúncios pagos exigem regras especiais?",
+      a: "Campanhas devem respeitar idade mínima, linguagem responsável e jurisdição — segmentação para turismo corporativo costuma ter melhor ROI que cliques genéricos.",
+    },
+  ],
+  "cassinos-america-latina-comparativo-brasil": [
+    {
+      q: "Brasileiros já jogam em cassinos no exterior?",
+      a: "Sim. Destinos no Uruguai, Argentina e Caribe capturam turismo que um polo regulado nacional poderia reter com emprego e tributos locais.",
+    },
+    {
+      q: "O Brasil deve copiar outro país?",
+      a: "Não literalmente. Federação, municípios e controle exigem desenho próprio — adaptando lições de licenças limitadas, tributação e moderação.",
+    },
+    {
+      q: "Campos compete com megaresorts tropicais?",
+      a: "Ocupa nicho de clima temperado e hotelaria premium — escala moderada e foco em inverno corporativo, não volume desordenado.",
+    },
+  ],
+  "hospedagem-luxo-entretenimento-regulado-serra": [
+    {
+      q: "Cassino substitui hotéis em Campos do Jordão?",
+      a: "Não. Complementa hotelaria existente dentro de resort integrado — spa, convenções e gastronomia permanecem centrais na experiência.",
+    },
+    {
+      q: "O que é resort integrado?",
+      a: "Complexo com hospedagem, lazer licenciado, eventos e serviços em um único operador regulado — prolongando pernoite e ticket médio.",
+    },
+    {
+      q: "Hotelaria antiga pode ser revitalizada?",
+      a: "Operadores licenciados podem fazer retrofit de ativos existentes, gerando emprego de construção sem partir do zero.",
+    },
+  ],
+  "concessao-licitacao-cassino-municipio-brasil": [
+    {
+      q: "Quem decide se Campos terá cassino?",
+      a: "Marco federal define possibilidade; município sede escolhe participar via licitação ou concessão com metas sociais e ambientais.",
+    },
+    {
+      q: "Licitação evita favorecimento?",
+      a: "Edital transparente avalia capacidade financeira, plano de investimento e compliance — reduzindo acordos informais.",
+    },
+    {
+      q: "Contrato pode exigir relatórios públicos?",
+      a: "Sim. Indicadores trimestrais de ocupação, ISS e moderação podem condicionar renovação — fortalecendo fiscalização cidadã.",
+    },
+  ],
+  "apostas-online-cassino-presencial-regulacao": [
+    {
+      q: "Apostas online e cassino físico são a mesma lei?",
+      a: "São canais distintos com desafios próprios de moderação e tributação — a regulação pode tratar cada um com regras específicas.",
+    },
+    {
+      q: "Cassino presencial ajuda o turismo local?",
+      a: "Sim. Resort integrado movimenta hotel, restaurantes e fornecedores — efeito territorial que apostas puramente digitais não replicam na serra.",
+    },
+    {
+      q: "Campos do Jordão é destino para modelo online?",
+      a: "O perfil da cidade favorece entretenimento presencial integrado à hotelaria de luxo e eventos — não servidor remoto sem presença local.",
+    },
+  ],
 };

@@ -14,7 +14,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
   "investimento-estrangeiro-turismo-entretenimento-brasil": [
     {
       listItems: [
-        "Operadores de Las Vegas, Macau e Singapura mapeiam o Brasil como mercado de longo prazo",
+        "Operadores internacionais mapeiam o Brasil — contexto legislativo no [[Senado Federal|gov:senado]] e dados do [[Ministério do Turismo|gov:turismo]]",
         "Campos do Jordão combina turismo de inverno, renda elevada e vocação para [[resorts integrados|resorts-integrados-serra-mantiqueira]]",
         "Regulação clara reduz risco jurídico e viabiliza parcerias público-privadas com metas de [[emprego formal|empregos-formais-hotelaria-lazer-brasil]]",
       ],
@@ -65,7 +65,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Resort integrado distribui demanda ao longo do ano — casino, convenções, spa e gastronomia",
         "Funções permanentes: recepcionista, dealer, compliance, gerente de operações",
-        "Trainee em hotelaria reduz migração de jovens da [[Serra da Mantiqueira|resorts-integrados-serra-mantiqueira]]",
+        "Vagas formais alinhadas ao [[Ministério do Trabalho|gov:trabalho]]; trainee reduz migração da [[Serra da Mantiqueira|resorts-integrados-serra-mantiqueira]]",
       ],
       relatedLinks: [
         { label: "Resorts integrados", slug: "resorts-integrados-serra-mantiqueira" },
@@ -112,7 +112,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
   "dominio-premium-seo-entretenimento-campos-jordao": [
     {
       listItems: [
-        "Domínio geográfico e temático sinaliza credibilidade — não apostas clandestinas",
+        "Domínio geográfico sinaliza credibilidade — alinhe conteúdo a dados do [[IBGE turismo|gov:ibgeTurismo]] e [[Ministério do Turismo|gov:turismo]]",
         "[[cassinocamposdojordao.com.br|/]] ancora comunicação sobre entretenimento em [[Campos do Jordão|campos-do-jordao-polo-entretenimento-regulado]]",
         "Transparência online é requisito em mercados regulados e due diligence de investidores",
       ],
@@ -161,8 +161,8 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
   "tributacao-cassinos-regulados-financiamento-publico": [
     {
       listItems: [
-        "Cassinos regulados permitem alíquotas sobre receita bruta de jogo e fundos setoriais",
-        "Modelos de [[Las Vegas|licoes-las-vegas-singapura-regulacao-brasil]] e [[Singapura|licoes-las-vegas-singapura-regulacao-brasil]] financiam fiscalização robusta",
+        "Alíquotas e fundos setoriais: [[Receita Federal|gov:receita]], [[COAF|gov:coaf]] e [[SPA — apostas|gov:spaApostas]]",
+        "Modelos internacionais inspiram o debate no [[Senado Federal|gov:senado]]; [[Las Vegas|licoes-las-vegas-singapura-regulacao-brasil]] e [[Singapura|licoes-las-vegas-singapura-regulacao-brasil]] financiam fiscalização robusta",
         "Municípios como [[Campos do Jordão|campos-do-jordao-polo-entretenimento-regulado]] podem investir em infraestrutura viária e saneamento",
       ],
       relatedLinks: [
@@ -211,7 +211,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     {
       listItems: [
         "Segmento MICE busca infraestrutura, clima e experiências pós-evento",
-        "Campos do Jordão soma hotéis premium + [[entretenimento regulado|campos-do-jordao-polo-entretenimento-regulado]] em resort integrado",
+        "[[Ministério do Turismo|gov:turismo]] e [[IBGE|gov:ibgeTurismo]] dimensionam demanda; Campos soma hotéis premium + [[entretenimento regulado|campos-do-jordao-polo-entretenimento-regulado]]",
         "Empresas preferem ambientes auditados com compliance e [[moderação|moderacao-jogo-responsavel-cassinos]]",
       ],
       relatedLinks: [
@@ -372,7 +372,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
     {
       listItems: [
-        "Autoexclusão voluntária e limites de depósito configuráveis",
+        "Autoexclusão e prevenção: [[SPA — jogo responsável|gov:jogoResponsavel]], [[Ministério da Saúde|gov:saude]] e [[Lei 14.790/2023|gov:leiApostas]]",
         "Bloqueio de marketing a usuários autoexcluídos",
         "Tributação setorial financia CAPS, linhas de apoio e campanhas educativas",
       ],
@@ -406,7 +406,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
   "resorts-integrados-serra-mantiqueira": [
     {
       listItems: [
-        "Hospedagem + entretenimento regulado + convenções + retail em masterplan único",
+        "Hospedagem + entretenimento regulado + convenções — alinhado ao [[Ministério do Turismo|gov:turismo]] e [[IBGE turismo|gov:ibgeTurismo]]",
         "Visitante permanece mais tempo; município captura receita diversificada",
         "Escala moderada compatível com paisagem da [[Serra da Mantiqueira|resorts-integrados-serra-mantiqueira]]",
       ],
@@ -456,7 +456,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     {
       listItems: [
         "Resort integrado médio gera milhares de empregos diretos e indiretos",
-        "Licenças limitadas em destinos estratégicos — incluindo polos serranos",
+        "Licenças limitadas — tramitação no [[Senado Federal|gov:senado]] e metas do [[Ministério do Trabalho|gov:trabalho]]",
         "Funções: mesa, slot, compliance, jurídico, marketing, gestão ambiental",
       ],
       relatedLinks: [
@@ -504,7 +504,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
   "cassino-campos-do-jordao-potencial-economico": [
     {
       listItems: [
-        "Visitantes de alto poder aquisitivo no inverno e feriados prolongados",
+        "Dados do [[IBGE turismo|gov:ibgeTurismo]] e da [[Prefeitura de Campos do Jordão|gov:camposPrefeitura]] orientam planejamento local",
         "Infraestrutura hoteleira + eixo Rio–São Paulo = terreno fértil para complemento regulado",
         "Resort integrado prolonga estadias e suaviza oscilações sazonais",
       ],
@@ -546,6 +546,286 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       relatedLinks: [
         { label: "Moderação e jogo responsável", slug: "moderacao-jogo-responsavel-cassinos" },
         { label: "Cassinos no Brasil: emprego e renda", slug: "cassinos-brasil-emprego-renda" },
+      ],
+    },
+  ],
+
+  "lei-cassinos-brasil-pl-263-regulamentacao": [
+    {
+      listItems: [
+        "Marco legal nacional define operadores, tributos e proteção ao consumidor",
+        "Texto em tramitação: [[PL 2234/2022 no Senado|gov:senado]] e origem [[PL 442/1991 na Câmara|gov:camara]]",
+        "[[Campos do Jordão|campos-do-jordao-polo-entretenimento-regulado]] pode concorrer a licenças com metas sociais",
+      ],
+      relatedLinks: [
+        { label: "Lições de Las Vegas e Singapura", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
+        { label: "Concessão municipal", slug: "concessao-licitacao-cassino-municipio-brasil" },
+      ],
+    },
+    {
+      listItems: [
+        "Licenças limitadas concentram fiscalização e emprego regional",
+        "Resort integrado alinha casino a hotelaria e eventos",
+        "Suspensão de licença por descumprimento vira instrumento real",
+      ],
+      relatedLinks: [
+        { label: "Resorts integrados", slug: "resorts-integrados-serra-mantiqueira" },
+        { label: "Tributação e financiamento público", slug: "tributacao-cassinos-regulados-financiamento-publico" },
+      ],
+    },
+    {
+      highlights: [
+        "Estudos de impacto antecipados aceleram licitações pós-lei",
+        "Comunicação via [[cassinocamposdojordao.com.br|/]] educa durante a transição regulatória",
+      ],
+      relatedLinks: [
+        { label: "Potencial econômico local", slug: "cassino-campos-do-jordao-potencial-economico" },
+        { label: "Comparativo América Latina", slug: "cassinos-america-latina-comparativo-brasil" },
+      ],
+    },
+  ],
+
+  "seguranca-patrimonial-compliance-cassinos-regulados": [
+    {
+      listItems: [
+        "Licença exige AML e cooperação com [[COAF|gov:coaf]] e [[Receita Federal|gov:receita]]",
+        "Trilhas de auditoria reduzem fraudes internas e externas",
+        "Padrão internacional diferencia destino regulado de clandestino",
+      ],
+      relatedLinks: [
+        { label: "Moderação responsável", slug: "moderacao-jogo-responsavel-cassinos" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-campos-do-jordao-entretenimento" },
+      ],
+    },
+    {
+      listItems: [
+        "Verificação de idade, limites de crédito e treinamento de equipe",
+        "Relatórios públicos reforçam confiança de investidores",
+        "Protocolos únicos com hotéis e eventos na serra",
+      ],
+      relatedLinks: [
+        { label: "Concessão e licitação", slug: "concessao-licitacao-cassino-municipio-brasil" },
+        { label: "Polo regulado", slug: "campos-do-jordao-polo-entretenimento-regulado" },
+      ],
+    },
+    {
+      highlights: [
+        "Vagas em monitoramento, TI e compliance com certificação",
+        "Segurança rigorosa + comunicação transparente combatem sensacionalismo",
+      ],
+      relatedLinks: [
+        { label: "Empregos formais", slug: "empregos-formais-hotelaria-lazer-brasil" },
+        { label: "Investimento estrangeiro", slug: "investimento-estrangeiro-turismo-entretenimento-brasil" },
+      ],
+    },
+  ],
+
+  "resorts-integrados-impacto-ambiental-campos-jordao": [
+    {
+      listItems: [
+        "Área de relevância hídrica exige licenciamento — consulte a [[Prefeitura de Campos do Jordão|gov:camposPrefeitura]] e o [[Governo de São Paulo|gov:spGoverno]]",
+        "Eficiência energética e gestão de resíduos alinhadas a certificações",
+        "Mitigação de tráfego e ruído como tema de debate público",
+      ],
+      relatedLinks: [
+        { label: "Resorts integrados", slug: "resorts-integrados-serra-mantiqueira" },
+        { label: "Licitação municipal", slug: "concessao-licitacao-cassino-municipio-brasil" },
+      ],
+    },
+    {
+      orderedItems: [
+        "Plano de mobilidade com estacionamento periférico",
+        "Integração com hotéis parceiros e horários escalonados",
+        "Financiamento viário com parcela da arrecadação tributária",
+      ],
+      relatedLinks: [
+        { label: "Potencial econômico", slug: "cassino-campos-do-jordao-potencial-economico" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-campos-do-jordao-entretenimento" },
+      ],
+    },
+    {
+      highlights: [
+        "Narrativa ESG coerente fortalece turismo de luxo",
+        "Transparência ambiental reduz fake news locais",
+      ],
+      relatedLinks: [
+        { label: "Hospedagem de luxo", slug: "hospedagem-luxo-entretenimento-regulado-serra" },
+        { label: "Polo entretenimento regulado", slug: "campos-do-jordao-polo-entretenimento-regulado" },
+      ],
+    },
+  ],
+
+  "marketing-digital-turismo-cassino-campos-jordao": [
+    {
+      listItems: [
+        "Buscas por regulação crescem — dados do [[IBGE — turismo|gov:ibgeTurismo]] e do [[Ministério do Turismo|gov:turismo]] orientam estratégia",
+        "Marketing ético captura intenção informativa — não clickbait",
+        "[[Domínio premium|dominio-premium-seo-entretenimento-campos-jordao]] reforça autoridade regional",
+      ],
+      relatedLinks: [
+        { label: "SEO e domínio premium", slug: "dominio-premium-seo-entretenimento-campos-jordao" },
+        { label: "Lei e PL 2234/2022", slug: "lei-cassinos-brasil-pl-263-regulamentacao" },
+      ],
+    },
+    {
+      listItems: [
+        "Cauda longa: cassino regulado Campos do Jordão, resort integrado",
+        "FAQs e links internos aumentam profundidade editorial",
+        "Google Business Profile + eventos locais amplificam alcance",
+      ],
+      relatedLinks: [
+        { label: "Blog e conteúdo", slug: "cassinos-brasil-emprego-renda" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-campos-do-jordao-entretenimento" },
+      ],
+    },
+    {
+      highlights: [
+        "Anúncios com restrição de idade e linguagem responsável",
+        "Presença digital coerente reduz fricção na due diligence",
+      ],
+      relatedLinks: [
+        { label: "Comparativo LATAM", slug: "cassinos-america-latina-comparativo-brasil" },
+        { label: "Apostas online vs presencial", slug: "apostas-online-cassino-presencial-regulacao" },
+      ],
+    },
+  ],
+
+  "cassinos-america-latina-comparativo-brasil": [
+    {
+      listItems: [
+        "Uruguai, Argentina e Caribe capturam turistas brasileiros há anos",
+        "Licenças limitadas evitam saturação urbana",
+        "Campos ocupa nicho de clima temperado e escala moderada",
+      ],
+      relatedLinks: [
+        { label: "Lições Las Vegas e Singapura", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
+        { label: "Investimento estrangeiro", slug: "investimento-estrangeiro-turismo-entretenimento-brasil" },
+      ],
+    },
+    {
+      listItems: [
+        "Retenção de pernoites, ISS e emprego formal",
+        "Comparativos públicos dimensionam benefícios fiscais",
+        "Marcas digitais regionais vs concorrentes genéricos",
+      ],
+      relatedLinks: [
+        { label: "Emprego e renda", slug: "cassinos-brasil-emprego-renda" },
+        { label: "Tributação regulada", slug: "tributacao-cassinos-regulados-financiamento-publico" },
+      ],
+    },
+    {
+      highlights: [
+        "Desenho jurídico próprio — não cópia literal de modelos importados",
+        "Campos como caso piloto na Serra da Mantiqueira",
+      ],
+      relatedLinks: [
+        { label: "Lei de cassinos Brasil", slug: "lei-cassinos-brasil-pl-263-regulamentacao" },
+        { label: "Potencial econômico local", slug: "cassino-campos-do-jordao-potencial-economico" },
+      ],
+    },
+  ],
+
+  "hospedagem-luxo-entretenimento-regulado-serra": [
+    {
+      listItems: [
+        "Hotelaria premium já consolidada em Campos do Jordão",
+        "Casino complementa — não substitui — natureza e gastronomia",
+        "Ticket médio e permanência sobem com pacotes integrados",
+      ],
+      relatedLinks: [
+        { label: "Resorts integrados", slug: "resorts-integrados-serra-mantiqueira" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-campos-do-jordao-entretenimento" },
+      ],
+    },
+    {
+      listItems: [
+        "Pacotes coerentes: jantar, show e entretenimento licenciado",
+        "Parcerias com vinícolas e roteiros culturais",
+        "Marca reforçada por [[domínio premium|dominio-premium-seo-entretenimento-campos-jordao]]",
+      ],
+      relatedLinks: [
+        { label: "Marketing digital", slug: "marketing-digital-turismo-cassino-campos-jordao" },
+        { label: "Polo regulado", slug: "campos-do-jordao-polo-entretenimento-regulado" },
+      ],
+    },
+    {
+      highlights: [
+        "Retrofit de hotelaria existente gera emprego de construção",
+        "Ocupação fora de temporada = métrica-chave de sucesso",
+      ],
+      relatedLinks: [
+        { label: "Empregos formais", slug: "empregos-formais-hotelaria-lazer-brasil" },
+        { label: "Impacto econômico", slug: "cassino-campos-do-jordao-potencial-economico" },
+      ],
+    },
+  ],
+
+  "concessao-licitacao-cassino-municipio-brasil": [
+    {
+      listItems: [
+        "Lei federal habilita; município sede decide participar — veja [[Prefeitura de Campos do Jordão|gov:camposPrefeitura]] e tramitação no [[Senado|gov:senado]]",
+        "Edital transparente seleciona operador por capacidade e metas",
+        "Consulta pública antes da assinatura do contrato",
+      ],
+      relatedLinks: [
+        { label: "Lei PL 2234/2022", slug: "lei-cassinos-brasil-pl-263-regulamentacao" },
+        { label: "Impacto ambiental", slug: "resorts-integrados-impacto-ambiental-campos-jordao" },
+      ],
+    },
+    {
+      orderedItems: [
+        "Metas de ISS, ocupação e moderação no contrato",
+        "Parcela recorrente sobre receita de jogo",
+        "Relatórios trimestrais publicados digitalmente",
+      ],
+      relatedLinks: [
+        { label: "Tributação municipal", slug: "tributacao-cassinos-regulados-financiamento-publico" },
+        { label: "Compliance e segurança", slug: "seguranca-patrimonial-compliance-cassinos-regulados" },
+      ],
+    },
+    {
+      highlights: [
+        "Comunicação responsável separa fato de rumor",
+        "Licitação auditável atrai investimento estrangeiro",
+      ],
+      relatedLinks: [
+        { label: "Investimento estrangeiro", slug: "investimento-estrangeiro-turismo-entretenimento-brasil" },
+        { label: "Potencial em Campos", slug: "cassino-campos-do-jordao-potencial-economico" },
+      ],
+    },
+  ],
+
+  "apostas-online-cassino-presencial-regulacao": [
+    {
+      listItems: [
+        "Online: [[Lei 14.790/2023|gov:leiApostas]], [[SPA — apostas de quota fixa|gov:spaApostas]] e [[jogo responsável|gov:jogoResponsavel]]",
+        "Presencial: resort, emprego local e fiscalização in loco",
+        "Campos dialoga com modelo integrado à hotelaria",
+      ],
+      relatedLinks: [
+        { label: "Moderação responsável", slug: "moderacao-jogo-responsavel-cassinos" },
+        { label: "Hospedagem de luxo", slug: "hospedagem-luxo-entretenimento-regulado-serra" },
+      ],
+    },
+    {
+      listItems: [
+        "Casino presencial prolonga estadia e movimenta restaurantes",
+        "Turismo corporativo exige compliance visível",
+        "Retenção de visitantes que cruzam fronteira",
+      ],
+      relatedLinks: [
+        { label: "Comparativo América Latina", slug: "cassinos-america-latina-comparativo-brasil" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-campos-do-jordao-entretenimento" },
+      ],
+    },
+    {
+      highlights: [
+        "Autoexclusão digital e presencial no mesmo fundo setorial",
+        "Educação clara posiciona o Brasil para regulação madura",
+      ],
+      relatedLinks: [
+        { label: "Lei de cassinos", slug: "lei-cassinos-brasil-pl-263-regulamentacao" },
+        { label: "Emprego e renda", slug: "cassinos-brasil-emprego-renda" },
       ],
     },
   ],

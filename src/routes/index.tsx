@@ -17,6 +17,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 
+import { SiteHeader } from "@/components/site-chrome";
 import { getSortedBlogPosts } from "@/lib/blog-posts";
 import { getHomeHeadMeta } from "@/lib/seo";
 import { DOMAIN_BR, DOMAIN_COM, FORM_URL } from "@/lib/site";
@@ -91,7 +92,7 @@ export const Route = createFileRoute("/")({
 function LandingPage() {
   return (
     <div className="min-h-screen">
-      <Header />
+      <SiteHeader />
       <main id="conteudo-principal">
         <Hero />
         <DomainsStrip />
@@ -105,36 +106,6 @@ function LandingPage() {
       </main>
       <Footer />
     </div>
-  );
-}
-
-function Header() {
-  return (
-    <header className="sticky top-0 z-40 backdrop-blur-xl bg-background/70 border-b border-border/40">
-      <div className="container mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
-        <a href="#top" className="flex items-center gap-2 group">
-          <Crown className="h-5 w-5 text-primary" />
-          <span className="font-serif text-lg tracking-tight">
-            Cassino<span className="text-gradient-gold"> Campos do Jordão</span>
-          </span>
-        </a>
-        <nav className="hidden md:flex items-center gap-7 text-sm text-muted-foreground" aria-label="Navegação principal">
-          <a href="#valor" className="hover:text-primary transition">Vantagens</a>
-          <a href="#regulamentacao" className="hover:text-primary transition">Regulação</a>
-          <a href="#aplicacoes" className="hover:text-primary transition">Aplicações</a>
-          <Link to="/blog" className="hover:text-primary transition">Blog</Link>
-          <a href="#faq" className="hover:text-primary transition">FAQ</a>
-        </nav>
-        <a
-          href={FORM_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-sm bg-gradient-gold text-primary-foreground px-4 py-2 rounded-md font-medium shadow-gold hover:opacity-90 transition"
-        >
-          Enviar Oferta
-        </a>
-      </div>
-    </header>
   );
 }
 

@@ -1,0 +1,18 @@
+{
+  "name": "Cassino Campos do Jordão",
+  "short_name": "Cassino CJ",
+  "description": "Domínios premium e conteúdo sobre entretenimento regulado em Campos do Jordão",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import { ArrowLeft, Calendar, Clock } from "lucide-react";
 
 import {
+  ArticleExternalReferences,
   ArticleFaq,
   BlogContent,
   BlogDomainMention,
@@ -30,7 +31,7 @@ function BlogPostPage() {
 
   return (
     <div className="min-h-screen">
-      <SiteHeader variant="inner" />
+      <SiteHeader />
       <main className="container mx-auto max-w-3xl px-6 py-16 md:py-24">
         <Breadcrumbs
           items={[
@@ -92,6 +93,7 @@ function BlogPostPage() {
 
           <BlogTableOfContents post={post} sections={post.sections} />
           <BlogContent post={post} sections={post.sections} />
+          <ArticleExternalReferences slug={post.slug} />
           <ArticleFaq faq={post.faq} />
           <BlogDomainMention />
         </article>

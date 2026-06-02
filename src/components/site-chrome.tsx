@@ -1,37 +1,40 @@
-import { Link } from "@tanstack/react-router";
+import { Link, useRouterState } from "@tanstack/react-router";
+import type { ReactNode } from "react";
 import { Crown } from "lucide-react";
 
 import { DOMAIN_BR, FORM_URL } from "@/lib/site";
 
-type SiteHeaderProps = {
-  variant?: "home" | "inner";
-};
+const NAV_ITEMS = [
+  { label: "Vantagens", sectionId: "valor" },
+  { label: "Regulação", sectionId: "regulamentacao" },
+  { label: "Aplicações", sectionId: "aplicacoes" },
+] as const;
 
-export function SiteHeader({ variant = "home" }: SiteHeaderProps) {
+function useSectionHref(sectionId: string) {
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
+  return pathname === "/" ? `#${sectionId}` : `/#${sectionId}`;
+}
+
+export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 backdrop-blur-xl bg-background/70 border-b border-border/40">
       <div className="container mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 group">
+        <Link to="/" hash="top" className="flex items-center gap-2 group">
           <Crown className="h-5 w-5 text-primary" />
           <span className="font-serif text-lg tracking-tight">
             Cassino<span className="text-gradient-gold"> Campos do Jordão</span>
           </span>
         </Link>
         <nav className="hidden md:flex items-center gap-7 text-sm text-muted-foreground" aria-label="Navegação principal">
-          {variant === "home" ? (
-            <>
-              <a href="#valor" className="hover:text-primary transition">Vantagens</a>
-              <a href="#aplicacoes" className="hover:text-primary transition">Aplicações</a>
-              <Link to="/blog" className="hover:text-primary transition">Blog</Link>
-              <a href="#faq" className="hover:text-primary transition">FAQ</a>
-            </>
-          ) : (
-            <>
-              <Link to="/" className="hover:text-primary transition">Início</Link>
-              <Link to="/blog" className="hover:text-primary transition">Blog</Link>
-              <a href="/#dominios" className="hover:text-primary transition">Domínios</a>
-            </>
-          )}
+          {NAV_ITEMS.slice(0, 3).map(({ label, sectionId }) => (
+            <NavSectionLink key={sectionId} sectionId={sectionId}>
+              {label}
+            </NavSectionLink>
+          ))}
+          <Link to="/blog" className="hover:text-primary transition">
+            Blog
+          </Link>
+          <NavSectionLink sectionId="faq">FAQ</NavSectionLink>
         </nav>
         <a
           href={FORM_URL}
@@ -43,6 +46,21 @@ export function SiteHeader({ variant = "home" }: SiteHeaderProps) {
         </a>
       </div>
     </header>
+  );
+}
+
+function NavSectionLink({
+  sectionId,
+  children,
+}: {
+  sectionId: string;
+  children: ReactNode;
+}) {
+  const href = useSectionHref(sectionId);
+  return (
+    <a href={href} className="hover:text-primary transition">
+      {children}
+    </a>
   );
 }
 
