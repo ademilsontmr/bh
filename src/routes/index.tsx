@@ -163,10 +163,12 @@ function Header() {
           <a href="#faq" className="hover:text-primary transition">FAQ</a>
         </nav>
         <a
-          href="mailto:contato@cassinocamposdojordao.com.br"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScZsTiGDiqQgtbjZzd7sChgbQLBHWO6dLgVYS_wbTQYi9ecyw/viewform?usp=header"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-sm bg-gradient-gold text-primary-foreground px-4 py-2 rounded-md font-medium shadow-gold hover:opacity-90 transition"
         >
-          Solicitar Informações
+          Enviar Oferta
         </a>
       </div>
     </header>
@@ -193,16 +195,20 @@ function Hero() {
 
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="mailto:contato@cassinocamposdojordao.com.br"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScZsTiGDiqQgtbjZzd7sChgbQLBHWO6dLgVYS_wbTQYi9ecyw/viewform?usp=header"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-gradient-gold text-primary-foreground px-7 py-3.5 rounded-md font-semibold shadow-gold hover:scale-[1.02] transition"
           >
-            <Mail className="h-4 w-4" /> Solicitar Informações
+            <Mail className="h-4 w-4" /> Enviar Oferta
           </a>
           <a
-            href="mailto:contato@cassinocamposdojordao.com.br"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScZsTiGDiqQgtbjZzd7sChgbQLBHWO6dLgVYS_wbTQYi9ecyw/viewform?usp=header"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 border border-gold/60 text-foreground px-7 py-3.5 rounded-md font-semibold hover:bg-card/70 transition"
           >
-            <Send className="h-4 w-4" /> Enviar Oferta
+            <Send className="h-4 w-4" /> Enviar Proposta
           </a>
         </div>
 
@@ -370,10 +376,12 @@ function DualDomainSection() {
             ))}
           </div>
           <a
-            href="mailto:contato@cassinocamposdojordao.com.br"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScZsTiGDiqQgtbjZzd7sChgbQLBHWO6dLgVYS_wbTQYi9ecyw/viewform?usp=header"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-10 inline-flex items-center gap-2 bg-gradient-gold text-primary-foreground px-7 py-3.5 rounded-md font-semibold shadow-gold hover:scale-[1.02] transition"
           >
-            <Mail className="h-4 w-4" /> Solicitar Proposta dos Dois
+            <Mail className="h-4 w-4" /> Enviar Oferta dos Dois
           </a>
         </div>
       </div>
