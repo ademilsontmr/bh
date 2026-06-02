@@ -88,20 +88,20 @@ export const GOV_REFERENCES = {
     url: "https://www.gov.br/fazenda/pt-br/composicao/orgaos/secretaria-de-premios-e-apostas/jogo-responsavel",
     source: "Gov.br — SPA",
   },
-  brasiliaPrefeitura: {
-    label: "Governo do Distrito Federal — Brasília",
-    url: "https://www.bsb.br/",
-    source: "Prefeitura de Brasília",
+  salinasPrefeitura: {
+    label: "Prefeitura de Salinas — Alagoas",
+    url: "https://www.salinas.al.gov.br/",
+    source: "Prefeitura de Salinas",
   },
-  dfGoverno: {
-    label: "Governo do Distrito Federal",
-    url: "https://www.df.gov.br/",
-    source: "Governo do DF",
+  alagoasGoverno: {
+    label: "Governo de Alagoas",
+    url: "https://www.alagoas.al.gov.br/",
+    source: "Governo de Alagoas",
   },
-  dfTurismo: {
-    label: "Secretaria de Turismo do Distrito Federal",
-    url: "https://www.df.gov.br/turismo",
-    source: "Turismo DF",
+  alagoasTurismo: {
+    label: "Secretaria de Turismo de Alagoas",
+    url: "https://www.turismo.al.gov.br/",
+    source: "Turismo AL",
   },
 } as const satisfies Record<string, GovReference>;
 
@@ -111,22 +111,22 @@ export type GovRefKey = keyof typeof GOV_REFERENCES;
 export const BLOG_ARTICLE_EXTERNAL_REFS: Record<string, GovRefKey[]> = {
   "investimento-estrangeiro-turismo-entretenimento-brasil": ["senado", "turismo", "ibgePnadTurismo"],
   "empregos-formais-hotelaria-lazer-brasil": ["trabalho", "senado", "turismo"],
-  "dominio-premium-seo-entretenimento-brasilia": ["turismo", "ibgeTurismo", "brasiliaPrefeitura"],
+  "dominio-premium-seo-entretenimento-salinas": ["turismo", "ibgeTurismo", "salinasPrefeitura"],
   "tributacao-cassinos-regulados-financiamento-publico": ["receita", "coaf", "spaApostas"],
-  "turismo-corporativo-brasilia-entretenimento": ["turismo", "ibgePnadTurismo", "brasiliaPrefeitura"],
+  "turismo-corporativo-salinas-entretenimento": ["turismo", "ibgePnadTurismo", "salinasPrefeitura"],
   "licoes-las-vegas-singapura-regulacao-brasil": ["senado", "camara", "senadoNoticiaCassinos"],
-  "brasilia-polo-entretenimento-regulado": ["brasiliaPrefeitura", "dfTurismo", "senado"],
+  "salinas-polo-entretenimento-regulado": ["salinasPrefeitura", "alagoasTurismo", "senado"],
   "moderacao-jogo-responsavel-cassinos": ["jogoResponsavel", "saude", "leiApostas"],
-  "resorts-integrados-brasilia": ["turismo", "brasiliaPrefeitura", "senado"],
+  "resorts-integrados-salinas": ["turismo", "salinasPrefeitura", "senado"],
   "cassinos-brasil-emprego-renda": ["senado", "trabalho", "ibgePnadTurismo"],
-  "cassino-brasilia-potencial-economico": ["brasiliaPrefeitura", "ibgeTurismo", "turismo"],
+  "cassino-salinas-potencial-economico": ["salinasPrefeitura", "ibgeTurismo", "turismo"],
   "lei-cassinos-brasil-pl-263-regulamentacao": ["senado", "camara", "senadoNoticiaCassinos"],
   "seguranca-patrimonial-compliance-cassinos-regulados": ["coaf", "receita", "spa"],
-  "resorts-integrados-impacto-ambiental-brasilia": ["brasiliaPrefeitura", "dfGoverno", "turismo"],
-  "marketing-digital-turismo-cassino-brasilia": ["turismo", "ibgeTurismo", "brasiliaPrefeitura"],
+  "resorts-integrados-impacto-ambiental-salinas": ["salinasPrefeitura", "alagoasGoverno", "turismo"],
+  "marketing-digital-turismo-cassino-salinas": ["turismo", "ibgeTurismo", "salinasPrefeitura"],
   "cassinos-america-latina-comparativo-brasil": ["turismo", "senado", "camaraNoticiaJogos"],
-  "hospedagem-luxo-entretenimento-regulado-brasilia": ["turismo", "brasiliaPrefeitura", "ibgePnadTurismo"],
-  "concessao-licitacao-cassino-municipio-brasil": ["brasiliaPrefeitura", "senado", "camara"],
+  "hospedagem-luxo-entretenimento-regulado-salinas": ["turismo", "salinasPrefeitura", "ibgePnadTurismo"],
+  "concessao-licitacao-cassino-municipio-brasil": ["salinasPrefeitura", "senado", "camara"],
   "apostas-online-cassino-presencial-regulacao": ["leiApostas", "spaApostas", "jogoResponsavel"],
 };
 
