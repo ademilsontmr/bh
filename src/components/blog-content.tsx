@@ -12,7 +12,7 @@ const MANUAL_LINK_RE = /\[\[([^\]|]+)\|([^\]]+)\]\]/g;
 const BOLD_RE = /\*\*([^*]+)\*\*/g;
 
 const GLOBAL_PATTERNS: { pattern: RegExp; href: string; external?: boolean }[] = [
-  { pattern: /cassinodegramado\.com\.br/gi, href: "/" },
+  { pattern: /cassinodebrasilia\.com\.br/gi, href: "/" },
 ];
 
 const TOPIC_LINKS: Record<string, string> = {
@@ -22,13 +22,13 @@ const TOPIC_LINKS: Record<string, string> = {
   "Las Vegas": "/blog/licoes-las-vegas-singapura-regulacao-brasil",
   Singapura: "/blog/licoes-las-vegas-singapura-regulacao-brasil",
   tributação: "/blog/tributacao-cassinos-regulados-financiamento-publico",
-  "resort integrado": "/blog/resorts-integrados-gramado",
-  "resorts integrados": "/blog/resorts-integrados-gramado",
-  "Gramado": "/blog/gramado-polo-entretenimento-regulado",
-  "Serra Gaúcha": "/blog/resorts-integrados-gramado",
+  "resort integrado": "/blog/resorts-integrados-brasilia",
+  "resorts integrados": "/blog/resorts-integrados-brasilia",
+  "Brasília": "/blog/brasilia-polo-entretenimento-regulado",
+  "Distrito Federal": "/blog/resorts-integrados-brasilia",
   regulação: "/blog/cassinos-brasil-emprego-renda",
-  SEO: "/blog/dominio-premium-seo-entretenimento-gramado",
-  "domínio premium": "/blog/dominio-premium-seo-entretenimento-gramado",
+  SEO: "/blog/dominio-premium-seo-entretenimento-brasilia",
+  "domínio premium": "/blog/dominio-premium-seo-entretenimento-brasilia",
 };
 
 function slugifyHeading(text: string): string {
@@ -403,7 +403,7 @@ export function ArticleFaq({ faq }: { faq: ArticleFaqItem[] }) {
       itemType="https://schema.org/FAQPage"
     >
       <h2 id="faq-artigo-heading" className="font-serif text-2xl text-foreground mb-6">
-        Perguntas frequentes sobre cassino no Brasil e Gramado
+        Perguntas frequentes sobre cassino no Brasil e Brasília
       </h2>
       <dl className="space-y-6">
         {faq.map((item, i) => (
@@ -453,7 +453,7 @@ export function BlogDomainMention() {
       Sobre o domínio <DomainsForSaleInline />: ativos digitais premium à venda para projetos de{" "}
       <strong className="text-foreground">entretenimento regulado</strong> e{" "}
       <strong className="text-foreground">turismo</strong> em{" "}
-      <strong className="text-foreground">Gramado</strong>.{" "}
+      <strong className="text-foreground">Brasília</strong>.{" "}
       <Link to="/" className="text-primary hover:underline">
         Saiba mais sobre a oferta
       </Link>
