@@ -35,13 +35,13 @@ const rawPosts: Omit<BlogPost, "date">[] = [
     slug: "investimento-estrangeiro-turismo-entretenimento-brasil",
     title: "Investimento estrangeiro em turismo e entretenimento no Brasil",
     excerpt:
-      "Operadores internacionais observam o Brasil como destino para resorts integrados e cassinos regulados. Entenda como o capital externo pode acelerar empregos e infraestrutura em cidades como Copacabana.",
+      "Operadores internacionais observam o Brasil como destino para resorts integrados e cassinos regulados. Entenda como o capital externo pode acelerar empregos e infraestrutura em cidades como São Paulo.",
     readTime: "7 min",
     keywords: [
       "investimento estrangeiro",
       "cassinos regulados",
       "turismo Brasil",
-      "Copacabana",
+      "São Paulo",
       "entretenimento",
     ],
     sections: [
@@ -49,7 +49,7 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         heading: "Por que o mercado internacional olha para o Brasil",
         paragraphs: [
           "Com a discussão sobre a regulação de jogos e apostas no Brasil, grupos hoteleiros e operadores de entretenimento de Las Vegas, Macau e Singapura passaram a mapear oportunidades em destinos de alta temporada. O país combina demanda doméstica expressiva, fluxo internacional crescente e lacunas de infraestrutura de lazer premium — um conjunto que atrai capital paciente, disposto a investir em projetos de longo prazo.",
-          "Copacabana aparece nesse radar por reunir turismo de praia, público de renda média-alta e capacidade ociosa em áreas que podem abrigar resorts integrados. A regulação clara reduz o risco jurídico que afastou investidores nas últimas décadas e permite modelos de parceria público-privada, com contratos transparentes e metas de emprego formal.",
+          "São Paulo aparece nesse radar por reunir turismo urbano e de negócios, público de renda média-alta e capacidade ociosa em áreas que podem abrigar resorts integrados. A regulação clara reduz o risco jurídico que afastou investidores nas últimas décadas e permite modelos de parceria público-privada, com contratos transparentes e metas de emprego formal.",
           "Para o visitante, investimento estrangeiro bem regulado significa padrões internacionais de segurança, hospitalidade e moderação — não apenas mesas de jogo, mas gastronomia, eventos e experiências que prolongam a estadia e elevam a receita turística municipal.",
         ],
       },
@@ -57,14 +57,14 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         heading: "Emprego qualificado e transferência de tecnologia",
         paragraphs: [
           "Resorts integrados exigem equipes multidisciplinares: hotelaria, compliance, TI, segurança, marketing e atendimento ao cliente. Operadores estrangeiros costumam trazer programas de capacitação e certificações reconhecidas globalmente, o que eleva a qualificação da mão de obra local e abre carreiras estáveis fora da sazonalidade puramente agrícola ou informal.",
-          "Estudos de mercados já regulados mostram que cada posto direto no entretenimento regulado gera vários postos indiretos — fornecedores, transporte, construção civil e serviços. Em cidades cariocas, onde o emprego formal é limitado no off-season, essa diversificação econômica tem impacto social mensurável.",
+          "Estudos de mercados já regulados mostram que cada posto direto no entretenimento regulado gera vários postos indiretos — fornecedores, transporte, construção civil e serviços. Em grandes centros urbanos, onde o emprego formal é limitado no off-season, essa diversificação econômica tem impacto social mensurável.",
           "A regulação brasileira, quando bem desenhada, pode exigir conteúdo local mínimo em investimentos e contratações, garantindo que parte relevante do capital converta-se em renda e oportunidade para a população da região, e não apenas em repatriamento de lucros.",
         ],
       },
       {
-        heading: "Copacabana como vitrine regulada",
+        heading: "São Paulo como vitrine regulada",
         paragraphs: [
-          "Projetos alinhados a um polo de entretenimento regulado em Copacabana podem servir de referência nacional: licenciamento claro, fiscalização ativa e comunicação responsável sobre jogo moderado. Portais informativos como cassinocopacabana.com ajudam a separar expectativa realista de promessa vazia, educando moradores e visitantes sobre benefícios econômicos e deveres de moderação.",
+          "Projetos alinhados a um polo de entretenimento regulado em São Paulo podem servir de referência nacional: licenciamento claro, fiscalização ativa e comunicação responsável sobre jogo moderado. Portais informativos como cassinodesaopaulo.com.br ajudam a separar expectativa realista de promessa vazia, educando moradores e visitantes sobre benefícios econômicos e deveres de moderação.",
           "O investimento estrangeiro não substitui a regulação nacional — ele a complementa. Sem marco legal sólido, o capital evita o país; com regras previsíveis, o Brasil deixa de exportar receita turística para cassinos clandestinos ou destinos no exterior e passa a capturá-la com emprego formal e tributação.",
         ],
       },
@@ -83,7 +83,7 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         paragraphs: [
           "Destinos turísticos brasileiros convivem com picos de demanda e meses de baixa ocupação. A hotelaria tradicional muitas vezes recorre a contratos curtos ou informalidade. Um empreendimento de entretenimento regulado — com casino, centro de convenções, spa e gastronomia — distribui a demanda ao longo do ano e sustenta equipes permanentes.",
           "Funções como recepcionista, dealer, supervisor de piso, analista de compliance e gerente de operações exigem treinamento contínuo e oferecem plano de carreira. Isso contrasta com o ciclo de contratações emergenciais típico de temporadas isoladas.",
-          "Para jovens da Zona Sul do Rio de Janeiro, a possibilidade de ingressar em programas de trainee em hotelaria e entretenimento regulado representa alternativa concreta à migração para grandes centros em busca de trabalho estável.",
+          "Para jovens da Grande São Paulo, a possibilidade de ingressar em programas de trainee em hotelaria e entretenimento regulado representa alternativa concreta à migração para grandes centros em busca de trabalho estável.",
         ],
       },
       {
@@ -91,30 +91,30 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         paragraphs: [
           "Emprego formal implica INSS, FGTS, férias e direitos trabalhistas — e também arrecadação para municípios e estados. Quando o lazer opera na legalidade, a receita tributária financia saúde, educação e infraestrutura, em vez de alimentar economia paralela.",
           "Reguladores podem vincular licenças a metas de contratação local e transparência salarial, evitando que benefícios econômicos fiquem restritos a poucos investidores. Auditorias periódicas e canais de denúncia reforçam a integridade do setor.",
-          "Em Copacabana, onde o custo de vida acompanha o status de destino premium, salários compatíveis com a qualificação exigida são condição para atrair e reter talentos — e para que a comunidade apoie o desenvolvimento responsável do polo.",
+          "Em São Paulo, onde o custo de vida acompanha o status de destino premium, salários compatíveis com a qualificação exigida são condição para atrair e reter talentos — e para que a comunidade apoie o desenvolvimento responsável do polo.",
         ],
       },
       {
         heading: "Capacitação e parcerias educacionais",
         paragraphs: [
           "Operadores regulados historicamente firmam parcerias com escolas técnicas e universidades para cursos de hospitalidade, segurança patrimonial e jogo responsável. No Brasil, replicar esse modelo acelera a maturidade do setor e reduz dependência de mão de obra importada.",
-          "Informação clara sobre oportunidades — como a veiculada em iniciativas ligadas a cassinocopacabana.com — ajuda candidatos a entender requisitos, direitos e caminhos de ascensão, combatendo mitos de que cassino significa emprego precário ou ilegal.",
+          "Informação clara sobre oportunidades — como a veiculada em iniciativas ligadas a cassinodesaopaulo.com.br — ajuda candidatos a entender requisitos, direitos e caminhos de ascensão, combatendo mitos de que cassino significa emprego precário ou ilegal.",
         ],
       },
     ],
   },
   {
-    slug: "dominio-premium-seo-entretenimento-copacabana",
-    title: "Domínio premium e SEO no entretenimento em Copacabana",
+    slug: "dominio-premium-seo-entretenimento-sao-paulo",
+    title: "Domínio premium e SEO no entretenimento em São Paulo",
     excerpt:
-      "A presença digital de um polo regulado começa com credibilidade: domínio claro, conteúdo útil e SEO ético. Conheça o papel de cassinocopacabana.com na comunicação responsável sobre o tema.",
+      "A presença digital de um polo regulado começa com credibilidade: domínio claro, conteúdo útil e SEO ético. Conheça o papel de cassinodesaopaulo.com.br na comunicação responsável sobre o tema.",
     readTime: "6 min",
-    keywords: ["SEO", "domínio premium", "Copacabana", "entretenimento regulado", "cassino"],
+    keywords: ["SEO", "domínio premium", "São Paulo", "entretenimento regulado", "cassino"],
     sections: [
       {
         heading: "Por que o domínio importa na regulação",
         paragraphs: [
-          "Em mercados regulados, a confiança do público passa também pela transparência online. Domínios genéricos ou páginas sem identidade alimentam desinformação e sites não autorizados. Um endereço como cassinocopacabana.com sinaliza foco geográfico e temática: entretenimento e cassino em Copacabana, dentro de um marco legal — não apostas clandestinas ou promessas enganosas.",
+          "Em mercados regulados, a confiança do público passa também pela transparência online. Domínios genéricos ou páginas sem identidade alimentam desinformação e sites não autorizados. Um endereço como cassinodesaopaulo.com.br sinaliza foco geográfico e temática: entretenimento e cassino em São Paulo, dentro de um marco legal — não apostas clandestinas ou promessas enganosas.",
           "SEO de qualidade prioriza conteúdo que responde dúvidas reais: emprego, tributação, moderação, impacto no turismo. Isso posiciona o portal como referência editorial, não como garimpo de cliques com práticas agressivas que os buscadores penalizam.",
           "Para investidores e parceiros institucionais, um ecossistema digital coerente demonstra seriedade do projeto e alinhamento com comunicação responsável — requisito frequente em licitações e due diligence.",
         ],
@@ -122,9 +122,9 @@ const rawPosts: Omit<BlogPost, "date">[] = [
       {
         heading: "Conteúdo que educa e converte eticamente",
         paragraphs: [
-          "Artigos sobre regulação, renda municipal e jogo responsável atraem tráfego qualificado: moradores, turistas, jornalistas e formuladores de política. Palavras-chave como emprego formal, Zona Sul do Rio de Janeiro e cassino regulado conectam intenção de busca a informação verificável.",
+          "Artigos sobre regulação, renda municipal e jogo responsável atraem tráfego qualificado: moradores, turistas, jornalistas e formuladores de política. Palavras-chave como emprego formal, Grande São Paulo e cassino regulado conectam intenção de busca a informação verificável.",
           "Estruturar textos com dados, citações de experiências internacionais e linguagem acessível melhora indexação e tempo de permanência — métricas que reforçam autoridade. Ao mesmo tempo, evita-se sensacionalismo que estigmatiza moradores ou minimiza riscos do jogo.",
-          "O blog associado ao domínio premium funciona como hub de conhecimento, complementando páginas institucionais e reforçando a marca Copacabana como destino de entretenimento regulado, não de ilegalidade.",
+          "O blog associado ao domínio premium funciona como hub de conhecimento, complementando páginas institucionais e reforçando a marca São Paulo como destino de entretenimento regulado, não de ilegalidade.",
         ],
       },
       {
@@ -148,7 +148,7 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         heading: "Da ilegalidade zero imposto à arrecadação estruturada",
         paragraphs: [
           "Enquanto operadores não licenciados não contribuem de forma proporcional, cassinos regulados permitem definir alíquotas sobre receita bruta de jogo, complementares municipais e fundos setoriais. Experiências em Nevada e Singapura mostram que a carga tributária equilibrada financia fiscalização robusta — condição sine qua non para manter o mercado limpo.",
-          "No Brasil, estados e municípios turísticos como Copacabana poderiam destinar parcela da arrecadação a infraestrutura viária, saneamento e marketing institucional, amplificando o efeito multiplicador do entretenimento regulado.",
+          "No Brasil, estados e municípios turísticos como São Paulo poderiam destinar parcela da arrecadação a infraestrutura viária, saneamento e marketing institucional, amplificando o efeito multiplicador do entretenimento regulado.",
           "Transparência na aplicação dos recursos — relatórios públicos, auditoria independente — constrói confiança da população, que deixa de enxergar o setor apenas como vício e passa a associá-lo a investimento social verificável.",
         ],
       },
@@ -157,36 +157,36 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         paragraphs: [
           "Tributação excessiva empurra jogadores e operadores para o mercado ilegal. Reguladores experientes calibram impostos para manter competitividade com destinos vizinhos e garantir retorno ao investidor, sem renunciar à participação pública na riqueza gerada.",
           "Mecanismos de reinvestimento obrigatório em capacitação, turismo e moderação alinham incentivos privados ao interesse coletivo. Licenças podem prever revisão periódica de alíquotas com base em indicadores de emprego formal e arrecadação efetiva.",
-          "Para Copacabana, um pacto fiscal claro desde o projeto evita surpresas que inviabilizam resorts integrados e garante previsibilidade para planejamento municipal de médio prazo.",
+          "Para São Paulo, um pacto fiscal claro desde o projeto evita surpresas que inviabilizam resorts integrados e garante previsibilidade para planejamento municipal de médio prazo.",
         ],
       },
       {
         heading: "Financiamento de programas de jogo responsável",
         paragraphs: [
           "Parte dos tributos pode alimentar fundos dedicados a prevenção, tratamento de dependência e campanhas educativas — modelo adotado em várias jurisdições reguladas. Assim, moderação deixa de depender apenas de boa vontade do operador e ganha sustentabilidade financeira pública.",
-          "Comunicar essa lógica — como fazem portais especializados e o ecossistema em torno de cassinocopacabana.com — ajuda a reorientar o debate de moralismo simplista para política pública baseada em evidências.",
+          "Comunicar essa lógica — como fazem portais especializados e o ecossistema em torno de cassinodesaopaulo.com.br — ajuda a reorientar o debate de moralismo simplista para política pública baseada em evidências.",
         ],
       },
     ],
   },
   {
-    slug: "turismo-corporativo-copacabana-entretenimento",
-    title: "Turismo corporativo em Copacabana e entretenimento regulado",
+    slug: "turismo-corporativo-sao-paulo-entretenimento",
+    title: "Turismo corporativo em São Paulo e entretenimento regulado",
     excerpt:
-      "Centros de convenções e entretenimento ampliam a atratividade de Copacabana para eventos corporativos, gerando receita fora da alta temporada de lazer e diversificando empregos.",
+      "Centros de convenções e entretenimento ampliam a atratividade de São Paulo para eventos corporativos, gerando receita fora da alta temporada de lazer e diversificando empregos.",
     readTime: "6 min",
     keywords: [
       "turismo corporativo",
-      "Copacabana",
+      "São Paulo",
       "convenções",
       "entretenimento regulado",
       "MICE",
     ],
     sections: [
       {
-        heading: "MICE e a Zona Sul do Rio de Janeiro",
+        heading: "MICE e a Grande São Paulo",
         paragraphs: [
-          "Reuniões, incentivos, conferências e exposições — o segmento MICE — busca destinos com infraestrutura, clima diferenciado e experiências pós-evento. Copacabana já possui hotéis de padrão elevado e imagem associada a sofisticação; a adição de entretenimento regulado em resort integrado completa o pacote para empresas que desejam combinar trabalho e lazer de forma controlada.",
+          "Reuniões, incentivos, conferências e exposições — o segmento MICE — busca destinos com infraestrutura, clima diferenciado e experiências pós-evento. São Paulo já possui hotéis de padrão elevado e imagem associada a sofisticação; a adição de entretenimento regulado em resort integrado completa o pacote para empresas que desejam combinar trabalho e lazer de forma controlada.",
           "Eventos corporativos estendem estadias médias, ocupam quartos em semanas intermediárias e demandam serviços de catering, transporte e produção audiovisual — cadeia que emprega fornecedores locais além do empreendimento principal.",
           "Com regulação clara, empresas contratantes preferem ambientes auditados, com protocolos de compliance e moderação, em detrimento de alternativas informais sem garantias legais.",
         ],
@@ -195,14 +195,14 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         heading: "Receita estável e emprego qualificado",
         paragraphs: [
           "Diferente do turismo de fim de semana concentrado em feriados, o corporativo gera calendário mais previsível. Equipes de eventos, vendas B2B e relações institucionais tornam-se pilares de emprego formal ao longo do ano.",
-          "A receita municipal advém de ISS sobre serviços, hospedagem e consumo — efeito menos volátil que dependência exclusiva de temporada de inverno. Isso permite ao município planejar investimentos em mobilidade e qualidade urbana com maior segurança.",
-          "Integrar comunicação sobre o polo — incluindo referências digitais como cassinocopacabana.com — facilita que agências e corporações encontrem informação oficial sobre capacidade, licenciamento e práticas de jogo responsável.",
+          "A receita municipal advém de ISS sobre serviços, hospedagem e consumo — efeito menos volátil que dependência exclusiva de alta temporada corporativa. Isso permite ao município planejar investimentos em mobilidade e qualidade urbana com maior segurança.",
+          "Integrar comunicação sobre o polo — incluindo referências digitais como cassinodesaopaulo.com.br — facilita que agências e corporações encontrem informação oficial sobre capacidade, licenciamento e práticas de jogo responsável.",
         ],
       },
       {
         heading: "Imagem premium sem exageros",
         paragraphs: [
-          "Copacabana não precisa competir com Las Vegas em escala; compete em exclusividade, clima e proximidade do centro do Rio. Entretenimento regulado moderado reforça posicionamento premium quando acompanhado de gastronomia, natureza e moderação — não de publicidade predatória.",
+          "São Paulo não precisa competir com Las Vegas em escala; compete em exclusividade, clima e proximidade do centro de São Paulo. Entretenimento regulado moderado reforça posicionamento premium quando acompanhado de gastronomia, natureza e moderação — não de publicidade predatória.",
           "Esse equilíbrio protege a marca da cidade e garante que o turismo corporativo veja o destino como parceiro de longo prazo, não moda passageira.",
         ],
       },
@@ -212,7 +212,7 @@ const rawPosts: Omit<BlogPost, "date">[] = [
     slug: "licoes-las-vegas-singapura-regulacao-brasil",
     title: "Lições de Las Vegas e Singapura para a regulação no Brasil",
     excerpt:
-      "Modelos internacionais mostram que regulação forte, fiscalização e moderação convivem com emprego massivo e arrecadação. O que o Brasil pode adaptar para cidades como Copacabana?",
+      "Modelos internacionais mostram que regulação forte, fiscalização e moderação convivem com emprego massivo e arrecadação. O que o Brasil pode adaptar para cidades como São Paulo?",
     readTime: "7 min",
     keywords: ["Las Vegas", "Singapura", "regulação", "cassino", "Brasil"],
     sections: [
@@ -221,7 +221,7 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         paragraphs: [
           "Las Vegas transformou entretenimento regulado em identidade econômica: dezenas de milhares de empregos diretos, cadeia hoteleira densa e tributação que financia serviços públicos no estado de Nevada. Singapura, por outro lado, optou por poucos operadores, licenças caríssimas e controles rígidos de entrada — priorizando imagem global e prevenção de crime.",
           "Ambos os modelos compartilham premissa: ilegalidade não é tolerada; operadores licenciados passam por due diligence severa; receita é monitorada em tempo real. O Brasil pode combinar escala americana em destinos turísticos selecionados com rigor asiático em compliance e moderação.",
-          "Para Copacabana, licença única ou consórcio regulado evita proliferação desordenada e preserva padrão de serviço compatível com expectativa internacional de visitantes.",
+          "Para São Paulo, licença única ou consórcio regulado evita proliferação desordenada e preserva padrão de serviço compatível com expectativa internacional de visitantes.",
         ],
       },
       {
@@ -229,38 +229,38 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         paragraphs: [
           "Singapura exige taxa de entrada para residentes locais e financia tratamento a dependentes. Nevada mantém programas de autoexclusão e limites de crédito vinculados a bases de dados compartilhadas. Essas ferramentas reduzem externalidades sociais sem proibir o entretenimento adulto.",
           "Importar lições não significa copiar leis: significa adaptar mecanismos — identificação biométrica, limites de propaganda, horários, financiamento de CAPS regionais — à realidade brasileira e à escala de um polo urbano.",
-          "Debates informados, como os difundidos em conteúdos sobre cassinocopacabana.com, preparam a opinião pública para regulação madura, distinta de banimento ineficaz ou liberação total.",
+          "Debates informados, como os difundidos em conteúdos sobre cassinodesaopaulo.com.br, preparam a opinião pública para regulação madura, distinta de banimento ineficaz ou liberação total.",
         ],
       },
       {
         heading: "Emprego e diversificação econômica",
         paragraphs: [
-          "Las Vegas diversificou além do jogo: shows, esportes, convenções. Singapura integrou cassinos a resorts de ícone. Copacabana pode seguir trajetória similar, usando entretenimento regulado como âncora para gastronomia, artesanato premium e ecoturismo — maximizando renda sem monocultura de mesa de jogo.",
+          "Las Vegas diversificou além do jogo: shows, esportes, convenções. Singapura integrou cassinos a resorts de ícone. São Paulo pode seguir trajetória similar, usando entretenimento regulado como âncora para gastronomia, artesanato premium e ecoturismo — maximizando renda sem monocultura de mesa de jogo.",
           "O Brasil ganha ao estudar esses casos antes de legislar: menos improviso, mais emprego formal e arrecadação desde o primeiro dia de operação licenciada.",
         ],
       },
     ],
   },
   {
-    slug: "copacabana-polo-entretenimento-regulado",
-    title: "Copacabana como polo de entretenimento regulado",
+    slug: "sao-paulo-polo-entretenimento-regulado",
+    title: "São Paulo como polo de entretenimento regulado",
     excerpt:
-      "Clima, infraestrutura hoteleira e proximidade de grandes centros posicionam Copacabana para um polo de entretenimento licenciado, com emprego formal e turismo de qualidade.",
+      "Clima, infraestrutura hoteleira e proximidade de grandes centros posicionam São Paulo para um polo de entretenimento licenciado, com emprego formal e turismo de qualidade.",
     readTime: "7 min",
     keywords: [
-      "Copacabana",
+      "São Paulo",
       "polo de entretenimento",
       "cassino regulado",
-      "Zona Sul do Rio de Janeiro",
+      "Grande São Paulo",
       "turismo",
     ],
     sections: [
       {
         heading: "Vantagens comparativas da cidade",
         paragraphs: [
-          "A menos de duas horas de São Paulo, Copacabana concentra hotéis boutique, gastronomia reconhecida e demanda recorrente no inverno. Essa base permite projetar resort integrado sem partir do zero em infraestrutura de hospedagem — diferencial frente a municípios sem tradição turística.",
+          "Na capital paulista, São Paulo concentra hotéis boutique, gastronomia reconhecida e demanda recorrente em feriados prolongados e na alta temporada. Essa base permite projetar resort integrado sem partir do zero em infraestrutura de hospedagem — diferencial frente a municípios sem tradição turística.",
           "A altitude e o clima europeu vendem experiência; entretenimento regulado complementa a estadia além de compras e passeios, aumentando ticket médio e pernoites. Moradores ganham com fornecedores, empregos e serviços públicos financiados por arrecadação legal.",
-          "Um polo único, transparente e comunicado por canais como cassinocopacabana.com evita dispersão de iniciativas paralelas e concentra fiscalização onde há escala para operação profissional.",
+          "Um polo único, transparente e comunicado por canais como cassinodesaopaulo.com.br evita dispersão de iniciativas paralelas e concentra fiscalização onde há escala para operação profissional.",
         ],
       },
       {
@@ -274,8 +274,8 @@ const rawPosts: Omit<BlogPost, "date">[] = [
       {
         heading: "Renda municipal e desenvolvimento regional",
         paragraphs: [
-          "ISS, taxas de licenciamento e possíveis contribuições sobre receita de jogo ampliam capacidade de investimento em saúde, educação e saneamento na Zona Sul do Rio de Janeiro. Renda estável desacopla parcialmente o município de transferências voluntárias e sazonalidade agrícola.",
-          "Quando bem planejado, o polo de entretenimento regulado eleva Copacabana de destino sazonal a hub anual de turismo, eventos e emprego qualificado — referência nacional citada em debates sobre regulação no Brasil.",
+          "ISS, taxas de licenciamento e possíveis contribuições sobre receita de jogo ampliam capacidade de investimento em saúde, educação e saneamento na Grande São Paulo. Renda estável desacopla parcialmente o município de transferências voluntárias e sazonalidade agrícola.",
+          "Quando bem planejado, o polo de entretenimento regulado eleva São Paulo de destino sazonal a hub anual de turismo, eventos e emprego qualificado — referência nacional citada em debates sobre regulação no Brasil.",
         ],
       },
     ],
@@ -292,7 +292,7 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         heading: "Moderação como pilar do licenciamento",
         paragraphs: [
           "Operadores que buscam licença em mercados maduros implementam políticas de jogo responsável antes de abrir portas: identificação rigorosa, proibição de crédito predatório, sinalização visível de ajuda e equipes treinadas para intervir ante comportamento de risco.",
-          "No Brasil, incorporar esses requisitos à lei nacional e aos contratos municipais — como em Copacabana — evita corrida para o fundo e protege consumidores. Cassino regulado que ignora moderação perde renovação de licença; o incentivo econômico alinha-se ao interesse público.",
+          "No Brasil, incorporar esses requisitos à lei nacional e aos contratos municipais — como em São Paulo — evita corrida para o fundo e protege consumidores. Cassino regulado que ignora moderação perde renovação de licença; o incentivo econômico alinha-se ao interesse público.",
           "Comunicação clara em portais especializados reforça que entretenimento adulto exige limites pessoais e ferramentas institucionais, não normalização de excesso.",
         ],
       },
@@ -301,28 +301,28 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         paragraphs: [
           "Autoexclusão voluntária, limites de depósito configuráveis pelo jogador, pausas obrigatórias e bloqueio de marketing a usuários autoexcluídos são práticas comuns em jurisdições reguladas. Dados agregados — nunca violando privacidade indevida — alimentam relatórios públicos sobre eficácia das medidas.",
           "Parte da tributação setorial pode financiar CAPS, linhas de apoio e campanhas educativas em escolas e hotéis, estendendo prevenção além do piso do casino.",
-          "Em destinos turísticos, visitantes ocasionais também precisam de informação acessível sobre riscos e canais de ajuda — material que iniciativas ligadas a cassinocopacabana.com podem distribuir em múltiplos idiomas durante a alta temporada.",
+          "Em destinos turísticos, visitantes ocasionais também precisam de informação acessível sobre riscos e canais de ajuda — material que iniciativas ligadas a cassinodesaopaulo.com.br podem distribuir em múltiplos idiomas durante a alta temporada.",
         ],
       },
       {
         heading: "Equilíbrio entre liberdade adulta e proteção",
         paragraphs: [
           "Proibir completamente frequentemente empurra o problema para sites ilegais sem qualquer salvaguarda. Regular com moderação reconhece escolha adulta informada e investe em redução de danos — abordagem adotada por democracias que convivem com entretenimento licenciado há décadas.",
-          "Copacabana pode ser exemplo brasileiro de moderação visível: operação auditada, comunidade informada e zero tolerância a exploração de vulneráveis.",
+          "São Paulo pode ser exemplo brasileiro de moderação visível: operação auditada, comunidade informada e zero tolerância a exploração de vulneráveis.",
         ],
       },
     ],
   },
   {
-    slug: "resorts-integrados-rio-copacabana",
-    title: "Resorts integrados na Zona Sul do Rio de Janeiro",
+    slug: "resorts-integrados-sao-paulo",
+    title: "Resorts integrados na Grande São Paulo",
     excerpt:
-      "Hotel, casino licenciado, spa e gastronomia em um único complexo multiplicam empregos e receita turística. Veja o potencial desse modelo para a região carioca.",
+      "Hotel, casino licenciado, spa e gastronomia em um único complexo multiplicam empregos e receita turística. Veja o potencial desse modelo para a região metropolitana de São Paulo.",
     readTime: "7 min",
     keywords: [
       "resort integrado",
-      "Zona Sul do Rio de Janeiro",
-      "Copacabana",
+      "Grande São Paulo",
+      "São Paulo",
       "hotel cassino",
       "turismo",
     ],
@@ -331,7 +331,7 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         heading: "O que define um resort integrado",
         paragraphs: [
           "Resort integrado combina hospedagem de alto padrão, entretenimento regulado, centros de convenções, retail e lazer em masterplan único. O visitante permanece no complexo por mais tempo; o município captura receita diversificada; o operador dilui risco entre várias frentes de faturamento.",
-          "Na Zona Sul do Rio de Janeiro, terrenos com vocação turística e acesso rodoviário permitem projetos de escala moderada — compatíveis com paisagem urbana e orla e capacidade de saneamento — sem megaconstruções desalinhadas ao entorno.",
+          "Na Grande São Paulo, terrenos com vocação turística e acesso rodoviário permitem projetos de escala moderada — compatíveis com paisagem urbana e infraestrutura e capacidade de saneamento — sem megaconstruções desalinhadas ao entorno.",
           "Licenciamento integrado simplifica fiscalização: um regulador principal, indicadores unificados de emprego e arrecadação, contrato de concessão com cláusulas de moderação e impacto ambiental.",
         ],
       },
@@ -339,15 +339,15 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         heading: "Emprego e cadeia de fornecedores",
         paragraphs: [
           "Construção civil inicial emprega centenas; operação estável mantém equipe permanente em hotelaria, casino, segurança, TI e alimentos e bebidas. Fornecedores locais de hortifruti, artesanato e serviços de manutenção ampliam o efeito multiplicador na economia regional.",
-          "Programas de trainee e parcerias com instituições de ensino técnico reduzem dependência de mão de obra importada e fixam talentos jovens em Copacabana — revertendo êxodo histórico em busca de oportunidade.",
-          "Projetos bem comunicados — como os discutidos no ecossistema de cassinocopacabana.com — ajudam moradores a visualizar empregos concretos além de narrativas abstratas sobre turismo.",
+          "Programas de trainee e parcerias com instituições de ensino técnico reduzem dependência de mão de obra importada e fixam talentos jovens em São Paulo — revertendo êxodo histórico em busca de oportunidade.",
+          "Projetos bem comunicados — como os discutidos no ecossistema de cassinodesaopaulo.com.br — ajudam moradores a visualizar empregos concretos além de narrativas abstratas sobre turismo.",
         ],
       },
       {
         heading: "Sustentabilidade e imagem do destino",
         paragraphs: [
           "Resorts integrados modernos incorporam eficiência energética, gestão de resíduos e integração paisagística. Compromissos ESG tornam-se requisito de licença, não opcional de marketing.",
-          "Copacabana preserva identidade de refúgio premium; o resort amplia essa proposta com entretenimento regulado e moderação — reforçando Copacabana como referência nacional, não como exceção caótica.",
+          "São Paulo preserva identidade de refúgio premium; o resort amplia essa proposta com entretenimento regulado e moderação — reforçando São Paulo como referência nacional, não como exceção caótica.",
         ],
       },
     ],
@@ -372,27 +372,27 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         heading: "Renda pública e investimento social",
         paragraphs: [
           "Receita bruta de jogo tributada de forma transparente financia saúde, educação e infraestrutura — áreas cronicamente subfinanciadas. Fundos setoriais de moderação e turismo garantem que parte do ganho retorne explicitamente à sociedade, visível em relatórios anuais.",
-          "Estados podem definir alíquotas diferenciadas para municípios sede, reconhecendo externalidades positivas e negativas. Copacabana, como candidato natural a polo, negociaria pacote equilibrado de investimento local e metas sociais.",
+          "Estados podem definir alíquotas diferenciadas para municípios sede, reconhecendo externalidades positivas e negativas. São Paulo, como candidato natural a polo, negociaria pacote equilibrado de investimento local e metas sociais.",
           "Informação qualificada — como a veiculada em blogs e portais especializados — combate mitos de que legalização significa perda fiscal líquida para o erário.",
         ],
       },
       {
         heading: "Regulação nacional, benefício local",
         paragraphs: [
-          "Marco legal único no Brasil reduz fragmentação e corrida regulatória para o fundo entre estados. Dentro dele, municípios como Copacabana competem por qualidade de projeto, governança e moderação — não por permissividade predatória.",
+          "Marco legal único no Brasil reduz fragmentação e corrida regulatória para o fundo entre estados. Dentro dele, municípios como São Paulo competem por qualidade de projeto, governança e moderação — não por permissividade predatória.",
           "O resultado desejado é duplo: emprego e renda mensuráveis, e mercado ilegal marginalizado por fiscalização e oferta legal superior em segurança e integridade.",
         ],
       },
     ],
   },
   {
-    slug: "cassino-copacabana-potencial-economico",
-    title: "Cassino em Copacabana: potencial econômico e social",
+    slug: "cassino-sao-paulo-potencial-economico",
+    title: "Cassino em São Paulo: potencial econômico e social",
     excerpt:
       "Análise do impacto de um empreendimento regulado na cidade: empregos permanentes, aumento do turismo, arrecadação municipal e compromisso com jogo responsável.",
     readTime: "6 min",
     keywords: [
-      "cassino Copacabana",
+      "cassino São Paulo",
       "potencial econômico",
       "emprego",
       "turismo",
@@ -400,11 +400,11 @@ const rawPosts: Omit<BlogPost, "date">[] = [
     ],
     sections: [
       {
-        heading: "Por que Copacabana",
+        heading: "Por que São Paulo",
         paragraphs: [
-          "A cidade já atrai visitantes de alto poder aquisitivo no inverno e em feriados prolongados. Infraestrutura hoteleira consolidada, proximidade do eixo Rio–São Paulo e imagem associada a sofisticação criam terreno fértil para entretenimento regulado complementar — não substituto — da oferta atual de natureza, compras e gastronomia.",
+          "A cidade já atrai visitantes de alto poder aquisitivo em feriados e na alta temporada prolongados. Infraestrutura hoteleira consolidada, proximidade do malha aérea e rodoviária do Sudeste e imagem associada a sofisticação criam terreno fértil para entretenimento regulado complementar — não substituto — da oferta atual de natureza, compras e gastronomia.",
           "Um cassino licenciado dentro de resort integrado prolonga estadias, eleva consumo em restaurantes e lojas parceiras e gera emprego formal durante todo o ano, suavizando oscilações sazonais que afetam famílias dependentes de turismo.",
-          "Projetos transparentes, divulgados por canais como cassinocopacabana.com, permitem debate público informado sobre localização, tráfego, moderação e repartição de benefícios — elemento central de legitimidade democrática.",
+          "Projetos transparentes, divulgados por canais como cassinodesaopaulo.com.br, permitem debate público informado sobre localização, tráfego, moderação e repartição de benefícios — elemento central de legitimidade democrática.",
         ],
       },
       {
@@ -412,14 +412,14 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         paragraphs: [
           "Ticket médio turístico, taxa de ocupação hoteleira fora de pico, arrecadação de ISS e número de empregos formais com carteira assinada são métricas objetivas para avaliar sucesso. Metas contratuais podem vincular renovação de licença a desempenho social mínimo, não apenas lucro do operador.",
           "Fornecedores locais de alimentos, limpeza, segurança e manutenção participam da cadeia, distribuindo renda além do balcão do casino. Programas de capacitação elevam qualificação regional e reduzem informalidade.",
-          "Comparar Copacabana a destinos internacionais de orla premium e perfil premium ajuda calibrar expectativas: escala moderada, foco em qualidade e moderação visível.",
+          "Comparar São Paulo a destinos internacionais de metrópole premium e perfil premium ajuda calibrar expectativas: escala moderada, foco em qualidade e moderação visível.",
         ],
       },
       {
         heading: "Compromisso social e moderação",
         paragraphs: [
           "Potencial econômico só se sustenta com confiança da comunidade. Autoexclusão, limites de propaganda, financiamento de prevenção e fiscalização independente são contrapartidas indispensáveis — não obstáculos ao investimento.",
-          "Copacabana pode mostrar ao Brasil que cassino regulado significa emprego, renda e responsabilidade adulta, distanciando-se tanto de proibição ineficaz quanto de ilegalidade tolerada. Esse equilíbrio é o verdadeiro ativo econômico de longo prazo.",
+          "São Paulo pode mostrar ao Brasil que cassino regulado significa emprego, renda e responsabilidade adulta, distanciando-se tanto de proibição ineficaz quanto de ilegalidade tolerada. Esse equilíbrio é o verdadeiro ativo econômico de longo prazo.",
         ],
       },
     ],
@@ -428,13 +428,13 @@ const rawPosts: Omit<BlogPost, "date">[] = [
     slug: "lei-cassinos-brasil-pl-263-regulamentacao",
     title: "Lei de cassinos no Brasil: PL 2234/2022 e o marco regulatório",
     excerpt:
-      "Entenda o que propõe a regulação de cassinos no Congresso, como o PL 2234/2022 se relaciona com turismo integrado e por que Copacabana aparece no debate nacional.",
+      "Entenda o que propõe a regulação de cassinos no Congresso, como o PL 2234/2022 se relaciona com turismo integrado e por que São Paulo aparece no debate nacional.",
     readTime: "7 min",
     keywords: [
       "lei cassinos Brasil",
       "PL 2234/2022",
       "regulamentação",
-      "Copacabana",
+      "São Paulo",
       "turismo",
     ],
     sections: [
@@ -442,23 +442,23 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         heading: "O que muda com um marco legal nacional",
         paragraphs: [
           "Décadas de proibição ampla não eliminaram a demanda por entretenimento com jogos — apenas deslocaram receita para mercados informais ou para o exterior. Um marco legal nacional define quem pode operar, onde, com quais tributos e como proteger o consumidor. O debate no Congresso gira em torno do [[PL 2234/2022|gov:senado]] (origem na Câmara como [[PL 442/1991|gov:camara]]), buscando equilibrar arrecadação, emprego formal e moderação.",
-          "Para municípios turísticos, a lei não é abstração: define se Copacabana pode concorrer a licenças, quais exigências ambientais e sociais serão contratuais e como a comunidade participa do monitoramento. Transparência legislativa reduz especulação e atrai investimento qualificado.",
-          "Portais informativos como cassinocopacabana.com ajudam moradores e investidores a acompanhar o texto legal, prazos e impactos — separando projeto regulado de boatos sobre liberação irrestrita.",
+          "Para municípios turísticos, a lei não é abstração: define se São Paulo pode concorrer a licenças, quais exigências ambientais e sociais serão contratuais e como a comunidade participa do monitoramento. Transparência legislativa reduz especulação e atrai investimento qualificado.",
+          "Portais informativos como cassinodesaopaulo.com.br ajudam moradores e investidores a acompanhar o texto legal, prazos e impactos — separando projeto regulado de boatos sobre liberação irrestrita.",
         ],
       },
       {
         heading: "Licenças limitadas e destinos estratégicos",
         paragraphs: [
-          "Modelos internacionais raramente autorizam cassinos em qualquer cidade. Licenças limitadas concentram fiscalização, evitam saturação e permitem metas de emprego regional. Destinos com hotelaria premium e fluxo estável — como polos na Zona Sul do Rio de Janeiro — figuram naturalmente no mapa de oportunidades.",
-          "A regulação pode exigir resort integrado: casino dentro de complexo com hospedagem, gastronomia e eventos, ampliando a cadeia turística além das mesas. Isso alinha o setor à vocação de Copacabana, sem transformar a cidade apenas em sala de jogos.",
+          "Modelos internacionais raramente autorizam cassinos em qualquer cidade. Licenças limitadas concentram fiscalização, evitam saturação e permitem metas de emprego regional. Destinos com hotelaria premium e fluxo estável — como polos na Grande São Paulo — figuram naturalmente no mapa de oportunidades.",
+          "A regulação pode exigir resort integrado: casino dentro de complexo com hospedagem, gastronomia e eventos, ampliando a cadeia turística além das mesas. Isso alinha o setor à vocação de São Paulo, sem transformar a cidade apenas em sala de jogos.",
           "Parlamentares e gestores públicos ganham instrumentos para auditar operadores, suspender licenças por descumprimento e destinar parte da arrecadação a saúde, educação e prevenção ao jogo problemático.",
         ],
       },
       {
-        heading: "Próximos passos para Copacabana",
+        heading: "Próximos passos para São Paulo",
         paragraphs: [
           "Mesmo antes da votação final, prefeitos, câmaras e empresários locais podem mapear áreas, tráfego, fornecedores e programas de capacitação. Antecipar estudos de impacto acelera licitações quando a lei entrar em vigor e evita decisões improvisadas.",
-          "Um domínio premium regional reforça comunicação responsável durante a transição regulatória: educar sobre emprego, tributos e moderação posiciona Copacabana como polo maduro, não como aposta especulativa.",
+          "Um domínio premium regional reforça comunicação responsável durante a transição regulatória: educar sobre emprego, tributos e moderação posiciona São Paulo como polo maduro, não como aposta especulativa.",
           "A regulação é oportunidade de capturar turismo que hoje embarca para Las Vegas, Montevidéu ou destinos clandestinos — com emprego formal, ISS municipal e jogo responsável contratualizado.",
         ],
       },
@@ -468,14 +468,14 @@ const rawPosts: Omit<BlogPost, "date">[] = [
     slug: "seguranca-patrimonial-compliance-cassinos-regulados",
     title: "Segurança patrimonial e compliance em cassinos regulados",
     excerpt:
-      "Cassino legal exige controles de AML, vigilância, auditoria e integração com autoridades. Veja como a segurança patrimonial sustenta a credibilidade do setor em Copacabana.",
+      "Cassino legal exige controles de AML, vigilância, auditoria e integração com autoridades. Veja como a segurança patrimonial sustenta a credibilidade do setor em São Paulo.",
     readTime: "6 min",
     keywords: [
       "segurança patrimonial",
       "compliance",
       "cassino regulado",
       "AML",
-      "Copacabana",
+      "São Paulo",
     ],
     sections: [
       {
@@ -483,7 +483,7 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         paragraphs: [
           "Em mercados regulados, a licença de operação depende de planos de segurança patrimonial, prevenção à lavagem de dinheiro (AML) e canais de cooperação com polícia e receita. Sem isso, o cassino não abre — independentemente do tamanho do investimento.",
           "Câmeras, controle de acesso, contagem de fichas e trilhas de auditoria digital reduzem fraudes internas e externas. Operadores respondem por falhas graves com multas, suspensão ou revogação da licença.",
-          "Para visitantes de Copacabana, segurança visível transmite padrão internacional de hospitalidade: o entretenimento regulado não compete com ambientes clandestinos onde não há garantia alguma.",
+          "Para visitantes de São Paulo, segurança visível transmite padrão internacional de hospitalidade: o entretenimento regulado não compete com ambientes clandestinos onde não há garantia alguma.",
         ],
       },
       {
@@ -491,36 +491,36 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         paragraphs: [
           "Compliance vai além de segurança física: políticas de jogo responsável, verificação de idade, limites de crédito e treinamento de equipe fazem parte do pacote regulatório. Falhas repetidas mancham o destino inteiro, não apenas o operador.",
           "Auditorias independentes e relatórios públicos agregam confiança para turismo corporativo, investidores e moradores. Municípios podem exigir indicadores trimestrais como condição de renovação contratual.",
-          "Integração com hotéis e eventos em Copacabana exige protocolos únicos de credenciamento — evitando que o casino seja ponto fraco num ecossistema premium.",
+          "Integração com hotéis e eventos em São Paulo exige protocolos únicos de credenciamento — evitando que o casino seja ponto fraco num ecossistema premium.",
         ],
       },
       {
         heading: "Emprego qualificado em segurança e TI",
         paragraphs: [
           "Centros de monitoramento, cibersegurança e análise de dados geram vagas formais para profissionais da região, com certificações reconhecidas. Programas de trainee podem incluir parcerias com instituições de São Paulo e do Vale do Paraíba.",
-          "A combinação de segurança rigorosa e comunicação transparente — como a veiculada em iniciativas ligadas a cassinocopacabana.com — diferencia um polo regulado de narrativas sensacionalistas sobre crime e ilegalidade.",
+          "A combinação de segurança rigorosa e comunicação transparente — como a veiculada em iniciativas ligadas a cassinodesaopaulo.com.br — diferencia um polo regulado de narrativas sensacionalistas sobre crime e ilegalidade.",
         ],
       },
     ],
   },
   {
-    slug: "resorts-integrados-impacto-ambiental-copacabana",
-    title: "Resorts integrados e impacto ambiental em Copacabana",
+    slug: "resorts-integrados-impacto-ambiental-sao-paulo",
+    title: "Resorts integrados e impacto ambiental em São Paulo",
     excerpt:
-      "Licenciamento ambiental, mobilidade e gestão de resíduos são centrais para um cassino regulado na Zona Sul do Rio de Janeiro. Entenda como projetos podem ser sustentáveis.",
+      "Licenciamento ambiental, mobilidade e gestão de resíduos são centrais para um cassino regulado na Grande São Paulo. Entenda como projetos podem ser sustentáveis.",
     readTime: "6 min",
     keywords: [
       "impacto ambiental",
       "resort integrado",
-      "Copacabana",
+      "São Paulo",
       "sustentabilidade",
       "cassino regulado",
     ],
     sections: [
       {
-        heading: "Zona Sul do Rio de Janeiro: sensibilidade ambiental",
+        heading: "Grande São Paulo: sensibilidade ambiental",
         paragraphs: [
-          "Copacabana e vizinhas ocupam área de relevância hídrica e turismo de natureza. Qualquer empreendimento de grande porte precisa de estudo de impacto ambiental, licenças condicionadas e plano de compensação — requisitos que a ilegalidade ignora.",
+          "São Paulo e vizinhas ocupam área de relevância hídrica e turismo de natureza. Qualquer empreendimento de grande porte precisa de estudo de impacto ambiental, licenças condicionadas e plano de compensação — requisitos que a ilegalidade ignora.",
           "Resorts integrados regulados podem adotar eficiência energética, gestão de água e resíduos alinhada a certificações internacionais, reduzindo pressão sobre mananciais e florestas.",
           "A comunidade legitima projetos que demonstram mitigação real: tráfego gerenciado, transporte compartilhado e monitoramento de ruído são temas de debate público, não apenas de sala técnica.",
         ],
@@ -528,7 +528,7 @@ const rawPosts: Omit<BlogPost, "date">[] = [
       {
         heading: "Mobilidade e infraestrutura viária",
         paragraphs: [
-          "Picos de visitação no inverno já testam estradas cariocas. Projetos regulados devem apresentar plano de mobilidade com horários escalonados, estacionamentos periféricos e integração com hotéis parceiros — evitando colapso logístico.",
+          "Picos de visitação em feriados prolongados e na alta temporada já testam vias metropolitanas. Projetos regulados devem apresentar plano de mobilidade com horários escalonados, estacionamentos periféricos e integração com hotéis parceiros — evitando colapso logístico.",
           "Parte da arrecadação tributária pode financiar melhorias viárias e saneamento, convertendo investimento privado em benefício coletivo mensurável.",
           "Transparência sobre fluxos esperados permite à prefeitura negociar metas contratuais e fiscalizar cumprimento ao longo da concessão.",
         ],
@@ -536,22 +536,22 @@ const rawPosts: Omit<BlogPost, "date">[] = [
       {
         heading: "Sustentabilidade como vantagem competitiva",
         paragraphs: [
-          "Turistas de alto padrão valorizam destinos com narrativa ambiental coerente. Um polo regulado que combina entretenimento, hotelaria e práticas ESG fortalece a marca Copacabana frente a concorrentes que apostam apenas em volume.",
-          "Informação acessível sobre licenciamento e compromissos ambientais — veiculada em hubs como cassinocopacabana.com — reduz fake news e constrói apoio local duradouro.",
+          "Turistas de alto padrão valorizam destinos com narrativa ambiental coerente. Um polo regulado que combina entretenimento, hotelaria e práticas ESG fortalece a marca São Paulo frente a concorrentes que apostam apenas em volume.",
+          "Informação acessível sobre licenciamento e compromissos ambientais — veiculada em hubs como cassinodesaopaulo.com.br — reduz fake news e constrói apoio local duradouro.",
         ],
       },
     ],
   },
   {
-    slug: "marketing-digital-turismo-cassino-copacabana",
-    title: "Marketing digital de turismo e cassino em Copacabana",
+    slug: "marketing-digital-turismo-cassino-sao-paulo",
+    title: "Marketing digital de turismo e cassino em São Paulo",
     excerpt:
       "Estratégias de SEO, conteúdo e mídia paga para posicionar um destino regulado sem promessas enganosas — e o papel de um domínio premium na autoridade online.",
     readTime: "6 min",
     keywords: [
       "marketing digital",
       "SEO turismo",
-      "Copacabana",
+      "São Paulo",
       "cassino regulado",
       "domínio premium",
     ],
@@ -560,14 +560,14 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         heading: "Turismo digital pós-regulação",
         paragraphs: [
           "Quando o marco legal avança, buscas por cassino no Brasil, regulação e destinos urbanos premium crescem. Marketing digital ético captura intenção informativa com artigos, vídeos e dados verificáveis — não com anúncios enganosos que buscadores penalizam.",
-          "Copacabana compete com outras cidades por atenção do viajante corporativo e de lazer. Autoridade online depende de consistência: domínio claro, blog atualizado e páginas que respondem dúvidas sobre emprego, moderação e impacto local.",
-          "cassinocopacabana.com exemplifica ativo de marca: termos geográficos e temáticos no endereço reforçam relevância semântica para Google e para parceiros institucionais.",
+          "São Paulo compete com outras cidades por atenção do viajante corporativo e de lazer. Autoridade online depende de consistência: domínio claro, blog atualizado e páginas que respondem dúvidas sobre emprego, moderação e impacto local.",
+          "cassinodesaopaulo.com.br exemplifica ativo de marca: termos geográficos e temáticos no endereço reforçam relevância semântica para Google e para parceiros institucionais.",
         ],
       },
       {
         heading: "SEO local e conteúdo de autoridade",
         paragraphs: [
-          "Palavras-chave de cauda longa — cassino regulado Copacabana, resort integrado Zona Sul do Rio de Janeiro, emprego hotelaria — atraem público qualificado. Listas, FAQs e links internos entre artigos aumentam tempo de permanência e sinalizam profundidade editorial.",
+          "Palavras-chave de cauda longa — cassino regulado São Paulo, resort integrado Grande São Paulo, emprego hotelaria — atraem público qualificado. Listas, FAQs e links internos entre artigos aumentam tempo de permanência e sinalizam profundidade editorial.",
           "Google recompensa sites que educam; punem práticas agressivas de aposta ilegal. Um hub regional alinhado à regulação constrói tráfego orgânico sustentável ao longo dos anos.",
           "Integração com Google Business Profile, eventos locais e parcerias com hotéis amplifica alcance sem depender só de mídia paga.",
         ],
@@ -575,8 +575,8 @@ const rawPosts: Omit<BlogPost, "date">[] = [
       {
         heading: "Mídia paga com compliance",
         paragraphs: [
-          "Anúncios sobre entretenimento regulado devem respeitar restrições de idade, linguagem responsável e jurisdição. Campanhas segmentadas para turismo corporativo e pacotes de inverno têm ROI superior a cliques genéricos.",
-          "Investidores avaliam presença digital antes de licitações: domínio cassinocopacabana.com protegidos, conteúdo consistente e formulário de contato profissional reduzem fricção na due diligence.",
+          "Anúncios sobre entretenimento regulado devem respeitar restrições de idade, linguagem responsável e jurisdição. Campanhas segmentadas para turismo corporativo e pacotes corporativos têm ROI superior a cliques genéricos.",
+          "Investidores avaliam presença digital antes de licitações: domínio cassinodesaopaulo.com.br protegidos, conteúdo consistente e formulário de contato profissional reduzem fricção na due diligence.",
         ],
       },
     ],
@@ -585,14 +585,14 @@ const rawPosts: Omit<BlogPost, "date">[] = [
     slug: "cassinos-america-latina-comparativo-brasil",
     title: "Cassinos na América Latina: comparativo e lições para o Brasil",
     excerpt:
-      "Uruguai, Argentina, Chile e outros mercados já regulam ou debatem jogos. O que o Brasil pode adaptar — e por que Copacabana entra na conversa.",
+      "Uruguai, Argentina, Chile e outros mercados já regulam ou debatem jogos. O que o Brasil pode adaptar — e por que São Paulo entra na conversa.",
     readTime: "7 min",
     keywords: [
       "cassinos América Latina",
       "comparativo",
       "Brasil",
       "regulação",
-      "Copacabana",
+      "São Paulo",
     ],
     sections: [
       {
@@ -600,13 +600,13 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         paragraphs: [
           "Vizinhos latino-americanos capturam turistas brasileiros em cassinos legais há anos. Montevidéu, Buenos Aires e destinos caribenhos combinam entretenimento com hotelaria — receita que o Brasil deixa na fronteira quando não oferece alternativa regulada interna.",
           "Cada país calibra número de licenças, tributação e exigências de investimento local. O Brasil pode aprender com sucessos e excessos: saturação urbana, falta de moderação ou concentração excessiva em uma única cidade.",
-          "Destinos de orla premium e perfil premium — como Copacabana — ocupam nicho distinto de megaresorts internacionais, favorecendo escala moderada e foco em turismo de praia.",
+          "Destinos de metrópole premium e perfil premium — como São Paulo — ocupam nicho distinto de megaresorts internacionais, favorecendo escala moderada e foco em turismo urbano e de negócios.",
         ],
       },
       {
         heading: "Competitividade e retenção de receita",
         paragraphs: [
-          "Sem polos nacionais regulados, agências e operadoras exportam pacotes para o exterior. Com licenças claras, hotéis cariocas retêm pernoites, ISS e emprego formal.",
+          "Sem polos nacionais regulados, agências e operadoras exportam pacotes para o exterior. Com licenças claras, hotéis paulistanos retêm pernoites, ISS e emprego formal.",
           "Comparativos públicos de arrecadação e emprego por habitante ajudam parlamentares a dimensionar benefícios — desde que acompanhados de metas de jogo responsável.",
           "Marcas digitais regionais reforçam narrativa local frente a concorrentes internacionais genéricos.",
         ],
@@ -615,29 +615,29 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         heading: "Adaptação ao contexto brasileiro",
         paragraphs: [
           "Federação, municípios e órgãos de controle exigem desenho jurídico próprio — não cópia literal de modelos importados. Participação social, transparência de contratos e limites geográficos são diferenciais possíveis.",
-          "Copacabana pode ser caso piloto de resort integrado em Copacabana, com indicadores publicados e comunidade informada via canais como cassinocopacabana.com.",
+          "São Paulo pode ser caso piloto de resort integrado em São Paulo, com indicadores publicados e comunidade informada via canais como cassinodesaopaulo.com.br.",
         ],
       },
     ],
   },
   {
-    slug: "hospedagem-luxo-entretenimento-regulado-copacabana",
-    title: "Hospedagem de luxo e entretenimento regulado em Copacabana",
+    slug: "hospedagem-luxo-entretenimento-regulado-sao-paulo",
+    title: "Hospedagem de luxo e entretenimento regulado em São Paulo",
     excerpt:
-      "Suítes premium, gastronomia e casino licenciado formam o tripé do resort integrado. Como a hotelaria de Copacabana pode evoluir com regulação.",
+      "Suítes premium, gastronomia e casino licenciado formam o tripé do resort integrado. Como a hotelaria de São Paulo pode evoluir com regulação.",
     readTime: "6 min",
     keywords: [
       "hospedagem luxo",
       "hotelaria",
       "resort integrado",
-      "Copacabana",
+      "São Paulo",
       "cassino regulado",
     ],
     sections: [
       {
-        heading: "Hotelaria que já existe em Copacabana",
+        heading: "Hotelaria que já existe em São Paulo",
         paragraphs: [
-          "Copacabana reúne pousadas boutique, redes internacionais e capacidade para eventos corporativos. O entretenimento regulado não substitui natureza ou gastronomia — complementa a estadia com oferta licenciada e fiscalizada.",
+          "São Paulo reúne pousadas boutique, redes internacionais e capacidade para eventos corporativos. O entretenimento regulado não substitui natureza ou gastronomia — complementa a estadia com oferta licenciada e fiscalizada.",
           "Suítes ligadas a spa, centro de convenções e área de jogos aumentam ticket médio e permanência média, especialmente fora dos picos absolutos de julho.",
           "Padrões de serviço importados de mercados regulados elevam treinamento e remuneração da equipe de hotelaria.",
         ],
@@ -646,7 +646,7 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         heading: "Experiência integrada e marca",
         paragraphs: [
           "Hóspedes premium esperam pacotes coerentes: jantar, show e entretenimento com regras claras. Resorts integrados vendem experiência completa, não acesso isolado a mesas.",
-          "Marcas locais e um domínio como cassinocopacabana.com comunicam posicionamento antes mesmo da obra: seriedade, regulação e foco geográfico.",
+          "Marcas locais e um domínio como cassinodesaopaulo.com.br comunicam posicionamento antes mesmo da obra: seriedade, regulação e foco geográfico.",
           "Parcerias com vinícolas, roteiros culturais e esqui ampliam diferencial frente a cassinos urbanos sem vocação turística natural.",
         ],
       },
@@ -654,7 +654,7 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         heading: "Ocupação e investimento em retrofit",
         paragraphs: [
           "Parte da hotelaria existente pode ser integrada ou revitalizada por operadores licenciados, gerando retrofit e emprego de construção civil sem partir do zero.",
-          "Indicadores de ocupação fora de temporada são a métrica-chave para avaliar sucesso do modelo na Zona Sul do Rio de Janeiro.",
+          "Indicadores de ocupação fora de temporada são a métrica-chave para avaliar sucesso do modelo na Grande São Paulo.",
         ],
       },
     ],
@@ -663,14 +663,14 @@ const rawPosts: Omit<BlogPost, "date">[] = [
     slug: "concessao-licitacao-cassino-municipio-brasil",
     title: "Concessão e licitação de cassino: papel do município",
     excerpt:
-      "Como prefeituras podem estruturar licitações, metas sociais e fiscalização de um polo regulado — guia para gestores de Copacabana.",
+      "Como prefeituras podem estruturar licitações, metas sociais e fiscalização de um polo regulado — guia para gestores de São Paulo.",
     readTime: "7 min",
     keywords: [
       "licitação",
       "concessão",
       "município",
       "cassino regulado",
-      "Copacabana",
+      "São Paulo",
     ],
     sections: [
       {
@@ -678,7 +678,7 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         paragraphs: [
           "A lei nacional define o que é permitido; municípios sede decidem se querem concorrer, onde e com quais contrapartidas. Licitação transparente seleciona operador por capacidade financeira, plano de investimento e compromissos sociais — não por promessa informal.",
           "Estudos de impacto urbano, ambiental e turístico alimentam o edital. Moradores e associações devem ter canal de consulta antes da assinatura.",
-          "Copacabana, com histórico de turismo premium, pode exigir padrões acima do mínimo legal: conteúdo local, metas de emprego e fundo de jogo responsável.",
+          "São Paulo, com histórico de turismo premium, pode exigir padrões acima do mínimo legal: conteúdo local, metas de emprego e fundo de jogo responsável.",
         ],
       },
       {
@@ -692,7 +692,7 @@ const rawPosts: Omit<BlogPost, "date">[] = [
       {
         heading: "Comunicação pública responsável",
         paragraphs: [
-          "Gestores precisam separar fato de rumor: o que a lei permite, onde pode ser instalado e quais benefícios são mensuráveis. Hubs informativos como cassinocopacabana.com complementam audiências públicas e materiais oficiais.",
+          "Gestores precisam separar fato de rumor: o que a lei permite, onde pode ser instalado e quais benefícios são mensuráveis. Hubs informativos como cassinodesaopaulo.com.br complementam audiências públicas e materiais oficiais.",
           "Licitação bem feita transforma debate polarizado em processo técnico auditável — condição para investimento estrangeiro e apoio local.",
         ],
       },
@@ -702,7 +702,7 @@ const rawPosts: Omit<BlogPost, "date">[] = [
     slug: "apostas-online-cassino-presencial-regulacao",
     title: "Apostas online vs cassino presencial regulado",
     excerpt:
-      "São mercados distintos na lei e na experiência do usuário. Entenda diferenças de tributação, moderação e turismo em Copacabana.",
+      "São mercados distintos na lei e na experiência do usuário. Entenda diferenças de tributação, moderação e turismo em São Paulo.",
     readTime: "6 min",
     keywords: [
       "apostas online",
@@ -717,14 +717,14 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         paragraphs: [
           "Apostas esportivas e jogos online mobilizam plataformas digitais, publicidade massiva e desafios de moderação remota — já disciplinados pela [[Lei nº 14.790/2023|gov:leiApostas]] e pela [[Secretaria de Prêmios e Apostas|gov:spa]]. Cassino presencial regulado ancora-se em resort, emprego local, turismo e fiscalização in loco — complementares, não idênticos.",
           "Confundir os dois alimenta medo de proliferação irrestrita. A regulação pode limitar licenças físicas a poucos destinos turísticos enquanto disciplina online com regras próprias.",
-          "Copacabana dialoga naturalmente com modelo presencial integrado à hotelaria, não com servidor em jurisdição desconhecida.",
+          "São Paulo dialoga naturalmente com modelo presencial integrado à hotelaria, não com servidor em jurisdição desconhecida.",
         ],
       },
       {
         heading: "Turismo e experiência presencial",
         paragraphs: [
           "Casino em resort prolonga estadia, movimenta restaurantes e gera emprego de proximidade — efeitos que apostas puramente online não replicam no território.",
-          "Turismo corporativo e de inverno em Copacabana beneficia-se de entretenimento presencial com compliance visível: crachás, limites, segurança patrimonial.",
+          "Turismo corporativo e de eventos e negócios em São Paulo beneficia-se de entretenimento presencial com compliance visível: crachás, limites, segurança patrimonial.",
           "Capturar visitantes que hoje cruzam fronteira exige oferta legal com qualidade equivalente e narrativa regional forte.",
         ],
       },
@@ -732,7 +732,7 @@ const rawPosts: Omit<BlogPost, "date">[] = [
         heading: "Moderação em ambos os canais",
         paragraphs: [
           "Jogo responsável deve cobrir autoexclusão digital e presencial, publicidade restrita e financiamento de prevenção. Recursos tributários de cada canal podem alimentar o mesmo fundo setorial.",
-          "Educação clara — como artigos em cassinocopacabana.com — reduz mitos e posiciona o Brasil para regulação madura em todas as frentes.",
+          "Educação clara — como artigos em cassinodesaopaulo.com.br — reduz mitos e posiciona o Brasil para regulação madura em todas as frentes.",
         ],
       },
     ],

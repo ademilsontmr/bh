@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 
+import { DomainsForSaleInline } from "@/components/domains-for-sale";
 import type { ArticleFaqItem } from "@/lib/blog-article-faq";
 import type { BlogPost, BlogSection } from "@/lib/blog-posts";
 import { getArticleExternalRefs, resolveLinkTarget } from "@/lib/blog-external-references";
@@ -11,7 +12,9 @@ const MANUAL_LINK_RE = /\[\[([^\]|]+)\|([^\]]+)\]\]/g;
 const BOLD_RE = /\*\*([^*]+)\*\*/g;
 
 const GLOBAL_PATTERNS: { pattern: RegExp; href: string; external?: boolean }[] = [
-  { pattern: /cassinocopacabana\.com/gi, href: "/" },
+  { pattern: /cassinodesaopaulo\.com\.br/gi, href: "/" },
+  { pattern: /cassinodesaopaulo\.com(?!\.)/gi, href: "/" },
+  { pattern: /cassinosaopaulo\.com/gi, href: "/" },
 ];
 
 const TOPIC_LINKS: Record<string, string> = {
@@ -21,13 +24,13 @@ const TOPIC_LINKS: Record<string, string> = {
   "Las Vegas": "/blog/licoes-las-vegas-singapura-regulacao-brasil",
   Singapura: "/blog/licoes-las-vegas-singapura-regulacao-brasil",
   tributação: "/blog/tributacao-cassinos-regulados-financiamento-publico",
-  "resort integrado": "/blog/resorts-integrados-rio-copacabana",
-  "resorts integrados": "/blog/resorts-integrados-rio-copacabana",
-  "Copacabana": "/blog/copacabana-polo-entretenimento-regulado",
-  "Zona Sul do Rio de Janeiro": "/blog/resorts-integrados-rio-copacabana",
+  "resort integrado": "/blog/resorts-integrados-sao-paulo",
+  "resorts integrados": "/blog/resorts-integrados-sao-paulo",
+  "São Paulo": "/blog/sao-paulo-polo-entretenimento-regulado",
+  "Grande São Paulo": "/blog/resorts-integrados-sao-paulo",
   regulação: "/blog/cassinos-brasil-emprego-renda",
-  SEO: "/blog/dominio-premium-seo-entretenimento-copacabana",
-  "domínio premium": "/blog/dominio-premium-seo-entretenimento-copacabana",
+  SEO: "/blog/dominio-premium-seo-entretenimento-sao-paulo",
+  "domínio premium": "/blog/dominio-premium-seo-entretenimento-sao-paulo",
 };
 
 function slugifyHeading(text: string): string {
@@ -402,7 +405,7 @@ export function ArticleFaq({ faq }: { faq: ArticleFaqItem[] }) {
       itemType="https://schema.org/FAQPage"
     >
       <h2 id="faq-artigo-heading" className="font-serif text-2xl text-foreground mb-6">
-        Perguntas frequentes sobre cassino no Brasil e Copacabana
+        Perguntas frequentes sobre cassino no Brasil e São Paulo
       </h2>
       <dl className="space-y-6">
         {faq.map((item, i) => (
@@ -449,13 +452,10 @@ export function RelatedPosts({ post, related }: { post: BlogPost; related: BlogP
 export function BlogDomainMention() {
   return (
     <p className="text-sm text-muted-foreground mt-8 border-t border-border/30 pt-6">
-      Sobre o domínio{" "}
-      <Link to="/" className="text-primary hover:underline">
-        cassinocopacabana.com
-      </Link>
-      : ativo digital premium à venda para projetos de <strong className="text-foreground">entretenimento regulado</strong> e{" "}
+      Sobre os domínios <DomainsForSaleInline />: ativos digitais premium à venda para projetos de{" "}
+      <strong className="text-foreground">entretenimento regulado</strong> e{" "}
       <strong className="text-foreground">turismo</strong> em{" "}
-      <strong className="text-foreground">Copacabana</strong>.{" "}
+      <strong className="text-foreground">São Paulo</strong>.{" "}
       <Link to="/" className="text-primary hover:underline">
         Saiba mais sobre a oferta
       </Link>

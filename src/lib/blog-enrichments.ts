@@ -15,12 +15,12 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     {
       listItems: [
         "Operadores internacionais mapeiam o Brasil — contexto legislativo no [[Senado Federal|gov:senado]] e dados do [[Ministério do Turismo|gov:turismo]]",
-        "Copacabana combina turismo de praia, renda elevada e vocação para [[resorts integrados|resorts-integrados-rio-copacabana]]",
+        "São Paulo combina turismo urbano e de negócios, renda elevada e vocação para [[resorts integrados|resorts-integrados-sao-paulo]]",
         "Regulação clara reduz risco jurídico e viabiliza parcerias público-privadas com metas de [[emprego formal|empregos-formais-hotelaria-lazer-brasil]]",
       ],
       relatedLinks: [
         { label: "Lições de Las Vegas e Singapura", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
-        { label: "Copacabana como polo regulado", slug: "copacabana-polo-entretenimento-regulado" },
+        { label: "São Paulo como polo regulado", slug: "sao-paulo-polo-entretenimento-regulado" },
       ],
       highlights: [
         "Capital paciente busca destinos com demanda doméstica e fluxo internacional",
@@ -36,17 +36,17 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       orderedItems: [
         "Operador licenciado implementa programas de capacitação reconhecidos globalmente",
         "Mão de obra local ascende em carreiras estáveis fora da sazonalidade agrícola",
-        "Certificações elevam qualificação e fixam talentos na [[Zona Sul do Rio de Janeiro|resorts-integrados-rio-copacabana]]",
+        "Certificações elevam qualificação e fixam talentos na [[Grande São Paulo|resorts-integrados-sao-paulo]]",
       ],
       relatedLinks: [
         { label: "Empregos formais na hotelaria", slug: "empregos-formais-hotelaria-lazer-brasil" },
-        { label: "Resorts integrados na região", slug: "resorts-integrados-rio-copacabana" },
+        { label: "Resorts integrados na região", slug: "resorts-integrados-sao-paulo" },
       ],
     },
     {
       listItems: [
-        "Polo regulado em Copacabana pode ser vitrine nacional de licenciamento transparente",
-        "Portais como [[cassinocopacabana.com|/]] educam sobre benefícios e [[moderação|moderacao-jogo-responsavel-cassinos]]",
+        "Polo regulado em São Paulo pode ser vitrine nacional de licenciamento transparente",
+        "Portais como [[cassinodesaopaulo.com.br|/]] educam sobre benefícios e [[moderação|moderacao-jogo-responsavel-cassinos]]",
         "Sem marco legal, o capital evita o país; com regras, o Brasil captura receita e tributos",
       ],
       highlights: [
@@ -54,7 +54,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Fim da exportação de receita para cassinos clandestinos ou destinos no exterior",
       ],
       relatedLinks: [
-        { label: "Potencial econômico em Copacabana", slug: "cassino-copacabana-potencial-economico" },
+        { label: "Potencial econômico em São Paulo", slug: "cassino-sao-paulo-potencial-economico" },
         { label: "Cassinos no Brasil: emprego e renda", slug: "cassinos-brasil-emprego-renda" },
       ],
     },
@@ -65,10 +65,10 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Resort integrado distribui demanda ao longo do ano — casino, convenções, spa e gastronomia",
         "Funções permanentes: recepcionista, dealer, compliance, gerente de operações",
-        "Vagas formais alinhadas ao [[Ministério do Trabalho|gov:trabalho]]; trainee reduz migração da [[Zona Sul do Rio de Janeiro|resorts-integrados-rio-copacabana]]",
+        "Vagas formais alinhadas ao [[Ministério do Trabalho|gov:trabalho]]; trainee reduz migração da [[Grande São Paulo|resorts-integrados-sao-paulo]]",
       ],
       relatedLinks: [
-        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
+        { label: "Resorts integrados", slug: "resorts-integrados-sao-paulo" },
         { label: "Emprego e renda no Brasil", slug: "cassinos-brasil-emprego-renda" },
       ],
       highlights: [
@@ -80,7 +80,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "INSS, FGTS e férias convertem lazer legal em arrecadação para saúde e educação",
         "Licenças podem exigir metas de contratação local e transparência salarial",
-        "Salários compatíveis com qualificação são condição em [[Copacabana|copacabana-polo-entretenimento-regulado]]",
+        "Salários compatíveis com qualificação são condição em [[São Paulo|sao-paulo-polo-entretenimento-regulado]]",
       ],
       orderedItems: [
         "Operador obtém licença vinculada a metas de emprego local",
@@ -89,7 +89,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Tributação e financiamento público", slug: "tributacao-cassinos-regulados-financiamento-publico" },
-        { label: "Polo de entretenimento em Copacabana", slug: "copacabana-polo-entretenimento-regulado" },
+        { label: "Polo de entretenimento em São Paulo", slug: "sao-paulo-polo-entretenimento-regulado" },
       ],
     },
     {
@@ -99,7 +99,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Informação clara combate mitos de emprego precário ou ilegal",
       ],
       highlights: [
-        "Ecossistema digital em [[cassinocopacabana.com|/]] orienta candidatos sobre requisitos e direitos",
+        "Ecossistema digital em [[cassinodesaopaulo.com.br|/]] orienta candidatos sobre requisitos e direitos",
         "Capacitação acelera maturidade do setor no Brasil",
       ],
       relatedLinks: [
@@ -109,16 +109,16 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
   ],
 
-  "dominio-premium-seo-entretenimento-copacabana": [
+  "dominio-premium-seo-entretenimento-sao-paulo": [
     {
       listItems: [
         "Domínio geográfico sinaliza credibilidade — alinhe conteúdo a dados do [[IBGE turismo|gov:ibgeTurismo]] e [[Ministério do Turismo|gov:turismo]]",
-        "[[cassinocopacabana.com|/]] ancora comunicação sobre entretenimento em [[Copacabana|copacabana-polo-entretenimento-regulado]]",
+        "[[cassinodesaopaulo.com.br|/]] ancora comunicação sobre entretenimento em [[São Paulo|sao-paulo-polo-entretenimento-regulado]]",
         "Transparência online é requisito em mercados regulados e due diligence de investidores",
       ],
       relatedLinks: [
-        { label: "Copacabana como polo regulado", slug: "copacabana-polo-entretenimento-regulado" },
-        { label: "Potencial econômico local", slug: "cassino-copacabana-potencial-economico" },
+        { label: "São Paulo como polo regulado", slug: "sao-paulo-polo-entretenimento-regulado" },
+        { label: "Potencial econômico local", slug: "cassino-sao-paulo-potencial-economico" },
       ],
       highlights: [
         "SEO ético responde dúvidas reais: emprego, tributação, moderação, turismo",
@@ -128,7 +128,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     {
       listItems: [
         "Artigos sobre [[regulação|cassinos-brasil-emprego-renda]], renda e [[jogo responsável|moderacao-jogo-responsavel-cassinos]] atraem tráfego qualificado",
-        "Palavras-chave locais: emprego formal, Zona Sul do Rio de Janeiro, cassino regulado",
+        "Palavras-chave locais: emprego formal, Grande São Paulo, cassino regulado",
         "Blog funciona como hub de conhecimento complementar às páginas institucionais",
       ],
       orderedItems: [
@@ -152,7 +152,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Reguladores identificam interlocutores transparentes via presença digital coerente",
       ],
       relatedLinks: [
-        { label: "Turismo corporativo em Copacabana", slug: "turismo-corporativo-copacabana-entretenimento" },
+        { label: "Turismo corporativo em São Paulo", slug: "turismo-corporativo-sao-paulo-entretenimento" },
         { label: "Domínio premium à venda", slug: "/" },
       ],
     },
@@ -163,7 +163,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Alíquotas e fundos setoriais: [[Receita Federal|gov:receita]], [[COAF|gov:coaf]] e [[SPA — apostas|gov:spaApostas]]",
         "Modelos internacionais inspiram o debate no [[Senado Federal|gov:senado]]; [[Las Vegas|licoes-las-vegas-singapura-regulacao-brasil]] e [[Singapura|licoes-las-vegas-singapura-regulacao-brasil]] financiam fiscalização robusta",
-        "Municípios como [[Copacabana|copacabana-polo-entretenimento-regulado]] podem investir em infraestrutura viária e saneamento",
+        "Municípios como [[São Paulo|sao-paulo-polo-entretenimento-regulado]] podem investir em infraestrutura viária e saneamento",
       ],
       relatedLinks: [
         { label: "Lições internacionais de regulação", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
@@ -178,7 +178,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Tributação excessiva empurra mercado para ilegalidade — equilíbrio é essencial",
         "Reinvestimento obrigatório em capacitação, turismo e [[moderação|moderacao-jogo-responsavel-cassinos]]",
-        "Pacto fiscal claro evita surpresas que inviabilizam [[resorts integrados|resorts-integrados-rio-copacabana]]",
+        "Pacto fiscal claro evita surpresas que inviabilizam [[resorts integrados|resorts-integrados-sao-paulo]]",
       ],
       orderedItems: [
         "Definir alíquotas competitivas com destinos vizinhos",
@@ -186,7 +186,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Garantir previsibilidade para planejamento municipal de médio prazo",
       ],
       relatedLinks: [
-        { label: "Resorts integrados na Zona Sul do Rio de Janeiro", slug: "resorts-integrados-rio-copacabana" },
+        { label: "Resorts integrados na Grande São Paulo", slug: "resorts-integrados-sao-paulo" },
         { label: "Moderação e jogo responsável", slug: "moderacao-jogo-responsavel-cassinos" },
       ],
     },
@@ -198,25 +198,25 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       highlights: [
         "Fundos setoriais são modelo comum em jurisdições reguladas maduras",
-        "Comunicação em [[cassinocopacabana.com|/]] ajuda a explicar essa lógica à população",
+        "Comunicação em [[cassinodesaopaulo.com.br|/]] ajuda a explicar essa lógica à população",
       ],
       relatedLinks: [
         { label: "Jogo responsável em cassinos", slug: "moderacao-jogo-responsavel-cassinos" },
-        { label: "Potencial econômico em Copacabana", slug: "cassino-copacabana-potencial-economico" },
+        { label: "Potencial econômico em São Paulo", slug: "cassino-sao-paulo-potencial-economico" },
       ],
     },
   ],
 
-  "turismo-corporativo-copacabana-entretenimento": [
+  "turismo-corporativo-sao-paulo-entretenimento": [
     {
       listItems: [
         "Segmento MICE busca infraestrutura, clima e experiências pós-evento",
-        "[[Ministério do Turismo|gov:turismo]] e [[IBGE|gov:ibgeTurismo]] dimensionam demanda; Copacabana soma hotéis premium + [[entretenimento regulado|copacabana-polo-entretenimento-regulado]]",
+        "[[Ministério do Turismo|gov:turismo]] e [[IBGE|gov:ibgeTurismo]] dimensionam demanda; São Paulo soma hotéis premium + [[entretenimento regulado|sao-paulo-polo-entretenimento-regulado]]",
         "Empresas preferem ambientes auditados com compliance e [[moderação|moderacao-jogo-responsavel-cassinos]]",
       ],
       relatedLinks: [
-        { label: "Polo de entretenimento regulado", slug: "copacabana-polo-entretenimento-regulado" },
-        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
+        { label: "Polo de entretenimento regulado", slug: "sao-paulo-polo-entretenimento-regulado" },
+        { label: "Resorts integrados", slug: "resorts-integrados-sao-paulo" },
       ],
       highlights: [
         "Eventos corporativos estendem estadias e ocupam quartos em semanas intermediárias",
@@ -226,8 +226,8 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     {
       listItems: [
         "Calendário corporativo gera emprego formal previsível — vendas B2B e eventos",
-        "ISS sobre serviços e hospedagem reduz volatilidade da temporada de inverno",
-        "Informação oficial em [[cassinocopacabana.com|/]] facilita contratação por agências",
+        "ISS sobre serviços e hospedagem reduz volatilidade da alta temporada corporativa",
+        "Informação oficial em [[cassinodesaopaulo.com.br|/]] facilita contratação por agências",
       ],
       orderedItems: [
         "Empresa identifica destino com infraestrutura MICE e regulação clara",
@@ -241,7 +241,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
     {
       listItems: [
-        "Copacabana compete em exclusividade e proximidade do centro do Rio — não em escala de [[Las Vegas|licoes-las-vegas-singapura-regulacao-brasil]]",
+        "São Paulo compete em exclusividade e proximidade do centro de São Paulo — não em escala de [[Las Vegas|licoes-las-vegas-singapura-regulacao-brasil]]",
         "Entretenimento moderado + gastronomia + natureza reforça posicionamento premium",
         "Equilíbrio protege marca da cidade como parceira de longo prazo",
       ],
@@ -251,7 +251,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Lições de Las Vegas e Singapura", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
-        { label: "Domínio premium e SEO", slug: "dominio-premium-seo-entretenimento-copacabana" },
+        { label: "Domínio premium e SEO", slug: "dominio-premium-seo-entretenimento-sao-paulo" },
       ],
     },
   ],
@@ -291,7 +291,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     {
       listItems: [
         "Las Vegas diversificou: shows, esportes, convenções além do jogo",
-        "[[Copacabana|copacabana-polo-entretenimento-regulado]] pode ancorar gastronomia, artesanato e ecoturismo",
+        "[[São Paulo|sao-paulo-polo-entretenimento-regulado]] pode ancorar gastronomia, artesanato e ecoturismo",
         "Estudar casos antes de legislar reduz improviso e maximiza [[emprego formal|empregos-formais-hotelaria-lazer-brasil]]",
       ],
       highlights: [
@@ -299,22 +299,22 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Arrecadação desde o primeiro dia de operação licenciada",
       ],
       relatedLinks: [
-        { label: "Resorts integrados na Zona Sul do Rio de Janeiro", slug: "resorts-integrados-rio-copacabana" },
-        { label: "Copacabana: potencial econômico", slug: "cassino-copacabana-potencial-economico" },
+        { label: "Resorts integrados na Grande São Paulo", slug: "resorts-integrados-sao-paulo" },
+        { label: "São Paulo: potencial econômico", slug: "cassino-sao-paulo-potencial-economico" },
       ],
     },
   ],
 
-  "copacabana-polo-entretenimento-regulado": [
+  "sao-paulo-polo-entretenimento-regulado": [
     {
       listItems: [
         "Menos de 2h de São Paulo; hotéis boutique e gastronomia reconhecida",
-        "Infraestrutura hoteleira existente acelera projeto de [[resort integrado|resorts-integrados-rio-copacabana]]",
-        "Canal oficial [[cassinocopacabana.com|/]] concentra comunicação e evita iniciativas paralelas",
+        "Infraestrutura hoteleira existente acelera projeto de [[resort integrado|resorts-integrados-sao-paulo]]",
+        "Canal oficial [[cassinodesaopaulo.com.br|/]] concentra comunicação e evita iniciativas paralelas",
       ],
       relatedLinks: [
-        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
-        { label: "Potencial econômico local", slug: "cassino-copacabana-potencial-economico" },
+        { label: "Resorts integrados", slug: "resorts-integrados-sao-paulo" },
+        { label: "Potencial econômico local", slug: "cassino-sao-paulo-potencial-economico" },
       ],
       highlights: [
         "Entretenimento regulado eleva ticket médio e pernoites além de compras e passeios",
@@ -339,9 +339,9 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
     {
       listItems: [
-        "ISS, taxas e contribuições sobre receita de jogo financiam saúde e educação na [[Zona Sul do Rio de Janeiro|resorts-integrados-rio-copacabana]]",
+        "ISS, taxas e contribuições sobre receita de jogo financiam saúde e educação na [[Grande São Paulo|resorts-integrados-sao-paulo]]",
         "Renda estável reduz dependência de transferências e sazonalidade agrícola",
-        "Polo em Copacabana de destino sazonal a hub anual de turismo e eventos",
+        "Polo em São Paulo de destino sazonal a hub anual de turismo e eventos",
       ],
       highlights: [
         "Referência nacional em debates sobre [[regulação|cassinos-brasil-emprego-renda]] no Brasil",
@@ -349,7 +349,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Cassinos no Brasil: emprego e renda", slug: "cassinos-brasil-emprego-renda" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-copacabana-entretenimento" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-sao-paulo-entretenimento" },
       ],
     },
   ],
@@ -382,19 +382,19 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Prevenção estende-se a hotéis e escolas da região",
       ],
       relatedLinks: [
-        { label: "Copacabana como polo regulado", slug: "copacabana-polo-entretenimento-regulado" },
-        { label: "Potencial econômico e social", slug: "cassino-copacabana-potencial-economico" },
+        { label: "São Paulo como polo regulado", slug: "sao-paulo-polo-entretenimento-regulado" },
+        { label: "Potencial econômico e social", slug: "cassino-sao-paulo-potencial-economico" },
       ],
     },
     {
       listItems: [
         "Proibição total empurra usuários para sites ilegais sem salvaguardas",
         "Regular com moderação investe em redução de danos — modelo de democracias maduras",
-        "[[Copacabana|copacabana-polo-entretenimento-regulado]] pode ser exemplo de moderação visível",
+        "[[São Paulo|sao-paulo-polo-entretenimento-regulado]] pode ser exemplo de moderação visível",
       ],
       highlights: [
         "Zero tolerância a exploração de vulneráveis",
-        "Material em múltiplos idiomas na alta temporada via [[cassinocopacabana.com|/]]",
+        "Material em múltiplos idiomas na alta temporada via [[cassinodesaopaulo.com.br|/]]",
       ],
       relatedLinks: [
         { label: "Empregos e formalização", slug: "empregos-formais-hotelaria-lazer-brasil" },
@@ -403,15 +403,15 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
   ],
 
-  "resorts-integrados-rio-copacabana": [
+  "resorts-integrados-sao-paulo": [
     {
       listItems: [
         "Hospedagem + entretenimento regulado + convenções — alinhado ao [[Ministério do Turismo|gov:turismo]] e [[IBGE turismo|gov:ibgeTurismo]]",
         "Visitante permanece mais tempo; município captura receita diversificada",
-        "Escala moderada compatível com paisagem da [[Zona Sul do Rio de Janeiro|resorts-integrados-rio-copacabana]]",
+        "Escala moderada compatível com paisagem da [[Grande São Paulo|resorts-integrados-sao-paulo]]",
       ],
       relatedLinks: [
-        { label: "Copacabana como polo", slug: "copacabana-polo-entretenimento-regulado" },
+        { label: "São Paulo como polo", slug: "sao-paulo-polo-entretenimento-regulado" },
         { label: "Investimento estrangeiro", slug: "investimento-estrangeiro-turismo-entretenimento-brasil" },
       ],
       highlights: [
@@ -432,22 +432,22 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Empregos formais na hotelaria", slug: "empregos-formais-hotelaria-lazer-brasil" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-copacabana-entretenimento" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-sao-paulo-entretenimento" },
       ],
     },
     {
       listItems: [
         "ESG: eficiência energética, resíduos e integração paisagística como requisito de licença",
-        "[[Copacabana|copacabana-polo-entretenimento-regulado]] preserva identidade de refúgio premium",
+        "[[São Paulo|sao-paulo-polo-entretenimento-regulado]] preserva identidade de refúgio premium",
         "Entretenimento regulado + [[moderação|moderacao-jogo-responsavel-cassinos]] reforçam referência nacional",
       ],
       highlights: [
         "Compromissos ambientais deixam de ser marketing opcional",
-        "Resort amplia proposta sem descaracterizar o destino de orla premium",
+        "Resort amplia proposta sem descaracterizar o destino de metrópole premium",
       ],
       relatedLinks: [
         { label: "Moderação e jogo responsável", slug: "moderacao-jogo-responsavel-cassinos" },
-        { label: "Potencial econômico em Copacabana", slug: "cassino-copacabana-potencial-economico" },
+        { label: "Potencial econômico em São Paulo", slug: "cassino-sao-paulo-potencial-economico" },
       ],
     },
   ],
@@ -461,7 +461,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Empregos formais na hotelaria", slug: "empregos-formais-hotelaria-lazer-brasil" },
-        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
+        { label: "Resorts integrados", slug: "resorts-integrados-sao-paulo" },
       ],
       highlights: [
         "Ilegalidade exporta empregos para sites offshore e destinos no exterior",
@@ -472,7 +472,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Receita bruta de jogo tributada financia saúde, educação e infraestrutura",
         "Fundos setoriais de moderação e turismo com relatórios anuais públicos",
-        "[[Copacabana|copacabana-polo-entretenimento-regulado]] negociaria pacote fiscal equilibrado",
+        "[[São Paulo|sao-paulo-polo-entretenimento-regulado]] negociaria pacote fiscal equilibrado",
       ],
       orderedItems: [
         "Marco legal define alíquotas e repartição federativa",
@@ -481,7 +481,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Tributação e financiamento público", slug: "tributacao-cassinos-regulados-financiamento-publico" },
-        { label: "Potencial econômico local", slug: "cassino-copacabana-potencial-economico" },
+        { label: "Potencial econômico local", slug: "cassino-sao-paulo-potencial-economico" },
       ],
     },
     {
@@ -501,20 +501,20 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
   ],
 
-  "cassino-copacabana-potencial-economico": [
+  "cassino-sao-paulo-potencial-economico": [
     {
       listItems: [
-        "Dados do [[IBGE turismo|gov:ibgeTurismo]] e da [[Prefeitura do Rio de Janeiro|gov:rioPrefeitura]] orientam planejamento local",
-        "Infraestrutura hoteleira + eixo Rio–São Paulo = terreno fértil para complemento regulado",
+        "Dados do [[IBGE turismo|gov:ibgeTurismo]] e da [[Prefeitura da Cidade de São Paulo|gov:spPrefeitura]] orientam planejamento local",
+        "Infraestrutura hoteleira + malha aérea e rodoviária do Sudeste = terreno fértil para complemento regulado",
         "Resort integrado prolonga estadias e suaviza oscilações sazonais",
       ],
       relatedLinks: [
-        { label: "Polo de entretenimento regulado", slug: "copacabana-polo-entretenimento-regulado" },
-        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
+        { label: "Polo de entretenimento regulado", slug: "sao-paulo-polo-entretenimento-regulado" },
+        { label: "Resorts integrados", slug: "resorts-integrados-sao-paulo" },
       ],
       highlights: [
         "Entretenimento complementa — não substitui — natureza, compras e gastronomia",
-        "Debate público informado via [[cassinocopacabana.com|/]] reforça legitimidade democrática",
+        "Debate público informado via [[cassinodesaopaulo.com.br|/]] reforça legitimidade democrática",
       ],
     },
     {
@@ -526,7 +526,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       orderedItems: [
         "Estabelecer linha de base antes da operação",
         "Publicar indicadores trimestrais auditados",
-        "Comparar com destinos internacionais de orla premium e perfil premium",
+        "Comparar com destinos internacionais de metrópole premium e perfil premium",
       ],
       relatedLinks: [
         { label: "Empregos formais", slug: "empregos-formais-hotelaria-lazer-brasil" },
@@ -541,7 +541,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       highlights: [
         "Ativo econômico de longo prazo = emprego + renda + responsabilidade adulta",
-        "Copacabana pode ser referência nacional no debate sobre regulação",
+        "São Paulo pode ser referência nacional no debate sobre regulação",
       ],
       relatedLinks: [
         { label: "Moderação e jogo responsável", slug: "moderacao-jogo-responsavel-cassinos" },
@@ -555,7 +555,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Marco legal nacional define operadores, tributos e proteção ao consumidor",
         "Texto em tramitação: [[PL 2234/2022 no Senado|gov:senado]] e origem [[PL 442/1991 na Câmara|gov:camara]]",
-        "[[Copacabana|copacabana-polo-entretenimento-regulado]] pode concorrer a licenças com metas sociais",
+        "[[São Paulo|sao-paulo-polo-entretenimento-regulado]] pode concorrer a licenças com metas sociais",
       ],
       relatedLinks: [
         { label: "Lições de Las Vegas e Singapura", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
@@ -569,17 +569,17 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Suspensão de licença por descumprimento vira instrumento real",
       ],
       relatedLinks: [
-        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
+        { label: "Resorts integrados", slug: "resorts-integrados-sao-paulo" },
         { label: "Tributação e financiamento público", slug: "tributacao-cassinos-regulados-financiamento-publico" },
       ],
     },
     {
       highlights: [
         "Estudos de impacto antecipados aceleram licitações pós-lei",
-        "Comunicação via [[cassinocopacabana.com|/]] educa durante a transição regulatória",
+        "Comunicação via [[cassinodesaopaulo.com.br|/]] educa durante a transição regulatória",
       ],
       relatedLinks: [
-        { label: "Potencial econômico local", slug: "cassino-copacabana-potencial-economico" },
+        { label: "Potencial econômico local", slug: "cassino-sao-paulo-potencial-economico" },
         { label: "Comparativo América Latina", slug: "cassinos-america-latina-comparativo-brasil" },
       ],
     },
@@ -594,18 +594,18 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Moderação responsável", slug: "moderacao-jogo-responsavel-cassinos" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-copacabana-entretenimento" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-sao-paulo-entretenimento" },
       ],
     },
     {
       listItems: [
         "Verificação de idade, limites de crédito e treinamento de equipe",
         "Relatórios públicos reforçam confiança de investidores",
-        "Protocolos únicos com hotéis e eventos em Copacabana",
+        "Protocolos únicos com hotéis e eventos em São Paulo",
       ],
       relatedLinks: [
         { label: "Concessão e licitação", slug: "concessao-licitacao-cassino-municipio-brasil" },
-        { label: "Polo regulado", slug: "copacabana-polo-entretenimento-regulado" },
+        { label: "Polo regulado", slug: "sao-paulo-polo-entretenimento-regulado" },
       ],
     },
     {
@@ -620,15 +620,15 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     },
   ],
 
-  "resorts-integrados-impacto-ambiental-copacabana": [
+  "resorts-integrados-impacto-ambiental-sao-paulo": [
     {
       listItems: [
-        "Área de relevância hídrica exige licenciamento — consulte a [[Prefeitura do Rio de Janeiro|gov:rioPrefeitura]] e o [[Governo de São Paulo|gov:spGoverno]]",
+        "Área de relevância hídrica exige licenciamento — consulte a [[Prefeitura da Cidade de São Paulo|gov:spPrefeitura]] e o [[Governo de São Paulo|gov:spGoverno]]",
         "Eficiência energética e gestão de resíduos alinhadas a certificações",
         "Mitigação de tráfego e ruído como tema de debate público",
       ],
       relatedLinks: [
-        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
+        { label: "Resorts integrados", slug: "resorts-integrados-sao-paulo" },
         { label: "Licitação municipal", slug: "concessao-licitacao-cassino-municipio-brasil" },
       ],
     },
@@ -639,8 +639,8 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Financiamento viário com parcela da arrecadação tributária",
       ],
       relatedLinks: [
-        { label: "Potencial econômico", slug: "cassino-copacabana-potencial-economico" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-copacabana-entretenimento" },
+        { label: "Potencial econômico", slug: "cassino-sao-paulo-potencial-economico" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-sao-paulo-entretenimento" },
       ],
     },
     {
@@ -649,33 +649,33 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
         "Transparência ambiental reduz fake news locais",
       ],
       relatedLinks: [
-        { label: "Hospedagem de luxo", slug: "hospedagem-luxo-entretenimento-regulado-copacabana" },
-        { label: "Polo entretenimento regulado", slug: "copacabana-polo-entretenimento-regulado" },
+        { label: "Hospedagem de luxo", slug: "hospedagem-luxo-entretenimento-regulado-sao-paulo" },
+        { label: "Polo entretenimento regulado", slug: "sao-paulo-polo-entretenimento-regulado" },
       ],
     },
   ],
 
-  "marketing-digital-turismo-cassino-copacabana": [
+  "marketing-digital-turismo-cassino-sao-paulo": [
     {
       listItems: [
         "Buscas por regulação crescem — dados do [[IBGE — turismo|gov:ibgeTurismo]] e do [[Ministério do Turismo|gov:turismo]] orientam estratégia",
         "Marketing ético captura intenção informativa — não clickbait",
-        "[[Domínio premium|dominio-premium-seo-entretenimento-copacabana]] reforça autoridade regional",
+        "[[Domínio premium|dominio-premium-seo-entretenimento-sao-paulo]] reforça autoridade regional",
       ],
       relatedLinks: [
-        { label: "SEO e domínio premium", slug: "dominio-premium-seo-entretenimento-copacabana" },
+        { label: "SEO e domínio premium", slug: "dominio-premium-seo-entretenimento-sao-paulo" },
         { label: "Lei e PL 2234/2022", slug: "lei-cassinos-brasil-pl-263-regulamentacao" },
       ],
     },
     {
       listItems: [
-        "Cauda longa: cassino regulado Copacabana, resort integrado",
+        "Cauda longa: cassino regulado São Paulo, resort integrado",
         "FAQs e links internos aumentam profundidade editorial",
         "Google Business Profile + eventos locais amplificam alcance",
       ],
       relatedLinks: [
         { label: "Blog e conteúdo", slug: "cassinos-brasil-emprego-renda" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-copacabana-entretenimento" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-sao-paulo-entretenimento" },
       ],
     },
     {
@@ -695,7 +695,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Uruguai, Argentina e Caribe capturam turistas brasileiros há anos",
         "Licenças limitadas evitam saturação urbana",
-        "Copacabana ocupa nicho de orla premium e escala moderada",
+        "São Paulo ocupa nicho de metrópole premium e escala moderada",
       ],
       relatedLinks: [
         { label: "Lições Las Vegas e Singapura", slug: "licoes-las-vegas-singapura-regulacao-brasil" },
@@ -716,36 +716,36 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
     {
       highlights: [
         "Desenho jurídico próprio — não cópia literal de modelos importados",
-        "Copacabana como caso piloto na Zona Sul do Rio de Janeiro",
+        "São Paulo como caso piloto na Grande São Paulo",
       ],
       relatedLinks: [
         { label: "Lei de cassinos Brasil", slug: "lei-cassinos-brasil-pl-263-regulamentacao" },
-        { label: "Potencial econômico local", slug: "cassino-copacabana-potencial-economico" },
+        { label: "Potencial econômico local", slug: "cassino-sao-paulo-potencial-economico" },
       ],
     },
   ],
 
-  "hospedagem-luxo-entretenimento-regulado-copacabana": [
+  "hospedagem-luxo-entretenimento-regulado-sao-paulo": [
     {
       listItems: [
-        "Hotelaria premium já consolidada em Copacabana",
+        "Hotelaria premium já consolidada em São Paulo",
         "Casino complementa — não substitui — natureza e gastronomia",
         "Ticket médio e permanência sobem com pacotes integrados",
       ],
       relatedLinks: [
-        { label: "Resorts integrados", slug: "resorts-integrados-rio-copacabana" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-copacabana-entretenimento" },
+        { label: "Resorts integrados", slug: "resorts-integrados-sao-paulo" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-sao-paulo-entretenimento" },
       ],
     },
     {
       listItems: [
         "Pacotes coerentes: jantar, show e entretenimento licenciado",
         "Parcerias com vinícolas e roteiros culturais",
-        "Marca reforçada por [[domínio premium|dominio-premium-seo-entretenimento-copacabana]]",
+        "Marca reforçada por [[domínio premium|dominio-premium-seo-entretenimento-sao-paulo]]",
       ],
       relatedLinks: [
-        { label: "Marketing digital", slug: "marketing-digital-turismo-cassino-copacabana" },
-        { label: "Polo regulado", slug: "copacabana-polo-entretenimento-regulado" },
+        { label: "Marketing digital", slug: "marketing-digital-turismo-cassino-sao-paulo" },
+        { label: "Polo regulado", slug: "sao-paulo-polo-entretenimento-regulado" },
       ],
     },
     {
@@ -755,7 +755,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Empregos formais", slug: "empregos-formais-hotelaria-lazer-brasil" },
-        { label: "Impacto econômico", slug: "cassino-copacabana-potencial-economico" },
+        { label: "Impacto econômico", slug: "cassino-sao-paulo-potencial-economico" },
       ],
     },
   ],
@@ -763,13 +763,13 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
   "concessao-licitacao-cassino-municipio-brasil": [
     {
       listItems: [
-        "Lei federal habilita; município sede decide participar — veja [[Prefeitura do Rio de Janeiro|gov:rioPrefeitura]] e tramitação no [[Senado|gov:senado]]",
+        "Lei federal habilita; município sede decide participar — veja [[Prefeitura da Cidade de São Paulo|gov:spPrefeitura]] e tramitação no [[Senado|gov:senado]]",
         "Edital transparente seleciona operador por capacidade e metas",
         "Consulta pública antes da assinatura do contrato",
       ],
       relatedLinks: [
         { label: "Lei PL 2234/2022", slug: "lei-cassinos-brasil-pl-263-regulamentacao" },
-        { label: "Impacto ambiental", slug: "resorts-integrados-impacto-ambiental-copacabana" },
+        { label: "Impacto ambiental", slug: "resorts-integrados-impacto-ambiental-sao-paulo" },
       ],
     },
     {
@@ -790,7 +790,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Investimento estrangeiro", slug: "investimento-estrangeiro-turismo-entretenimento-brasil" },
-        { label: "Potencial em Copacabana", slug: "cassino-copacabana-potencial-economico" },
+        { label: "Potencial em São Paulo", slug: "cassino-sao-paulo-potencial-economico" },
       ],
     },
   ],
@@ -800,11 +800,11 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       listItems: [
         "Online: [[Lei 14.790/2023|gov:leiApostas]], [[SPA — apostas de quota fixa|gov:spaApostas]] e [[jogo responsável|gov:jogoResponsavel]]",
         "Presencial: resort, emprego local e fiscalização in loco",
-        "Copacabana dialoga com modelo integrado à hotelaria",
+        "São Paulo dialoga com modelo integrado à hotelaria",
       ],
       relatedLinks: [
         { label: "Moderação responsável", slug: "moderacao-jogo-responsavel-cassinos" },
-        { label: "Hospedagem de luxo", slug: "hospedagem-luxo-entretenimento-regulado-copacabana" },
+        { label: "Hospedagem de luxo", slug: "hospedagem-luxo-entretenimento-regulado-sao-paulo" },
       ],
     },
     {
@@ -815,7 +815,7 @@ export const BLOG_ENRICHMENTS: Record<string, SectionEnrichment[]> = {
       ],
       relatedLinks: [
         { label: "Comparativo América Latina", slug: "cassinos-america-latina-comparativo-brasil" },
-        { label: "Turismo corporativo", slug: "turismo-corporativo-copacabana-entretenimento" },
+        { label: "Turismo corporativo", slug: "turismo-corporativo-sao-paulo-entretenimento" },
       ],
     },
     {

@@ -21,16 +21,23 @@ import { DomainHero } from "@/components/domain-hero";
 import { SiteHeader } from "@/components/site-chrome";
 import { getSortedBlogPosts } from "@/lib/blog-posts";
 import { getHomeHeadMeta } from "@/lib/seo";
-import { DOMAIN, FORM_URL, SITE_URL } from "@/lib/site";
+import { DomainsForSalePanel } from "@/components/domains-for-sale";
+import {
+  DOMAINS_FOR_SALE,
+  DOMAIN,
+  FORM_URL,
+  SITE_URL,
+  formatDomainsListPt,
+} from "@/lib/site";
 
 const faqItems = [
   {
     q: "O domínio está disponível para transferência?",
-    a: `Sim. O domínio ${DOMAIN} está ativo, em nome do proprietário atual e pronto para transferência imediata após a confirmação da negociação. A transferência é realizada de forma segura através de registradores oficiais (ICANN).`,
+    a: `Sim. Os domínios ${formatDomainsListPt()} estão ativos, em nome do proprietário atual e prontos para transferência imediata após a confirmação da negociação. A transferência é realizada de forma segura através de registradores oficiais (ICANN).`,
   },
   {
-    q: "Qual domínio está à venda?",
-    a: `A oferta inclui o domínio premium ${DOMAIN}, com forte associação a Copacabana, turismo e entretenimento regulado no Rio de Janeiro.`,
+    q: "Quais domínios estão à venda?",
+    a: `A oferta inclui os domínios premium ${formatDomainsListPt()}, com forte associação a São Paulo, turismo e entretenimento regulado no Brasil.`,
   },
   {
     q: "Como funciona o processo de negociação?",
@@ -45,18 +52,18 @@ const faqItems = [
     a: "Após a confirmação do pagamento, a transferência costuma ser concluída em até 7 dias úteis, dependendo do registrador escolhido pelo comprador.",
   },
   {
-    q: "Por que Copacabana?",
-    a: "Copacabana é um dos bairros mais reconhecidos do mundo, com fluxo turístico intenso, hotelaria consolidada e vocação para entretenimento premium — cenário ideal para projetos de cassino regulado no Rio de Janeiro.",
+    q: "Por que São Paulo?",
+    a: "São Paulo é a maior metrópole do Brasil, com fluxo de negócios e turismo intenso, hotelaria consolidada e vocação para entretenimento premium — cenário ideal para projetos de cassino regulado na capital paulista.",
   },
   {
     q: "A regulamentação de cassinos no Brasil afeta o valor deste domínio?",
-    a: "O governo federal está quase regulamentando cassinos no Brasil, seguindo modelos de países que já legalizam e fiscalizam a atividade. Essa perspectiva reforça a relevância de um domínio premium associado a turismo e entretenimento em Copacabana — destino natural para resorts integrados de alto padrão.",
+    a: "O governo federal está quase regulamentando cassinos no Brasil, seguindo modelos de países que já legalizam e fiscalizam a atividade. Essa perspectiva reforça a relevância de um domínio premium associado a turismo e entretenimento em São Paulo — destino natural para resorts integrados de alto padrão.",
   },
 ];
 
 const valueCards = [
   { icon: Sparkles, title: "Nome memorável", text: "Fácil de lembrar, escrever e divulgar — ideal para construção de marca forte." },
-  { icon: MapPin, title: "Associação com Copacabana", text: "Conexão direta com um dos destinos turísticos mais valorizados do Brasil." },
+  { icon: MapPin, title: "Associação com São Paulo", text: "Conexão direta com um dos destinos turísticos mais valorizados do Brasil." },
   { icon: Crown, title: "Potencial para branding", text: "Permite criar uma identidade premium em diversos segmentos de alto valor." },
   { icon: Hotel, title: "Turismo e entretenimento", text: "Encaixe natural em hotelaria, eventos, lazer e experiências exclusivas." },
   { icon: Globe, title: "Domínio .COM", text: "Presença internacional com endereço memorável e credibilidade global." },
@@ -68,21 +75,21 @@ const valueCards = [
 
 const useCases = [
   { icon: Crown, title: "Resorts", text: "Identidade digital para empreendimentos integrados de hospedagem, lazer e entretenimento de alto padrão." },
-  { icon: Globe, title: "Portal turístico", text: "Hub completo de informações sobre Copacabana." },
+  { icon: Globe, title: "Portal turístico", text: "Hub completo de informações sobre São Paulo." },
   { icon: Hotel, title: "Guia de hotéis e pousadas", text: "Plataforma de reservas e curadoria de hospedagens." },
   { icon: Calendar, title: "Portal de eventos", text: "Agenda cultural, gastronômica e festivais da região." },
-  { icon: Sparkles, title: "Blog de viagens", text: "Conteúdo premium sobre destinos à beira-mar e luxo." },
+  { icon: Sparkles, title: "Blog de viagens", text: "Conteúdo premium sobre a capital, gastronomia e luxo urbano." },
   { icon: Trophy, title: "Projeto de entretenimento", text: "Marca forte para shows, espetáculos e experiências." },
-  { icon: Building2, title: "Agência de turismo", text: "Operadora especializada em pacotes premium para Copacabana." },
+  { icon: Building2, title: "Agência de turismo", text: "Operadora especializada em pacotes premium para São Paulo." },
   { icon: Award, title: "Portal histórico e cultural", text: "Acervo digital sobre patrimônio e tradições locais." },
   { icon: TrendingUp, title: "Marketplace regional", text: "Comércio local de produtores, restaurantes e artesãos." },
 ];
 
 const seoKeywords = [
-  "Cassino Copacabana",
+  "Cassino de São Paulo",
   "Domínio premium à venda",
   "Regulação cassinos Brasil",
-  "Turismo Zona Sul do Rio de Janeiro",
+  "Turismo Grande São Paulo",
   "Hotelaria e resorts",
   "Entretenimento regulado",
   "Emprego formal",
@@ -104,7 +111,10 @@ function LandingPage() {
         itemType="https://schema.org/WebPage"
       >
         <meta itemProp="url" content={SITE_URL} />
-        <meta itemProp="name" content={`Cassino Copacabana — domínio ${DOMAIN} à venda`} />
+        <meta
+          itemProp="name"
+          content={`Cassino de São Paulo — domínios ${formatDomainsListPt()} à venda`}
+        />
         <DomainHero />
         <DomainsStrip />
         <ValueSection />
@@ -125,16 +135,29 @@ function DomainsStrip() {
     { icon: Shield, label: "Transferência Segura" },
     { icon: Award, label: "Marca Protegida" },
     { icon: TrendingUp, label: "Alto Potencial" },
-    { icon: Globe, label: DOMAIN },
   ];
   return (
     <section className="border-y border-border/40 bg-card/30">
-      <div className="container mx-auto max-w-6xl px-6 py-6 grid grid-cols-2 md:grid-cols-4 gap-4">
-        {items.map(({ icon: Icon, label }) => (
-          <div key={label} className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-            <Icon className="h-4 w-4 text-primary" /> {label}
-          </div>
-        ))}
+      <div className="container mx-auto max-w-6xl px-6 py-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
+          {items.map(({ icon: Icon, label }) => (
+            <div
+              key={label}
+              className="flex items-center justify-center gap-2 text-sm text-muted-foreground"
+            >
+              <Icon className="h-4 w-4 text-primary" /> {label}
+            </div>
+          ))}
+        </div>
+        <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">
+          {DOMAINS_FOR_SALE.map((domain) => (
+              <span key={domain} className="inline-flex items-center gap-2 text-foreground/90">
+                <Globe className="h-4 w-4 text-primary shrink-0" />
+                <span className="font-medium">{domain}</span>
+              </span>
+            ),
+          )}
+        </div>
       </div>
     </section>
   );
@@ -212,9 +235,9 @@ function RegulationSection() {
           <p>
             Em países onde a atividade já é legal e regulada, resorts com cassino impulsionam turismo, geração de
             empregos e arrecadação pública. Destinos premium como{" "}
-            <strong className="text-foreground">Copacabana</strong> reúnem o perfil ideal para esse tipo de
-            projeto: infraestrutura hoteleira consolidada, fluxo turístico de alto padrão e forte apelo
-            internacional.
+            <strong className="text-foreground">São Paulo</strong> reúne o perfil ideal para esse tipo de
+            projeto: infraestrutura hoteleira consolidada, fluxo corporativo e de lazer de alto padrão e forte
+            apelo internacional.
           </p>
           <p>
             Possuir um domínio com posicionamento claro neste segmento — neste momento de transição regulatória —
@@ -237,8 +260,8 @@ function SeoSection() {
         />
         <div className="prose prose-invert max-w-none text-muted-foreground leading-relaxed text-lg space-y-5">
           <p>
-            O domínio <strong className="text-foreground">{DOMAIN}</strong> reúne, em um único
-            endereço, palavras-chave de alto interesse que tradicionalmente atraem audiências qualificadas em
+            Os domínios <strong className="text-foreground">{formatDomainsListPt()}</strong> reúnem, em
+            endereços memoráveis, palavras-chave de alto interesse que tradicionalmente atraem audiências qualificadas em
             segmentos de turismo, hotelaria, eventos e entretenimento. A combinação entre um termo aspiracional
             e a referência direta a um dos destinos mais valorizados do Brasil cria um ativo com forte
             identidade e relevância semântica.
@@ -260,13 +283,13 @@ function SeoSection() {
               </Link>
             </li>
             <li>
-              <Link to="/blog/copacabana-polo-entretenimento-regulado" className="text-primary hover:underline">
-                Copacabana como polo de entretenimento licenciado
+              <Link to="/blog/sao-paulo-polo-entretenimento-regulado" className="text-primary hover:underline">
+                São Paulo como polo de entretenimento licenciado
               </Link>
             </li>
             <li>
-              <Link to="/blog/dominio-premium-seo-entretenimento-copacabana" className="text-primary hover:underline">
-                Domínio premium e SEO no entretenimento em Copacabana
+              <Link to="/blog/dominio-premium-seo-entretenimento-sao-paulo" className="text-primary hover:underline">
+                Domínio premium e SEO no entretenimento em São Paulo
               </Link>
             </li>
           </ul>
@@ -294,7 +317,7 @@ function UseCasesSection() {
         <SectionHeading
           eyebrow="Aplicações"
           title="Possibilidades de Utilização"
-          subtitle="Um ativo versátil que se adapta a múltiplos modelos de negócio voltados à Zona Sul do Rio."
+          subtitle="Um ativo versátil que se adapta a múltiplos modelos de negócio voltados à Grande São Paulo."
         />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {useCases.map(({ icon: Icon, title, text }) => (
@@ -323,7 +346,7 @@ function BlogSection() {
           headingId="blog-heading"
           eyebrow="Conteúdo"
           title="Blog sobre regulação, emprego e turismo"
-          subtitle="Artigos informativos sobre cassinos regulados em Copacabana e no Brasil — reforçando autoridade temática do domínio."
+          subtitle="Artigos informativos sobre cassinos regulados em São Paulo e no Brasil — reforçando autoridade temática do domínio."
         />
         <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 list-none p-0 m-0">
           {posts.map((post) => (
@@ -367,16 +390,12 @@ function DomainCtaSection() {
       <div className="container mx-auto max-w-5xl px-6">
         <div className="rounded-3xl border border-gold/40 bg-card/70 backdrop-blur p-10 md:p-16 text-center shadow-elegant">
           <Crown className="h-10 w-10 mx-auto text-primary mb-6" />
-          <h2 className="font-serif text-3xl md:text-5xl">Adquira o Domínio Premium</h2>
+          <h2 className="font-serif text-3xl md:text-5xl">Adquira os Domínios Premium</h2>
           <p className="mt-5 text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Garanta presença digital estratégica com {DOMAIN} — marca memorável para turismo e entretenimento em Copacabana.
+            Garanta presença digital estratégica com {formatDomainsListPt()} — marcas memoráveis para
+            turismo e entretenimento em São Paulo.
           </p>
-          <div className="mt-10 max-w-md mx-auto">
-            <div className="rounded-xl border border-gold/40 bg-background/60 px-6 py-6 ring-gold-glow">
-              <CheckCircle2 className="h-5 w-5 text-primary mx-auto mb-2" />
-              <div className="font-serif text-lg md:text-xl">{DOMAIN}</div>
-            </div>
-          </div>
+          <DomainsForSalePanel compact heading="Portfólio à venda" />
           <a
             href={FORM_URL}
             target="_blank"

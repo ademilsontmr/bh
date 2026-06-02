@@ -15,7 +15,7 @@ import { DomainHero } from "@/components/domain-hero";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { getBlogPost, getRelatedPosts } from "@/lib/blog-posts";
 import { getBlogPostHeadMeta } from "@/lib/seo";
-import { DOMAIN, FORM_URL, OG_IMAGE } from "@/lib/site";
+import { FORM_URL, OG_IMAGE, formatDomainsListPt } from "@/lib/site";
 
 export const Route = createFileRoute("/blog/$slug")({
   loader: ({ params }) => {
@@ -83,7 +83,7 @@ function BlogPostPage() {
                 itemProp="image"
               />
               <figcaption className="text-xs text-muted-foreground px-4 py-3 text-center border-t border-border/40">
-                Domínio premium {DOMAIN} — turismo e entretenimento regulado em Copacabana, Rio de Janeiro
+                Domínios premium {formatDomainsListPt()} — turismo e entretenimento regulado em São Paulo
               </figcaption>
             </figure>
 
@@ -105,8 +105,8 @@ function BlogPostPage() {
         <section aria-label="Oferta de domínio" className="mt-16 rounded-xl border border-gold/40 bg-card/60 p-8 text-center">
           <h2 className="font-serif text-2xl mb-3">Domínio premium à venda</h2>
           <p className="text-muted-foreground mb-6">
-            Adquira <strong>cassinocopacabana.com</strong> — posicionamento digital para entretenimento
-            regulado em Copacabana, Rio de Janeiro.
+            Adquira <strong>{formatDomainsListPt()}</strong> — posicionamento digital para entretenimento
+            regulado em São Paulo.
           </p>
           <a
             href={FORM_URL}

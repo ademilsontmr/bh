@@ -1,6 +1,7 @@
 import { Mail, Sparkles } from "lucide-react";
 
-import { DOMAIN, FORM_URL } from "@/lib/site";
+import { DomainsForSalePanel } from "@/components/domains-for-sale";
+import { FORM_URL, formatDomainsListPt } from "@/lib/site";
 
 type DomainHeroProps = {
   /** Versão compacta para cards em artigos do blog */
@@ -20,7 +21,11 @@ export function DomainHero({ compact = false }: DomainHeroProps) {
           ? "relative overflow-hidden rounded-xl text-center px-6 py-10 md:py-12"
           : "relative overflow-hidden"
       }
-      aria-label={compact ? "Oferta do domínio cassinocopacabana.com" : undefined}
+      aria-label={
+        compact
+          ? `Oferta dos domínios ${formatDomainsListPt()}`
+          : undefined
+      }
     >
       <div
         className="absolute inset-0 -z-10 opacity-40"
@@ -41,15 +46,22 @@ export function DomainHero({ compact = false }: DomainHeroProps) {
         </div>
         {compact ? (
           <p className={titleClassName}>
-            Domínio Premium à Venda:{" "}
-            <span className="text-gradient-gold italic block sm:inline mt-1 sm:mt-0">{DOMAIN}</span>
+            Domínios Premium à Venda
           </p>
         ) : (
           <h1 className={titleClassName}>
-            Domínio Premium à Venda:{" "}
-            <span className="text-gradient-gold italic block sm:inline mt-1 sm:mt-0">{DOMAIN}</span>
+            Domínios Premium à Venda
           </h1>
         )}
+        <p
+          className={
+            compact
+              ? "mt-3 text-sm text-primary/90 font-medium"
+              : "mt-4 text-base md:text-lg text-primary/90 font-medium"
+          }
+        >
+          {formatDomainsListPt()}
+        </p>
         <p
           className={
             compact
@@ -57,7 +69,7 @@ export function DomainHero({ compact = false }: DomainHeroProps) {
               : "mt-7 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed"
           }
         >
-          Adquira um domínio estratégico, memorável e com forte potencial de marca para projetos relacionados a
+          Adquira domínios estratégicos, memoráveis e com forte potencial de marca para projetos relacionados a
           turismo, entretenimento, hotelaria, eventos e negócios digitais — em um momento em que o governo federal
           está quase regulamentando cassinos no Brasil, como já ocorre em diversos países.
         </p>
@@ -73,13 +85,8 @@ export function DomainHero({ compact = false }: DomainHeroProps) {
           </a>
         </div>
 
-        <div id={compact ? undefined : "dominio"} className={compact ? "mt-8 max-w-sm mx-auto" : "mt-14 max-w-md mx-auto"}>
-          <div className="rounded-xl border border-gold/30 bg-card/60 backdrop-blur px-6 py-5 shadow-elegant hover:ring-gold-glow transition text-center">
-            <div className="text-xs uppercase tracking-widest text-primary/80 mb-1">Domínio</div>
-            <div className={compact ? "font-serif text-lg md:text-xl text-foreground" : "font-serif text-xl md:text-2xl text-foreground"}>
-              {DOMAIN}
-            </div>
-          </div>
+        <div id={compact ? undefined : "dominio"}>
+          <DomainsForSalePanel compact={compact} />
         </div>
       </div>
     </section>

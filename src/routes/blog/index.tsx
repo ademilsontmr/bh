@@ -33,9 +33,9 @@ function BlogIndexPage() {
           </h1>
           <p className="mt-5 text-muted-foreground text-lg leading-relaxed">
             Artigos sobre a importância de <strong>cassinos regulados</strong> em{" "}
-            <strong>Copacabana</strong> e no Brasil — geração de emprego formal, renda municipal,
+            <strong>São Paulo</strong> e no Brasil — geração de emprego formal, renda municipal,
             moderação responsável, resorts integrados e turismo de qualidade na{" "}
-            <strong>Zona Sul do Rio de Janeiro</strong>.
+            <strong>Grande São Paulo</strong>.
           </p>
         </header>
 
@@ -87,7 +87,9 @@ function BlogIndexPage() {
         <aside className="mt-16 rounded-xl border border-gold/40 bg-card/60 p-8 text-center">
           <h2 className="font-serif text-2xl mb-3">Interessado no domínio?</h2>
           <p className="text-muted-foreground mb-6">
-            O domínio <strong>cassinocopacabana.com</strong> está à venda.
+            Os domínios{" "}
+            <strong>cassinodesaopaulo.com.br</strong>, <strong>cassinodesaopaulo.com</strong> e{" "}
+            <strong>cassinosaopaulo.com</strong> estão à venda.
           </p>
           <a
             href={FORM_URL}

@@ -1,24 +1,24 @@
 import type { BlogPost } from "./blog-posts";
 import { BLOG_SUBSECTIONS } from "./blog-subsections";
 import { applyBoldPhrases, stripRichMarkup } from "./blog-rich-text";
-import { DOMAIN, FORM_URL, OG_IMAGE, SITE_NAME, SITE_URL } from "./site";
+import { DOMAIN, FORM_URL, OG_IMAGE, SITE_NAME, SITE_URL, formatDomainsListPt } from "./site";
 
-const HOME_TITLE = `Cassino Copacabana à Venda | ${DOMAIN}`;
+const HOME_TITLE = `Cassino de São Paulo à Venda | ${DOMAIN}`;
 const HOME_DESCRIPTION =
-  `Domínio premium ${DOMAIN} à venda. Oportunidade para turismo, resorts, hotelaria e entretenimento regulado em Copacabana, Rio de Janeiro.`;
+  `Domínios premium ${formatDomainsListPt()} à venda. Oportunidade para turismo, resorts, hotelaria e entretenimento regulado em São Paulo.`;
 
 export function getOrganizationJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Cassino Copacabana",
+    name: "Cassino de São Paulo",
     url: SITE_URL,
     logo: OG_IMAGE,
-    email: "contato@cassinocopacabana.com",
+    email: "contato@cassinodesaopaulo.com.br",
     areaServed: {
       "@type": "City",
-      name: "Copacabana",
-      containedInPlace: { "@type": "State", name: "Rio de Janeiro" },
+      name: "São Paulo",
+      containedInPlace: { "@type": "State", name: "São Paulo" },
     },
   };
 }
@@ -30,7 +30,7 @@ export function getWebSiteJsonLd() {
     name: SITE_NAME,
     url: SITE_URL,
     inLanguage: "pt-BR",
-    publisher: { "@type": "Organization", name: "Cassino Copacabana", url: SITE_URL },
+    publisher: { "@type": "Organization", name: "Cassino de São Paulo", url: SITE_URL },
   };
 }
 
@@ -51,9 +51,9 @@ export function getHomeProductJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: `Domínio Premium ${DOMAIN}`,
+    name: `Domínios Premium — ${formatDomainsListPt()}`,
     description: HOME_DESCRIPTION,
-    brand: { "@type": "Brand", name: "Cassino Copacabana" },
+    brand: { "@type": "Brand", name: "Cassino de São Paulo" },
     category: "Domínio de internet",
     url: SITE_URL,
     image: OG_IMAGE,
@@ -62,7 +62,7 @@ export function getHomeProductJsonLd() {
       availability: "https://schema.org/InStock",
       priceCurrency: "BRL",
       url: FORM_URL,
-      seller: { "@type": "Organization", name: "Cassino Copacabana" },
+      seller: { "@type": "Organization", name: "Cassino de São Paulo" },
     },
   };
 }
@@ -78,7 +78,7 @@ export function getHomeWebPageJsonLd() {
     isPartOf: { "@type": "WebSite", url: SITE_URL, name: SITE_NAME },
     about: [
       { "@type": "Thing", name: "Domínio premium à venda" },
-      { "@type": "Place", name: "Copacabana" },
+      { "@type": "Place", name: "São Paulo" },
       { "@type": "Thing", name: "Regulação de cassinos no Brasil" },
     ],
   };
@@ -104,12 +104,12 @@ export function getHomeHeadMeta(faqItems: { q: string; a: string }[]) {
       {
         name: "keywords",
         content:
-          "cassino copacabana, domínio premium à venda, comprar domínio, cassinocopacabana.com, turismo, hotelaria, resorts, regulação cassinos brasil, Zona Sul do Rio, entretenimento regulado",
+          "cassino são paulo, domínio premium à venda, comprar domínio, cassinodesaopaulo.com.br, cassinodesaopaulo.com, cassinosaopaulo.com, turismo, hotelaria, resorts, regulação cassinos brasil, entretenimento regulado",
       },
       { name: "robots", content: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" },
-      { name: "author", content: "Cassino Copacabana" },
-      { name: "geo.region", content: "BR-RJ" },
-      { name: "geo.placename", content: "Copacabana" },
+      { name: "author", content: "Cassino de São Paulo" },
+      { name: "geo.region", content: "BR-SP" },
+      { name: "geo.placename", content: "São Paulo" },
       { property: "og:title", content: HOME_TITLE },
       { property: "og:description", content: HOME_DESCRIPTION },
       { property: "og:type", content: "website" },
@@ -117,7 +117,7 @@ export function getHomeHeadMeta(faqItems: { q: string; a: string }[]) {
       { property: "og:url", content: SITE_URL },
       { property: "og:site_name", content: SITE_NAME },
       { property: "og:image", content: OG_IMAGE },
-      { property: "og:image:alt", content: "Domínio premium Cassino Copacabana à venda" },
+      { property: "og:image:alt", content: "Domínio premium Cassino de São Paulo à venda" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: HOME_TITLE },
       { name: "twitter:description", content: HOME_DESCRIPTION },
@@ -135,9 +135,9 @@ export function getHomeHeadMeta(faqItems: { q: string; a: string }[]) {
 }
 
 export function getBlogIndexHeadMeta(posts: BlogPost[]) {
-  const title = "Blog | Cassino Copacabana — Emprego, Renda e Regulação";
+  const title = "Blog | Cassino de São Paulo — Emprego, Renda e Regulação";
   const description =
-    "Artigos sobre cassinos regulados em Copacabana e no Brasil: emprego formal, renda municipal, moderação, resorts integrados, turismo e jogo responsável.";
+    "Artigos sobre cassinos regulados em São Paulo e no Brasil: emprego formal, renda municipal, moderação, resorts integrados, turismo e jogo responsável.";
   const url = `${SITE_URL}/blog`;
 
   return {
@@ -147,7 +147,7 @@ export function getBlogIndexHeadMeta(posts: BlogPost[]) {
       {
         name: "keywords",
         content:
-          "blog cassino copacabana, regulação cassinos brasil, emprego hotelaria, jogo responsável, resorts copacabana rio, turismo entretenimento",
+          "blog cassino sao-paulo, regulação cassinos brasil, emprego hotelaria, jogo responsável, resorts sao-paulo rio, turismo entretenimento",
       },
       { name: "robots", content: "index, follow, max-image-preview:large" },
       { property: "og:title", content: title },
@@ -168,11 +168,11 @@ export function getBlogIndexHeadMeta(posts: BlogPost[]) {
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Blog",
-          name: "Blog Cassino Copacabana",
+          name: "Blog Cassino de São Paulo",
           description,
           url,
           inLanguage: "pt-BR",
-          publisher: { "@type": "Organization", name: "Cassino Copacabana", url: SITE_URL },
+          publisher: { "@type": "Organization", name: "Cassino de São Paulo", url: SITE_URL },
           blogPost: posts.map((p) => ({
             "@type": "BlogPosting",
             headline: p.title,
@@ -187,7 +187,7 @@ export function getBlogIndexHeadMeta(posts: BlogPost[]) {
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "ItemList",
-          name: "Artigos sobre cassino e regulação em Copacabana",
+          name: "Artigos sobre cassino e regulação em São Paulo",
           itemListElement: posts.map((p, i) => ({
             "@type": "ListItem",
             position: i + 1,
@@ -232,7 +232,7 @@ function getPostPlainText(post: BlogPost): string {
 }
 
 export function getBlogPostHeadMeta(post: BlogPost) {
-  const title = `${post.title} | Blog Cassino Copacabana`;
+  const title = `${post.title} | Blog Cassino de São Paulo`;
   const url = `${SITE_URL}/blog/${post.slug}`;
   const keywords = post.keywords.join(", ");
   const wordCount = getPostPlainText(post).split(/\s+/).length;
@@ -243,7 +243,7 @@ export function getBlogPostHeadMeta(post: BlogPost) {
       { name: "description", content: post.excerpt },
       { name: "keywords", content: keywords },
       { name: "robots", content: "index, follow, max-image-preview:large" },
-      { name: "author", content: "Cassino Copacabana" },
+      { name: "author", content: "Cassino de São Paulo" },
       { property: "og:title", content: title },
       { property: "og:description", content: post.excerpt },
       { property: "og:type", content: "article" },
@@ -277,10 +277,10 @@ export function getBlogPostHeadMeta(post: BlogPost) {
           image: OG_IMAGE,
           mainEntityOfPage: { "@type": "WebPage", "@id": url },
           articleBody: getPostPlainText(post),
-          author: { "@type": "Organization", name: "Cassino Copacabana", url: SITE_URL },
+          author: { "@type": "Organization", name: "Cassino de São Paulo", url: SITE_URL },
           publisher: {
             "@type": "Organization",
-            name: "Cassino Copacabana",
+            name: "Cassino de São Paulo",
             url: SITE_URL,
             logo: { "@type": "ImageObject", url: OG_IMAGE },
           },
