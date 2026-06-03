@@ -1,21 +1,20 @@
 export const SITE_URL =
-  import.meta.env.VITE_SITE_URL ?? "https://cassinoportoalegre.com";
+  import.meta.env.VITE_SITE_URL ?? "https://cassinobh.com.br";
 
-export const SITE_NAME = "Cassino de Porto Alegre — Domínio Premium à Venda";
+export const SITE_NAME = "Cassino de Belo Horizonte — Domínio Premium à Venda";
 
-export const CONTACT_EMAIL = "contato@cassinoportoalegre.com";
+export const CONTACT_EMAIL = "contato@cassinobh.com.br";
 
 export const FORM_URL = "https://forms.gle/aCxqHaa7pMHu83HH7";
 
 /** Domínio principal do site (canônico) */
-export const DOMAIN = "cassinoportoalegre.com";
+export const DOMAIN = "cassinobh.com.br";
 
-/** Domínio à venda neste site */
-export const DOMAINS_FOR_SALE = ["cassinoportoalegre.com"] as const;
+/** Domínio à venda */
+export const DOMAINS_FOR_SALE = ["cassinobh.com.br"] as const;
 
 /** Rede de domínios premium à venda (todos os sites do portfólio) */
 export const NETWORK_DOMAINS_FOR_SALE = [
-  "cassinoportoalegre.com",
   "cassinodegramado.com.br",
   "cassinocamposdojordao.com.br",
   "cassinocopacabana.com",
@@ -23,6 +22,7 @@ export const NETWORK_DOMAINS_FOR_SALE = [
   "cassinodebrasilia.com.br",
   "cassinodesalinas.com.br",
   "cassinobh.com.br",
+  "cassinoportoalegre.com",
 ] as const;
 
 export function normalizeDomain(domain: string): string {

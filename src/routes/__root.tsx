@@ -84,14 +84,14 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 }
 
 const DEFAULT_DESCRIPTION =
-  "Domínio premium cassinoportoalegre.com à venda para turismo, resorts e entretenimento regulado em Porto Alegre.";
+  "Domínio premium cassinobh.com.br à venda para turismo, resorts e entretenimento regulado em Belo Horizonte.";
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Cassino de Porto Alegre à Venda | cassinoportoalegre.com" },
+      { title: "Cassino de Belo Horizonte à Venda | cassinobh.com.br" },
       { name: "description", content: DEFAULT_DESCRIPTION },
       { name: "robots", content: "index, follow" },
       { name: "theme-color", content: "#0a0a0a" },
@@ -100,11 +100,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:locale", content: "pt_BR" },
       { property: "og:site_name", content: SITE_NAME },
       { property: "og:url", content: SITE_URL },
-      { property: "og:title", content: "Cassino de Porto Alegre à Venda | cassinoportoalegre.com" },
+      { property: "og:title", content: "Cassino de Belo Horizonte à Venda | cassinobh.com.br" },
       { property: "og:description", content: DEFAULT_DESCRIPTION },
       { property: "og:image", content: OG_IMAGE },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Cassino de Porto Alegre à Venda | cassinoportoalegre.com" },
+      { name: "twitter:title", content: "Cassino de Belo Horizonte à Venda | cassinobh.com.br" },
       { name: "twitter:description", content: DEFAULT_DESCRIPTION },
       { name: "twitter:image", content: OG_IMAGE },
     ],

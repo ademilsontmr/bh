@@ -3,22 +3,22 @@ import { BLOG_SUBSECTIONS } from "./blog-subsections";
 import { applyBoldPhrases, stripRichMarkup } from "./blog-rich-text";
 import { DOMAIN, FORM_URL, OG_IMAGE, SITE_NAME, SITE_URL, formatDomainsListPt } from "./site";
 
-const HOME_TITLE = `Cassino de Porto Alegre à Venda | ${DOMAIN}`;
+const HOME_TITLE = `Cassino de Belo Horizonte à Venda | ${DOMAIN}`;
 const HOME_DESCRIPTION =
-  `Domínio premium ${DOMAIN} à venda. Oportunidade para turismo, resorts, hotelaria e entretenimento regulado em Porto Alegre.`;
+  `Domínio premium ${DOMAIN} à venda. Oportunidade para turismo, resorts, hotelaria e entretenimento regulado em Belo Horizonte.`;
 
 export function getOrganizationJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Cassino de Porto Alegre",
+    name: "Cassino de Belo Horizonte",
     url: SITE_URL,
     logo: OG_IMAGE,
-    email: "contato@cassinoportoalegre.com",
+    email: "contato@cassinobh.com.br",
     areaServed: {
       "@type": "City",
-      name: "Porto Alegre",
-      containedInPlace: { "@type": "State", name: "Rio Grande do Sul" },
+      name: "Belo Horizonte",
+      containedInPlace: { "@type": "State", name: "Minas Gerais" },
     },
   };
 }
@@ -30,7 +30,7 @@ export function getWebSiteJsonLd() {
     name: SITE_NAME,
     url: SITE_URL,
     inLanguage: "pt-BR",
-    publisher: { "@type": "Organization", name: "Cassino de Porto Alegre", url: SITE_URL },
+    publisher: { "@type": "Organization", name: "Cassino de Belo Horizonte", url: SITE_URL },
   };
 }
 
@@ -53,7 +53,7 @@ export function getHomeProductJsonLd() {
     "@type": "Product",
     name: `Domínio Premium — ${DOMAIN}`,
     description: HOME_DESCRIPTION,
-    brand: { "@type": "Brand", name: "Cassino de Porto Alegre" },
+    brand: { "@type": "Brand", name: "Cassino de Belo Horizonte" },
     category: "Domínio de internet",
     url: SITE_URL,
     image: OG_IMAGE,
@@ -62,7 +62,7 @@ export function getHomeProductJsonLd() {
       availability: "https://schema.org/InStock",
       priceCurrency: "BRL",
       url: FORM_URL,
-      seller: { "@type": "Organization", name: "Cassino de Porto Alegre" },
+      seller: { "@type": "Organization", name: "Cassino de Belo Horizonte" },
     },
   };
 }
@@ -78,7 +78,7 @@ export function getHomeWebPageJsonLd() {
     isPartOf: { "@type": "WebSite", url: SITE_URL, name: SITE_NAME },
     about: [
       { "@type": "Thing", name: "Domínio premium à venda" },
-      { "@type": "Place", name: "Porto Alegre" },
+      { "@type": "Place", name: "Belo Horizonte" },
       { "@type": "Thing", name: "Regulação de cassinos no Brasil" },
     ],
   };
@@ -104,12 +104,12 @@ export function getHomeHeadMeta(faqItems: { q: string; a: string }[]) {
       {
         name: "keywords",
         content:
-          "cassino Porto Alegre, cassino Rio Grande do Sul, domínio premium à venda, comprar domínio, cassinoportoalegre.com, turismo porto alegre, hotelaria, resorts, regulação cassinos brasil, entretenimento regulado",
+          "cassino Belo Horizonte, cassino Minas Gerais, domínio premium à venda, comprar domínio, cassinobh.com.br, turismo belo horizonte, hotelaria, resorts, regulação cassinos brasil, entretenimento regulado",
       },
       { name: "robots", content: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" },
-      { name: "author", content: "Cassino de Porto Alegre" },
-      { name: "geo.region", content: "BR-RS" },
-      { name: "geo.placename", content: "Porto Alegre" },
+      { name: "author", content: "Cassino de Belo Horizonte" },
+      { name: "geo.region", content: "BR-AL" },
+      { name: "geo.placename", content: "Belo Horizonte" },
       { property: "og:title", content: HOME_TITLE },
       { property: "og:description", content: HOME_DESCRIPTION },
       { property: "og:type", content: "website" },
@@ -117,7 +117,7 @@ export function getHomeHeadMeta(faqItems: { q: string; a: string }[]) {
       { property: "og:url", content: SITE_URL },
       { property: "og:site_name", content: SITE_NAME },
       { property: "og:image", content: OG_IMAGE },
-      { property: "og:image:alt", content: "Domínio premium Cassino de Porto Alegre à venda" },
+      { property: "og:image:alt", content: "Domínio premium Cassino de Belo Horizonte à venda" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: HOME_TITLE },
       { name: "twitter:description", content: HOME_DESCRIPTION },
@@ -135,9 +135,9 @@ export function getHomeHeadMeta(faqItems: { q: string; a: string }[]) {
 }
 
 export function getBlogIndexHeadMeta(posts: BlogPost[]) {
-  const title = "Blog | Cassino de Porto Alegre — Emprego, Renda e Regulação";
+  const title = "Blog | Cassino de Belo Horizonte — Emprego, Renda e Regulação";
   const description =
-    "Artigos sobre cassinos regulados em Porto Alegre e no Brasil: emprego formal, renda municipal, moderação, resorts integrados, turismo e jogo responsável.";
+    "Artigos sobre cassinos regulados em Belo Horizonte e no Brasil: emprego formal, renda municipal, moderação, resorts integrados, turismo e jogo responsável.";
   const url = `${SITE_URL}/blog`;
 
   return {
@@ -147,7 +147,7 @@ export function getBlogIndexHeadMeta(posts: BlogPost[]) {
       {
         name: "keywords",
         content:
-          "blog cassino Porto Alegre, regulação cassinos brasil, emprego hotelaria porto alegre, jogo responsável, resorts Rio Grande do Sul, turismo entretenimento porto alegre",
+          "blog cassino Belo Horizonte, regulação cassinos brasil, emprego hotelaria belo horizonte, jogo responsável, resorts Minas Gerais, turismo entretenimento belo horizonte",
       },
       { name: "robots", content: "index, follow, max-image-preview:large" },
       { property: "og:title", content: title },
@@ -168,11 +168,11 @@ export function getBlogIndexHeadMeta(posts: BlogPost[]) {
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Blog",
-          name: "Blog Cassino de Porto Alegre",
+          name: "Blog Cassino de Belo Horizonte",
           description,
           url,
           inLanguage: "pt-BR",
-          publisher: { "@type": "Organization", name: "Cassino de Porto Alegre", url: SITE_URL },
+          publisher: { "@type": "Organization", name: "Cassino de Belo Horizonte", url: SITE_URL },
           blogPost: posts.map((p) => ({
             "@type": "BlogPosting",
             headline: p.title,
@@ -187,7 +187,7 @@ export function getBlogIndexHeadMeta(posts: BlogPost[]) {
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "ItemList",
-          name: "Artigos sobre cassino e regulação em Porto Alegre",
+          name: "Artigos sobre cassino e regulação em Belo Horizonte",
           itemListElement: posts.map((p, i) => ({
             "@type": "ListItem",
             position: i + 1,
@@ -232,7 +232,7 @@ function getPostPlainText(post: BlogPost): string {
 }
 
 export function getBlogPostHeadMeta(post: BlogPost) {
-  const title = `${post.title} | Blog Cassino de Porto Alegre`;
+  const title = `${post.title} | Blog Cassino de Belo Horizonte`;
   const url = `${SITE_URL}/blog/${post.slug}`;
   const keywords = post.keywords.join(", ");
   const wordCount = getPostPlainText(post).split(/\s+/).length;
@@ -243,7 +243,7 @@ export function getBlogPostHeadMeta(post: BlogPost) {
       { name: "description", content: post.excerpt },
       { name: "keywords", content: keywords },
       { name: "robots", content: "index, follow, max-image-preview:large" },
-      { name: "author", content: "Cassino de Porto Alegre" },
+      { name: "author", content: "Cassino de Belo Horizonte" },
       { property: "og:title", content: title },
       { property: "og:description", content: post.excerpt },
       { property: "og:type", content: "article" },
@@ -277,10 +277,10 @@ export function getBlogPostHeadMeta(post: BlogPost) {
           image: OG_IMAGE,
           mainEntityOfPage: { "@type": "WebPage", "@id": url },
           articleBody: getPostPlainText(post),
-          author: { "@type": "Organization", name: "Cassino de Porto Alegre", url: SITE_URL },
+          author: { "@type": "Organization", name: "Cassino de Belo Horizonte", url: SITE_URL },
           publisher: {
             "@type": "Organization",
-            name: "Cassino de Porto Alegre",
+            name: "Cassino de Belo Horizonte",
             url: SITE_URL,
             logo: { "@type": "ImageObject", url: OG_IMAGE },
           },

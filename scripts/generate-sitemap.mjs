@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
 
-const SITE_URL = "https://cassinoportoalegre.com";
+const SITE_URL = "https://cassinobh.com.br";
 const BLOG_DATE = `${new Date().getFullYear()}-06-01`;
 
 const postsContent = readFileSync(join(root, "src/lib/blog-posts.ts"), "utf8");

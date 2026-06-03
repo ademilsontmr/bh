@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cassinoportoalegre.com/sitemap.xml
+Sitemap: https://cassinobh.com.br/sitemap.xml
