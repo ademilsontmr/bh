@@ -9,7 +9,7 @@ import {
 } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
 
-import { SiteHeader } from "@/components/site-chrome";
+import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { getOrganizationJsonLd, getWebSiteJsonLd } from "../lib/seo";
@@ -36,6 +36,7 @@ function NotFoundComponent() {
         </div>
       </div>
     </div>
+      <SiteFooter />
     </div>
   );
 }
@@ -77,6 +78,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
         </div>
       </div>
     </div>
+      <SiteFooter />
     </div>
   );
 }
