@@ -1,0 +1,29 @@
+# Assets com hash — cache longo (não consome Worker)
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# HTML prerenderizado — CDN serve direto, sem Worker
+/
+  Cache-Control: public, max-age=3600, s-maxage=604800
+
+/blog
+  Cache-Control: public, max-age=3600, s-maxage=604800
+
+/blog/*
+  Cache-Control: public, max-age=3600, s-maxage=604800
+
+# Imagens e ícones estáticos
+/*.png
+  Cache-Control: public, max-age=604800, immutable
+
+/*.svg
+  Cache-Control: public, max-age=604800, immutable
+
+/*.ico
+  Cache-Control: public, max-age=604800, immutable
+
+/sitemap.xml
+  Cache-Control: public, max-age=86400
+
+/robots.txt
+  Cache-Control: public, max-age=86400
